@@ -13,9 +13,6 @@ A training on how to create your own website using Volto is available as part of
 1. Install [Docker Compose](https://docs.docker.com/compose/install/)
 1. Start:
 
-        $ git checkout https://github.com/eea/volto-starter-kit.git volto-frontend
-        $ cd volto-frontend
-
         $ docker-compose pull
         $ docker-compose up -d
 
@@ -106,8 +103,8 @@ We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [J
 
 ### Release
 
-* Create a new release of this code via `git tag` command or [Draft new release](https://github.com/eea/volto-starter-kit/releases/new) on Github.
-  * A new Docker image is built and released automatically on [DockerHub](https://hub.docker.com/r/eeacms/volto-starter-kit) based on this tag.
+* Create a new release of this code via `git tag` command or [Draft new release](https://github.com/eea/ims-frontend/releases/new) on Github.
+  * A new Docker image is built and released automatically on [DockerHub](https://hub.docker.com/r/eeacms/ims-frontend) based on this tag.
   * A new entry is automatically added to [Volto](https://github.com/eea/eea.rancher.catalog/tree/master/templates/volto) `EEA Rancher Catalog`
 
 ### Upgrade

@@ -1,6 +1,6 @@
 {
-  "name": "eea-volto-starter-kit",
-  "description": "Volto Starter Kit (EEA Add-ons)",
+  "name": "ims-frontend",
+  "description": "IMS: Volto Frontend - based on eea/volto-starter-kit",
   "license": "MIT",
   "version": "0.1.0",
   "scripts": {

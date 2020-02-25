@@ -2,7 +2,7 @@ version: '3'
 
 services:
   frontend:
-    image: eeacms/volto-starter-kit
+    image: eeacms/ims-frontend
     ports:
     - "${FRONTEND:-8000}:3000"
     depends_on:
