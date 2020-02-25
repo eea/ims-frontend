@@ -1,12 +1,17 @@
 import * as voltoConfig from '@plone/volto/config';
 
+import { applyConfig as dataBlocksConfig } from 'volto-datablocks/config';
+import { applyConfig as plotlyConfig } from 'volto-plotlycharts/config';
 import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
 import { applyConfig as installSidebar } from 'volto-sidebar/config';
-
+import { applyConfig as installEmbed } from 'volto-embed/config';
 
 const config = [
   installSidebar,
-  mosaicConfig
+  mosaicConfig,
+  plotlyConfig,
+  installEmbed,
+  dataBlocksConfig
 ].reduce((acc, apply) => apply(acc), voltoConfig);
 
 export const settings = {

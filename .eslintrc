@@ -32,6 +32,18 @@
                     [
                         "volto-addons",
                         "./src/develop/volto-addons/src"
+                    ],
+                    [
+                        "volto-embed",
+                        "./src/develop/volto-embed/src"
+                    ],
+                    [
+                        "volto-datablocks",
+                        "./src/develop/volto-datablocks/src"
+                    ],
+                    [
+                        "volto-plotlycharts",
+                        "./src/develop/volto-plotlycharts/src"
                     ]
                 ]
             },
