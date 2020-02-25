@@ -105,7 +105,7 @@ We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [J
 
 * Create a new release of this code via `git tag` command or [Draft new release](https://github.com/eea/ims-frontend/releases/new) on Github.
   * A new Docker image is built and released automatically on [DockerHub](https://hub.docker.com/r/eeacms/ims-frontend) based on this tag.
-  * A new entry is automatically added to [Volto](https://github.com/eea/eea.rancher.catalog/tree/master/templates/volto) `EEA Rancher Catalog`
+  * A new entry is automatically added to [Volto - IMS](https://github.com/eea/eea.rancher.catalog/tree/master/templates/volto-ims) `EEA Rancher Catalog`
 
 ### Upgrade
 
