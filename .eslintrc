@@ -1,0 +1,43 @@
+{
+    "extends": "./node_modules/@plone/volto/.eslintrc",
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".json"
+                ],
+                "map": [
+                    [
+                        "@plone/volto",
+                        "@plone/volto/src"
+                    ],
+                    [
+                        "@package",
+                        "./src"
+                    ],
+                    [
+                        "volto-base",
+                        "./src/develop/volto-base/src"
+                    ],
+                    [
+                        "volto-mosaic",
+                        "./src/develop/volto-mosaic/src"
+                    ],
+                    [
+                        "volto-sidebar",
+                        "./src/develop/volto-sidebar/src"
+                    ],
+                    [
+                        "volto-addons",
+                        "./src/develop/volto-addons/src"
+                    ]
+                ]
+            },
+            "babel-plugin-root-import": {
+                "rootPathSuffix": "src"
+            }
+        }
+    }
+}

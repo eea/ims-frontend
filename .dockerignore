@@ -1,0 +1,7 @@
+**/node_modules
+npm-cache
+docker-compose.yml
+Dockerfile
+.git
+.gitignore
+.eslintrc
