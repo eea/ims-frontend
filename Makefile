@@ -132,3 +132,7 @@ try-production:		## Build production bundle
 		yarn build
 	./entrypoint-dev.sh
 	echo "Now run: node build/server.js"
+
+.PHONY: sync
+sync: ## Sync repo with eea/volto-starter-kit Github template
+	npx git-upstream-template https://github.com/eea/volto-starter-kit.git
