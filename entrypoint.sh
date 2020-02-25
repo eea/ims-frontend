@@ -1,0 +1,1 @@
+/home/tibi/work/ims-frontend/entrypoint-dev.sh

@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  frontend:
+    volumes:
+      - .:/opt/frontend
+    environment:
+      API_PATH: "http://localhost:9085/Plone"
+      INTERNAL_API_PATH: "http://ploneapi:8080/Plone"
+      PORT: "9000"
+    ports:
+    - "9000:9000"
+    - "9001:9001"
+    entrypoint: sh -c "tail -f /dev/null"
+
+  ploneapi:
+    ports:
+      - "9085:8080"
