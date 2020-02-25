@@ -1,8 +1,6 @@
-# Volto Starter Kit (EEA Volto Add-ons)
+# IMS: Volto Frontend
 
-This is both a [Github template repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) that will allow you to easily
-boostrap a new `Volto Frontend` project and also a developmnet environment for existing and new `EEA Volto Add-ons`
-
+Volto frontend based on [eea/volto-starter-kit](eea/volto-starter-kit)
 
 ## Documentation
 
