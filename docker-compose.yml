@@ -13,8 +13,8 @@ services:
 
   ploneapi:
     image: eeacms/plonesaas-devel
-    ports:
-      - "8080:8080"
+    # ports:
+    #   - "8080:8080"
     environment:
       CORS_ALLOW_ORIGIN: "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8000,http://127.0.0.1:8000"
     depends_on:
