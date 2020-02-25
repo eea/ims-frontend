@@ -19,6 +19,10 @@ A training on how to create your own website using Volto is available as part of
         $ docker-compose pull
         $ docker-compose up -d
 
+    optionally change `PORTS` via `.env`:
+
+        $ FRONTEND=9000 BACKEND=9100 docker-compose up -d
+
 1. Go to `http://localhost:8080` [Advanced](http://localhost:8080/@@plone-addsite?site_id=Plone&advanced=1):
    * Add `Plone` site with add-ons enabled (**user:** `admin`, **password:** `admin`):
      * `eea.restapi`
