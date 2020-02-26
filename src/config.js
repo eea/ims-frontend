@@ -6,16 +6,52 @@ import { applyConfig as mosaicConfig } from 'volto-mosaic/config';
 import { applyConfig as installSidebar } from 'volto-sidebar/config';
 import { applyConfig as installEmbed } from 'volto-embed/config';
 
+// Custom RichText styles
+import React from 'react';
+import createInlineStyleButton from 'draft-js-buttons/lib/utils/createInlineStyleButton';
+import Icon from '@plone/volto/components/theme/Icon/Icon';
+import superindexSVG from '@plone/volto/icons/superindex.svg';
+import subindexSVG from '@plone/volto/icons/subindex.svg';
+
 const config = [
   installSidebar,
   mosaicConfig,
   plotlyConfig,
   installEmbed,
-  dataBlocksConfig
+  dataBlocksConfig,
 ].reduce((acc, apply) => apply(acc), voltoConfig);
 
+// Custom RichText styles
+const SuperIndexButton = createInlineStyleButton({
+  style: 'SUPERSCRIPT',
+  children: <Icon name={superindexSVG} size="24px" />,
+});
+
+const SubIndexButton = createInlineStyleButton({
+  style: 'SUBSCRIPT',
+  children: <Icon name={subindexSVG} size="24px" />,
+});
+
 export const settings = {
-  ...config.settings
+  ...config.settings,
+  customStyleMap: {
+    ...config.settings.customStyleMap,
+    SUBSCRIPT: { fontSize: '0.6em', verticalAlign: 'sub' },
+    SUPERSCRIPT: { fontSize: '0.6em', verticalAlign: 'super' },
+  },
+  ToHTMLRenderers: {
+    ...config.settings.ToHTMLRenderers,
+    inline: {
+      ...config.settings.ToHTMLRenderers.inline,
+      SUBSCRIPT: (children, { key }) => <sub key={key}>{children}</sub>,
+      SUPERSCRIPT: (children, { key }) => <sup key={key}>{children}</sup>,
+    },
+  },
+  richTextEditorInlineToolbarButtons: [
+    SuperIndexButton,
+    SubIndexButton,
+    ...config.settings.richTextEditorInlineToolbarButtons,
+  ],
 };
 
 export const views = {
