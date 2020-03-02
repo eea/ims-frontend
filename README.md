@@ -1,7 +1,7 @@
 # IMS: Volto Frontend
 
-[![Build Status](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fims-frontend%2Fmaster)](https://ci.eionet.europa.eu/view/Github/job/volto/job/ims-frontend/job/master/display/redirect)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/eea/volto-starter-kit?sort=semver)](https://github.com/eea/ims-frontend/releases)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fims-frontend%2Fmaster&subject=pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/ims-frontend/job/master/display/redirect)
+[![Release](https://img.shields.io/github/v/release/eea/ims-frontend?sort=semver)](https://github.com/eea/ims-frontend/releases)
 
 Volto frontend based on [eea/volto-starter-kit](eea/volto-starter-kit)
 
