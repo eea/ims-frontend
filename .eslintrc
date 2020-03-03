@@ -1,52 +1,44 @@
 {
-    "extends": "./node_modules/@plone/volto/.eslintrc", 
+    "extends": "./node_modules/@plone/volto/.eslintrc",
     "settings": {
         "import/resolver": {
             "alias": {
                 "extensions": [
-                    ".js", 
-                    ".jsx", 
+                    ".js",
+                    ".jsx",
                     ".json"
-                ], 
+                ],
                 "map": [
                     [
-                        "@plone/volto", 
+                        "@plone/volto",
                         "@plone/volto/src"
-                    ], 
+                    ],
                     [
-                        "@package", 
+                        "@package",
                         "./src"
-                    ], 
+                    ],
                     [
-                        "volto-mosaic", 
-                        "./src/develop/volto-mosaic/src"
-                    ], 
-                    [
-                        "volto-datablocks", 
-                        "./src/develop/volto-datablocks/src"
-                    ], 
-                    [
-                        "volto-addons", 
-                        "./src/develop/volto-addons/src"
-                    ], 
-                    [
-                        "volto-base", 
+                        "volto-base",
                         "./src/develop/volto-base/src"
-                    ], 
+                    ],
                     [
-                        "volto-plotlycharts", 
-                        "./src/develop/volto-plotlycharts/src"
-                    ], 
+                        "volto-addons",
+                        "./src/develop/volto-addons/src"
+                    ],
                     [
-                        "volto-embed", 
+                        "volto-embed",
                         "./src/develop/volto-embed/src"
-                    ], 
+                    ],
                     [
-                        "volto-sidebar", 
-                        "./src/develop/volto-sidebar/src"
+                        "volto-datablocks",
+                        "./src/develop/volto-datablocks/src"
+                    ],
+                    [
+                        "volto-plotlycharts",
+                        "./src/develop/volto-plotlycharts/src"
                     ]
                 ]
-            }, 
+            },
             "babel-plugin-root-import": {
                 "rootPathSuffix": "src"
             }

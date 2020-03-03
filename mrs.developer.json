@@ -3,14 +3,6 @@
       "url": "https://github.com/eea/volto-base.git",
       "path": "src"
     },
-    "volto-mosaic": {
-      "url": "https://github.com/eea/volto-mosaic.git",
-      "path": "src"
-    },
-    "volto-sidebar": {
-      "url": "https://github.com/eea/volto-sidebar.git",
-      "path": "src"
-    },
     "volto-addons": {
       "url": "https://github.com/eea/volto-addons.git",
       "path": "src"
