@@ -14,8 +14,8 @@ A training on how to create your own website using Volto is available as part of
 
 1. Clone:
 
-        $ git clone https://github.com/eea/volto-starter-kit.git
-        $ cd volto-starter-kit
+        $ git clone https://github.com/eea/ims-frontend.git
+        $ cd ims-frontend
 
 1. Install `nvm`
 
@@ -76,8 +76,8 @@ A training on how to create your own website using Volto is available as part of
 1. Install [Docker Compose](https://docs.docker.com/compose/install/)
 1. Start:
 
-        $ git clone https://github.com/eea/volto-starter-kit.git volto-frontend
-        $ cd volto-frontend
+        $ git clone https://github.com/eea/ims-frontend.git
+        $ cd ims-frontend
 
         $ docker-compose pull
         $ docker-compose up -d
