@@ -10,28 +10,12 @@ Volto frontend based on [eea/volto-starter-kit](eea/volto-starter-kit)
 A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
 
 
-## Try it
-
-1. Install [Docker](https://docs.docker.com/install/)
-1. Install [Docker Compose](https://docs.docker.com/compose/install/)
-1. Start:
-
-        $ docker-compose pull
-        $ docker-compose up -d
-
-    optionally change `PORTS` via `.env`:
-
-        $ FRONTEND=9000 BACKEND=9100 docker-compose up -d
-
-1. Go to `http://localhost:8080` [Advanced](http://localhost:8080/@@plone-addsite?site_id=Plone&advanced=1):
-   * Add `Plone` site with add-ons enabled (**user:** `admin`, **password:** `admin`):
-     * `eea.restapi`
-     * `kitconcept.voltodemo`
-
-1. See application at http://localhost:8000
-
-
 ## Development
+
+1. Clone:
+
+        $ git clone https://github.com/eea/volto-starter-kit.git
+        $ cd volto-starter-kit
 
 1. Install `nvm`
 
@@ -66,7 +50,7 @@ A training on how to create your own website using Volto is available as part of
 
         $ npm install
 
-1. Start backend
+1. Start and setup backend
 
          $ docker-compose up -d
 
@@ -81,6 +65,33 @@ A training on how to create your own website using Volto is available as part of
 
 1. See application at http://localhost:3000
 
+1. Change existing Volto add-ons or create new ones within:
+
+        $ cd src/develop/
+        $ ls -l
+
+## Try it
+
+1. Install [Docker](https://docs.docker.com/install/)
+1. Install [Docker Compose](https://docs.docker.com/compose/install/)
+1. Start:
+
+        $ git clone https://github.com/eea/volto-starter-kit.git volto-frontend
+        $ cd volto-frontend
+
+        $ docker-compose pull
+        $ docker-compose up -d
+
+    optionally change `PORTS` via `.env`:
+
+        $ FRONTEND=9000 BACKEND=9100 docker-compose up -d
+
+1. Go to `http://localhost:8080` [Advanced](http://localhost:8080/@@plone-addsite?site_id=Plone&advanced=1):
+   * Add `Plone` site with add-ons enabled (**user:** `admin`, **password:** `admin`):
+     * `eea.restapi`
+     * `kitconcept.voltodemo`
+
+1. See application at http://localhost:8000
 
 ## Boostrap new `EEA Volto Frontend` project
 
