@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import cx from 'classnames';
 import { settings } from '~/config';
-import { Button, Header, Image, Modal } from 'semantic-ui-react'
+import { Button, Header, Image, Modal, Transition } from 'semantic-ui-react'
 
 import { Icon } from '@plone/volto/components';
 import ImageFull from '@plone/volto/icons/fullscreen.svg';
@@ -36,8 +36,8 @@ const View = ({ data, detached }) => {
         filter: 'drop-shadow(rgb(68, 68, 68) 1px 1px 3px)',
         background: 'transparent',
         height: '25px',
-        top: "0",
-        right: "0",
+        marginTop: "-2.5rem",
+        // left: "0",
       }}
       onClick={(e) => e.preventDefault}
       onMouseEnter={() => setHovered(true)}
@@ -86,6 +86,7 @@ const View = ({ data, detached }) => {
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
               ></img>
+              <Transition visible={modalOpen} animation='scale' duration={300}>
               <Modal
                 style={{ width: 'unset' }}
                 open={modalOpen}
@@ -106,6 +107,7 @@ const View = ({ data, detached }) => {
                   ></img>
                 </Modal.Content>
               </Modal>
+              </Transition>
             </React.Fragment>
           );
           if (data.href) {
