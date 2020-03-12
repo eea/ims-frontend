@@ -12,7 +12,9 @@ import { Button, Header, Image, Modal, Transition } from 'semantic-ui-react'
 
 import { Icon } from '@plone/volto/components';
 import ImageFull from '@plone/volto/icons/fullscreen.svg';
+import Info from '@plone/volto/icons/info.svg';
 
+import './flip.css';
 import { flattenToAppURL } from '@plone/volto/helpers';
 
 /**
@@ -24,33 +26,64 @@ const View = ({ data, detached }) => {
   const [zoomed, setZoomed] = useState(false);
   const [hovered, setHovered] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+
   const trigger = (
-    <div
-      style={{
-        position: 'absolute',
-        color: 'white',
-        cursor: 'zoom-in',
-        margin: '.5rem',
-        transition: '100ms opacity',
-        opacity: hovered ? '1' : '0',
-        filter: 'drop-shadow(rgb(68, 68, 68) 1px 1px 3px)',
-        background: 'transparent',
-        height: '25px',
-        marginTop: "-2.5rem",
-        // left: "0",
-      }}
-      onClick={(e) => e.preventDefault}
-      onMouseEnter={() => setHovered(true)}
-    >
+    <React.Fragment>
 
-      <Icon
-        onClick={() => {
-          setModalOpen(true); setZoomed(true)
+      <div
+        style={{
+          position: 'absolute',
+          color: 'white',
+          cursor: 'zoom-in',
+          margin: '.5rem',
+          transition: '100ms opacity',
+          opacity: hovered ? '1' : '0',
+          filter: 'drop-shadow(rgb(68, 68, 68) 1px 1px 3px)',
+          background: 'transparent',
+          height: '25px',
+          marginTop: "-2.5rem",
+          // left: "0",
         }}
-        name={ImageFull}
+        onClick={(e) => e.preventDefault}
+        onMouseEnter={() => setHovered(true)}
+      >
 
-        size="24px" />
-    </div>
+        <Icon
+          onClick={() => {
+            setModalOpen(true); setZoomed(true)
+          }}
+          name={ImageFull}
+
+          size="24px" />
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          color: 'white',
+          cursor: 'pointer',
+          margin: '.5rem',
+          transition: '100ms opacity',
+          opacity: hovered ? '1' : '0',
+          filter: 'drop-shadow(rgb(68, 68, 68) 1px 1px 3px)',
+          background: 'transparent',
+          height: '25px',
+          marginTop: "-2.5rem",
+          marginLeft: "2.5rem",
+        }}
+        onClick={(e) => e.preventDefault}
+        onMouseEnter={() => setHovered(true)}
+      >
+
+        <Icon
+          onClick={() => {
+            setIsFlipped(!isFlipped)
+          }}
+          name={Info}
+
+          size="24px" />
+      </div>
+    </React.Fragment>
   )
   return (<p
     className={cx(
@@ -67,46 +100,69 @@ const View = ({ data, detached }) => {
         {(() => {
           const image = (
             <React.Fragment>
-              <img
-                className={cx({ 'full-width': data.align === 'full' })}
-                style={{
-                  width: data.width ? data.width + 'px' : 'auto',
-                  height: data.height ? data.height + 'px' : 'auto',
-                  marginLeft:
-                    data.inLeftColumn && data.width
-                      ? `-${parseInt(data.width) + 10}px`
-                      : '0',
-                  marginRight: data.inLeftColumn ? '0!important' : '1rem',
-                }}
-                src={data.url.includes(settings.apiPath)
-                  ? `${flattenToAppURL(data.url)}/@@images/image`
-                  : data.url}
-                onClick={() => setZoomed(true)}
-                alt={data.alt || ''}
-                onMouseEnter={() => setHovered(true)}
-                onMouseLeave={() => setHovered(false)}
-              ></img>
-              <Transition visible={modalOpen} animation='scale' duration={300}>
-              <Modal
-                style={{ width: 'unset' }}
-                open={modalOpen}
-                onClose={() => { setZoomed(false); setModalOpen(false); setHovered(false)}}
-              >
-                <Modal.Content image>
-                  <img
-                    className={cx({ 'full-width': data.align === 'full' })}
-                    zoomed={zoomed}
-                    style={{ maxHeight: '80vh', maxWidth: '100%' }}
-                    src={data.url.includes(settings.apiPath)
-                      ? `${flattenToAppURL(data.url)}/@@images/image`
-                      : data.url}
-                    onClick={() => setZoomed(true)}
-                    alt={data.alt || ''}
-                    onMouseLeave={() => setHovered(false)}
 
-                  ></img>
-                </Modal.Content>
-              </Modal>
+              <div className="scene scene--card">
+                <div className={`card ${isFlipped ? ' is-flipped' : ''}`}>
+                  <div className="card__face card__face--front">
+                    <img
+                      className={cx({ 'full-width': data.align === 'full' })}
+                      style={{
+                        width: data.width ? data.width + 'px' : 'auto',
+                        height: data.height ? data.height + 'px' : 'auto',
+                        marginLeft:
+                          data.inLeftColumn && data.width
+                            ? `-${parseInt(data.width) + 10}px`
+                            : '0',
+                        marginRight: data.inLeftColumn ? '0!important' : '1rem',
+                      }}
+                      src={data.url.includes(settings.apiPath)
+                        ? `${flattenToAppURL(data.url)}/@@images/image`
+                        : data.url}
+                      onClick={() => setZoomed(true)}
+                      alt={data.alt || ''}
+                      onMouseEnter={() => setHovered(true)}
+                      onMouseLeave={() => setHovered(false)}
+                    ></img>
+                  </div>
+                  <div className="card__face card__face--back">
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: data.metadata
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <Transition visible={modalOpen} animation='scale' duration={300}>
+                <Modal
+                  style={{ width: 'unset' }}
+                  open={modalOpen}
+                  onClose={() => { setZoomed(false); setModalOpen(false); setHovered(false) }}
+                >
+                  <Modal.Content image>
+
+                    {
+                      isFlipped ?
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: data.metadata
+                          }}
+                        /> :
+                        <img
+                          className={cx({ 'full-width': data.align === 'full' })}
+                          zoomed={zoomed}
+                          style={{ maxHeight: '80vh', maxWidth: '100%' }}
+                          src={data.url.includes(settings.apiPath)
+                            ? `${flattenToAppURL(data.url)}/@@images/image`
+                            : data.url}
+                          onClick={() => setZoomed(true)}
+                          alt={data.alt || ''}
+                          onMouseLeave={() => setHovered(false)}
+                        ></img>
+                    }
+                  </Modal.Content>
+                </Modal>
               </Transition>
             </React.Fragment>
           );
