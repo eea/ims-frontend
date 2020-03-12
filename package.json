@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend - based on eea/volto-starter-kit",
   "license": "MIT",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "scripts": {
     "start": "NODE_OPTIONS=--max-old-space-size=8192 razzle start",
     "prebuild": "./scripts/prebuild-fix-modules.sh",
