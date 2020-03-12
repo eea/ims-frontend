@@ -70,6 +70,7 @@ const View = ({ data, detached }) => {
           height: '25px',
           marginTop: "-2.5rem",
           marginLeft: "2.5rem",
+          display: data.metadata ? 'block' : 'none',
         }}
         onClick={(e) => e.preventDefault}
         onMouseEnter={() => setHovered(true)}
