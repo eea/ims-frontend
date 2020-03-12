@@ -21,7 +21,6 @@ import { flattenToAppURL } from '@plone/volto/helpers';
  * @extends Component
  */
 const View = ({ data, detached }) => {
-  console.log('in image VIEW')
   const [zoomed, setZoomed] = useState(false);
   const [hovered, setHovered] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
