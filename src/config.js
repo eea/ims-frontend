@@ -68,7 +68,7 @@ export const blocks = {
   initialBlocks: {
     Document: ['title', 'description', 'leadimage']
   },
-  requiredBlocks: ['title', 'description', 'leadimage']
+  requiredBlocks: ['title', 'description']
 };
 
 // TODO: should we move custom stuff to settings variable?
