@@ -47,21 +47,9 @@ const messages = defineMessages({
     id: 'External URL',
     defaultMessage: 'External URL',
   },
-  width: {
-    id: 'Width',
-    defaultMessage: 'Width',
-  },
   metadata: {
     id: 'Metadata',
     defaultMessage: 'Metadata',
-  },
-  height: {
-    id: 'Height',
-    defaultMessage: 'Height',
-  },
-  inLeftColumn: {
-    id: 'inLeftColumn',
-    defaultMessage: 'Display in left column',
   },
 });
 
@@ -127,15 +115,15 @@ const ImageSidebar = ({
                 iconAction={
                   data.url
                     ? () => {
-                      resetSubmitUrl();
-                      onChangeBlock(block, {
-                        ...data,
-                        url: '',
-                      });
-                    }
+                        resetSubmitUrl();
+                        onChangeBlock(block, {
+                          ...data,
+                          url: '',
+                        });
+                      }
                     : () => openObjectBrowser()
                 }
-                onChange={() => { }}
+                onChange={() => {}}
               />
             )}
             {!data.url.includes(settings.apiPath) && (
@@ -153,7 +141,7 @@ const ImageSidebar = ({
                     url: '',
                   });
                 }}
-                onChange={() => { }}
+                onChange={() => {}}
               />
             )}
             <TextWidget
@@ -176,20 +164,6 @@ const ImageSidebar = ({
               }}
             />
             <TextWidget
-              id="width"
-              title={intl.formatMessage(messages.width)}
-              required={false}
-              type="number"
-              value={data.width}
-              onChange={(name, value) => {
-                onChangeBlock(block, {
-                  ...data,
-                  width: value,
-                });
-              }}
-            />
-
-            <TextWidget
               id="metadata"
               title={intl.formatMessage(messages.metadata)}
               required={false}
@@ -202,34 +176,6 @@ const ImageSidebar = ({
                 });
               }}
             />
-
-
-
-            <TextWidget
-              id="height"
-              type="number"
-              title={intl.formatMessage(messages.height)}
-              required={false}
-              value={data.height}
-              onChange={(name, value) => {
-                onChangeBlock(block, {
-                  ...data,
-                  height: value,
-                });
-              }}
-            />
-            <CheckboxWidget
-              id="inLeftColumn"
-              title={intl.formatMessage(messages.inLeftColumn)}
-              value={data.inLeftColumn ? data.inLeftColumn : false}
-              onChange={(name, value) => {
-                onChangeBlock(block, {
-                  ...data,
-                  inLeftColumn: value,
-                });
-              }}
-            />
-
             <Form.Field inline required={required}>
               <Grid>
                 <Grid.Row>
@@ -265,8 +211,8 @@ const ImageSidebar = ({
               {activeAccIndex === 0 ? (
                 <Icon name={upSVG} size="20px" />
               ) : (
-                  <Icon name={downSVG} size="20px" />
-                )}
+                <Icon name={downSVG} size="20px" />
+              )}
             </Accordion.Title>
             <Accordion.Content active={activeAccIndex === 0}>
               <TextWidget
@@ -278,11 +224,11 @@ const ImageSidebar = ({
                 iconAction={
                   data.href
                     ? () => {
-                      onChangeBlock(block, {
-                        ...data,
-                        href: '',
-                      });
-                    }
+                        onChangeBlock(block, {
+                          ...data,
+                          href: '',
+                        });
+                      }
                     : () => openObjectBrowser({ mode: 'link' })
                 }
                 onChange={(name, value) => {

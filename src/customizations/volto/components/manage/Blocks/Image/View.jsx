@@ -11,12 +11,11 @@ import { settings } from '~/config';
 import { Button, Header, Image, Modal, Transition } from 'semantic-ui-react'
 
 import { Icon } from '@plone/volto/components';
-import ImageFull from '@plone/volto/icons/fullscreen.svg';
-import Info from '@plone/volto/icons/info.svg';
+import ImageFull from '@plone/volto/icons/zoom-in.svg';
+import Info from '@plone/volto/icons/spreadsheet.svg';
 
 import './flip.css';
 import { flattenToAppURL } from '@plone/volto/helpers';
-
 /**
  * View image block class.
  * @class View
@@ -32,18 +31,15 @@ const View = ({ data, detached }) => {
     <React.Fragment>
 
       <div
+        className="zoom-icon"
         style={{
-          position: 'absolute',
-          color: 'white',
-          cursor: 'zoom-in',
+          color: hovered ? 'black' : '#826A6A',
+          cursor: 'pointer',
           margin: '.5rem',
           transition: '100ms opacity',
-          opacity: hovered ? '1' : '0',
-          filter: 'drop-shadow(rgb(68, 68, 68) 1px 1px 3px)',
           background: 'transparent',
           height: '25px',
-          marginTop: "-2.5rem",
-          // left: "0",
+          display: 'inline-block'
         }}
         onClick={(e) => e.preventDefault}
         onMouseEnter={() => setHovered(true)}
@@ -54,23 +50,19 @@ const View = ({ data, detached }) => {
             setModalOpen(true); setZoomed(true)
           }}
           name={ImageFull}
+          title="Enlarge image"
 
           size="24px" />
       </div>
       <div
+        className="enlarge-icon"
         style={{
-          position: 'absolute',
-          color: 'white',
+          color: hovered ? 'black' : '#826A6A',
           cursor: 'pointer',
-          margin: '.5rem',
           transition: '100ms opacity',
-          opacity: hovered ? '1' : '0',
-          filter: 'drop-shadow(rgb(68, 68, 68) 1px 1px 3px)',
           background: 'transparent',
           height: '25px',
-          marginTop: "-2.5rem",
-          marginLeft: "2.5rem",
-          display: data.metadata ? 'block' : 'none',
+          display: data.metadata ? 'inline-block' : 'none',
         }}
         onClick={(e) => e.preventDefault}
         onMouseEnter={() => setHovered(true)}
@@ -81,7 +73,7 @@ const View = ({ data, detached }) => {
             setIsFlipped(!isFlipped)
           }}
           name={Info}
-
+          title="Data behind"
           size="24px" />
       </div>
     </React.Fragment>

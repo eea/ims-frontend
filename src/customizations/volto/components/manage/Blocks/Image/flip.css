@@ -1,8 +1,38 @@
 
+p.block.image {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p.block.image.align.right .zoom-icon,
+p.block.image.align.right .enlarge-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+p.block.image.align.right .enlarge-icon {
+  position: absolute;
+  top: 2.5em;
+  right: 5px;
+}
+
+p.block.image.align.left .zoom-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p.block.image.align.left .enlarge-icon {
+  position: absolute;
+  top: 2.5em;
+  left: 9px;
+}
+
 .scene {
     perspective: 600px;
   }
-  
+
   .card {
     position: relative;
     width: 100%;
@@ -12,11 +42,11 @@
     transform-origin: center right;
     transition: transform 1s;
   }
-  
+
   .card.is-flipped {
     transform: translateX(-100%) rotateY(-180deg);
   }
-  
+
   .card__face {
     backface-visibility: hidden;
   }
@@ -30,8 +60,7 @@
     text-align: left;
     overflow: auto;
   }
-  
+
   .card__face--back {
     transform: rotateY(180deg);
   }
-  
