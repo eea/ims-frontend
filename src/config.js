@@ -10,7 +10,6 @@ import createInlineStyleButton from 'draft-js-buttons/lib/utils/createInlineStyl
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import superindexSVG from '@plone/volto/icons/superindex.svg';
 import subindexSVG from '@plone/volto/icons/subindex.svg';
-import HiddenWidget from 'volto-addons/Widgets/Hidden';
 
 const config = [
   plotlyConfig,
@@ -57,10 +56,6 @@ export const views = {
 
 export const widgets = {
   ...config.widgets,
-  widget: {
-    ...config.widgets.widget,
-    json: HiddenWidget
-  }
 };
 
 export const blocks = {
