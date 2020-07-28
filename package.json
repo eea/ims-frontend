@@ -1,8 +1,8 @@
 {
-  "name": "volto-starter-kit",
-  "description": "Volto Starter Kit",
+  "name": "ims-frontend",
+  "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "6.2.2",
+  "version": "0.4.0",
   "addons": [
     "volto-slate",
     "@eeacms/volto-image-zoom-and-flip"
