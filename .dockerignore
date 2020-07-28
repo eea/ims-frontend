@@ -1,4 +1,5 @@
 **/node_modules
+omelette
 npm-cache
 docker-compose.yml
 Dockerfile

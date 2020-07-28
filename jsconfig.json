@@ -1,23 +1,7 @@
 {
-    "addons": [],
     "compilerOptions": {
-        "baseUrl": "src",
         "paths": {
-            "volto-addons": [
-                "develop/volto-addons/src"
-            ],
-            "volto-base": [
-                "develop/volto-base/src"
-            ],
-            "volto-datablocks": [
-                "develop/volto-datablocks/src"
-            ],
-            "volto-embed": [
-                "develop/volto-embed/src"
-            ],
-            "volto-plotlycharts": [
-                "develop/volto-plotlycharts/src"
-            ]
-        }
+        },
+        "baseUrl": "src"
     }
 }
