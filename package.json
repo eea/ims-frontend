@@ -92,7 +92,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#7.2.1-eea8",
+    "@plone/volto": "github:eea/volto#7.3.0-beta.1",
     "volto-slate": "github:eea/volto-slate#0.3.4",
     "@eeacms/volto-image-zoom-and-flip": "github:eea/volto-image-zoom-and-flip#0.1.0"
   },

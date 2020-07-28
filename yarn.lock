@@ -1704,7 +1704,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@github:eea/volto#7.2.1-eea8":
+"@plone/volto@github:eea/volto#7.3.0-beta.1":
   version "7.3.0"
   resolved "https://codeload.github.com/eea/volto/tar.gz/a054d678fba4dbfebab6e5599fe6dde9e28cc396"
   dependencies:
