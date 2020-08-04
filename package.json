@@ -4,7 +4,7 @@
   "license": "MIT",
   "version": "0.4.0",
   "addons": [
-    "volto-slate",
+    "volto-slate:asDefault",
     "@eeacms/volto-image-zoom-and-flip"
   ],
   "scripts": {
@@ -92,8 +92,8 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#7.3.0-beta.1",
-    "volto-slate": "github:eea/volto-slate#0.3.4",
+    "@plone/volto": "github:eea/volto#7.6.0-beta.1",
+    "volto-slate": "github:eea/volto-slate#0.3.7",
     "@eeacms/volto-image-zoom-and-flip": "github:eea/volto-image-zoom-and-flip#0.1.0"
   },
   "devDependencies": {
