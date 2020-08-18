@@ -95,7 +95,7 @@
   },
   "dependencies": {
     "@plone/volto": "github:eea/volto#7.7.0-beta.2",
-    "volto-slate": "github:eea/volto-slate#0.4.5",
+    "volto-slate": "github:eea/volto-slate#0.4.6",
     "@eeacms/volto-widgets-view": "github:eea/volto-widgets-view#0.2.2",
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.1.1",
     "@eeacms/volto-image-zoom-and-flip": "github:eea/volto-image-zoom-and-flip#0.1.0"

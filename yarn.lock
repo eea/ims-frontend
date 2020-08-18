@@ -16028,9 +16028,9 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.4.5":
+"volto-slate@github:eea/volto-slate#0.4.6":
   version "0.4.1"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/bfb9f970a5425c0342f5d3e20fd258150b512877"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/a83948c238b7708e5bd1277f05acc8bb1406c430"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
