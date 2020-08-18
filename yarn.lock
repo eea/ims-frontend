@@ -1222,6 +1222,14 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-image-zoom-and-flip/tar.gz/4995463b0fa329fb60c0d4a9edf61181617bb7f5"
 
+"@eeacms/volto-slate-metadata-mentions@github:eea/volto-slate-metadata-mentions#0.1.1":
+  version "0.1.1"
+  resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/97bd93d10e7d35aaea61d8d21d3b29533fd60499"
+
+"@eeacms/volto-widgets-view@github:eea/volto-widgets-view#0.2.2":
+  version "0.2.0"
+  resolved "https://codeload.github.com/eea/volto-widgets-view/tar.gz/2ca3973052369b9f9527db2ef740b103f7d8c6cf"
+
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
@@ -1704,9 +1712,9 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@github:eea/volto#7.6.0-beta.1":
-  version "7.6.0"
-  resolved "https://codeload.github.com/eea/volto/tar.gz/c6b49e5eeac31e9f7bf2ce80272c825190b85aea"
+"@plone/volto@github:eea/volto#7.7.0-beta.2":
+  version "7.7.0"
+  resolved "https://codeload.github.com/eea/volto/tar.gz/58cbe031f1bf3dbb2af2d336e27b1ff27b67297f"
   dependencies:
     "@babel/core" "7.9.6"
     "@babel/plugin-proposal-decorators" "7.8.3"
@@ -16020,9 +16028,9 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.3.7":
-  version "0.3.6"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/f256192db98e0b60cae333e35ea4e8f4bbfc7246"
+"volto-slate@github:eea/volto-slate#0.4.5":
+  version "0.4.1"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/bfb9f970a5425c0342f5d3e20fd258150b512877"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
