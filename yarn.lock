@@ -1226,9 +1226,9 @@
   version "0.2.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/ff6b034418608ee7593f66c4e9725fba5dae20ef"
 
-"@eeacms/volto-tabs-block@github:eea/volto-tabs-block#0.2.0":
-  version "0.2.0"
-  resolved "https://codeload.github.com/eea/volto-tabs-block/tar.gz/3216eadbfa3b1efcf35964e9921f8d9e17e22f73"
+"@eeacms/volto-tabs-block@github:eea/volto-tabs-block#0.2.1":
+  version "0.2.1"
+  resolved "https://codeload.github.com/eea/volto-tabs-block/tar.gz/be9ebee471e2a9fa5d658169bfafa89f4b62088b"
 
 "@eeacms/volto-widgets-view@github:eea/volto-widgets-view#0.2.4":
   version "0.2.4"
@@ -16034,9 +16034,9 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.5.2":
+"volto-slate@github:eea/volto-slate#0.5.3":
   version "0.4.1"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/a5f73d0d8bb10866dd54f680034f90b16f17bbb6"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/f3aa023fb0ddbe1d76c71730d682f9598511c1c5"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
