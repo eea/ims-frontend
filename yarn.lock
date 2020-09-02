@@ -1218,17 +1218,17 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-metadata-block@github:eea/volto-metadata-block#0.2.0":
-  version "0.2.0"
-  resolved "https://codeload.github.com/eea/volto-metadata-block/tar.gz/f26a3fe8903640afb620eecfd7faae184ca742ac"
+"@eeacms/volto-metadata-block@github:eea/volto-metadata-block#0.2.1":
+  version "0.2.1"
+  resolved "https://codeload.github.com/eea/volto-metadata-block/tar.gz/0536803b7d3cca1fbabed214e3c5c1b46a293a71"
 
 "@eeacms/volto-slate-metadata-mentions@github:eea/volto-slate-metadata-mentions#0.2.0":
   version "0.2.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/ff6b034418608ee7593f66c4e9725fba5dae20ef"
 
-"@eeacms/volto-tabs-block@github:eea/volto-tabs-block#0.2.1":
+"@eeacms/volto-tabs-block@github:eea/volto-tabs-block#0.2.2":
   version "0.2.1"
-  resolved "https://codeload.github.com/eea/volto-tabs-block/tar.gz/be9ebee471e2a9fa5d658169bfafa89f4b62088b"
+  resolved "https://codeload.github.com/eea/volto-tabs-block/tar.gz/d343ddb2b7ad69b60cc8445b04be27bdf803e797"
 
 "@eeacms/volto-widgets-view@github:eea/volto-widgets-view#0.2.4":
   version "0.2.4"
@@ -1716,9 +1716,9 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@github:eea/volto#7.8.2-beta.3":
-  version "7.8.2"
-  resolved "https://codeload.github.com/eea/volto/tar.gz/0eb86d05cd9fc3bdc5da8023bf8c8d36f7e3e42d"
+"@plone/volto@github:eea/volto#7.11.3-beta.1":
+  version "7.11.3"
+  resolved "https://codeload.github.com/eea/volto/tar.gz/0338c183df90de2a784486c3b207b05ef818e713"
   dependencies:
     "@babel/core" "7.9.6"
     "@babel/plugin-proposal-decorators" "7.8.3"
