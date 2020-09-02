@@ -100,7 +100,7 @@
     "volto-slate": "github:eea/volto-slate#0.5.3",
     "@eeacms/volto-widgets-view": "github:eea/volto-widgets-view#0.2.4",
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.2.0",
-    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.1.0",
+    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.1.1",
     "@eeacms/volto-metadata-block": "github:eea/volto-metadata-block#0.2.1",
     "@eeacms/volto-tabs-block": "github:eea/volto-tabs-block#0.2.2"
   },
