@@ -1226,6 +1226,10 @@
   version "0.2.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/ff6b034418608ee7593f66c4e9725fba5dae20ef"
 
+"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.1.0":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/b975afea822bbdae5b80b632304acb970d682c98"
+
 "@eeacms/volto-tabs-block@github:eea/volto-tabs-block#0.2.2":
   version "0.2.1"
   resolved "https://codeload.github.com/eea/volto-tabs-block/tar.gz/d343ddb2b7ad69b60cc8445b04be27bdf803e797"
