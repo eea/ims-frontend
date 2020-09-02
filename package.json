@@ -96,7 +96,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "github:eea/volto#7.11.3-beta.1",
+    "@plone/volto": "github:eea/volto#7.11.3-beta.2",
     "volto-slate": "github:eea/volto-slate#0.5.3",
     "@eeacms/volto-widgets-view": "github:eea/volto-widgets-view#0.2.4",
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.2.0",
