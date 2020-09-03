@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "0.4.8",
+  "version": "0.5.0",
   "addons": [
     "volto-slate:asDefault",
     "@eeacms/volto-widgets-view",
