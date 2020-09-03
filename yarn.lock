@@ -1234,6 +1234,10 @@
   version "0.2.1"
   resolved "https://codeload.github.com/eea/volto-tabs-block/tar.gz/d343ddb2b7ad69b60cc8445b04be27bdf803e797"
 
+"@eeacms/volto-widget-toggle@github:eea/volto-widget-toggle#0.1.0":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-widget-toggle/tar.gz/e5f0fc1e6a42fdc9e64da274f4781d73bfd270e2"
+
 "@eeacms/volto-widgets-view@github:eea/volto-widgets-view#0.2.4":
   version "0.2.4"
   resolved "https://codeload.github.com/eea/volto-widgets-view/tar.gz/c4146abe9202655772ced160046e20bb71e06785"
