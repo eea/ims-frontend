@@ -1226,9 +1226,9 @@
   version "0.2.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/ff6b034418608ee7593f66c4e9725fba5dae20ef"
 
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.1.1":
-  version "0.1.1"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/372e19f6da32a6ef48e26d62d2e04213e6dd5f16"
+"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.1.2":
+  version "0.1.2"
+  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/4b3a15e6dfb4ad375a97425e0f3cf6979ef10521"
 
 "@eeacms/volto-tabs-block@github:eea/volto-tabs-block#0.2.2":
   version "0.2.1"
@@ -1724,9 +1724,9 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@github:eea/volto#7.11.3-beta.4":
-  version "7.11.3"
-  resolved "https://codeload.github.com/eea/volto/tar.gz/57046c5fcaa861b2646944fb8c000beb8e59dd83"
+"@plone/volto@github:eea/volto#7.12.0-beta.1":
+  version "7.12.0"
+  resolved "https://codeload.github.com/eea/volto/tar.gz/efa9745f6480a199a3869b094628c5ba40efb5c6"
   dependencies:
     "@babel/core" "7.9.6"
     "@babel/plugin-proposal-decorators" "7.8.3"
