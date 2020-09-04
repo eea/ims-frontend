@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "addons": [
     "volto-slate:asDefault",
     "@eeacms/volto-widgets-view",
@@ -10,7 +10,8 @@
     "@eeacms/volto-slate-zotero",
     "@eeacms/volto-metadata-block",
     "@eeacms/volto-tabs-block",
-    "@eeacms/volto-widget-toggle"
+    "@eeacms/volto-widget-toggle",
+    "@eeacms/volto-object-widget"
   ],
   "scripts": {
     "start": "razzle start",
@@ -104,7 +105,8 @@
     "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.1.2",
     "@eeacms/volto-metadata-block": "github:eea/volto-metadata-block#0.2.1",
     "@eeacms/volto-tabs-block": "github:eea/volto-tabs-block#0.2.2",
-    "@eeacms/volto-widget-toggle": "github:eea/volto-widget-toggle#0.1.0"
+    "@eeacms/volto-widget-toggle": "github:eea/volto-widget-toggle#0.1.0",
+    "@eeacms/volto-object-widget": "github:eea/volto-object-widget#0.1.1"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",

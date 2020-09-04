@@ -1222,6 +1222,10 @@
   version "0.2.1"
   resolved "https://codeload.github.com/eea/volto-metadata-block/tar.gz/0536803b7d3cca1fbabed214e3c5c1b46a293a71"
 
+"@eeacms/volto-object-widget@github:eea/volto-object-widget#0.1.1":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/f4e7e87ed97c024a97878228ee68982af428b4d3"
+
 "@eeacms/volto-slate-metadata-mentions@github:eea/volto-slate-metadata-mentions#0.2.0":
   version "0.2.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/ff6b034418608ee7593f66c4e9725fba5dae20ef"
