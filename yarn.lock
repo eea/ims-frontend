@@ -1218,33 +1218,48 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-metadata-block@github:eea/volto-metadata-block#0.2.1":
-  version "0.2.1"
-  resolved "https://codeload.github.com/eea/volto-metadata-block/tar.gz/0536803b7d3cca1fbabed214e3c5c1b46a293a71"
+"@eeacms/volto-blocks-form@github:eea/volto-blocks-form#0.4.1":
+  version "0.4.0"
+  resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/4aa988c0d65f2fa7a939e632fb02b95ed6b73e37"
 
-"@eeacms/volto-object-widget@github:eea/volto-object-widget#0.1.1":
+"@eeacms/volto-corsproxy@github:eea/volto-corsproxy#0.1.3":
   version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/f4e7e87ed97c024a97878228ee68982af428b4d3"
+  resolved "https://codeload.github.com/eea/volto-corsproxy/tar.gz/b0f1016c234b92a6f7acf4073c2251de6548c87d"
 
-"@eeacms/volto-slate-metadata-mentions@github:eea/volto-slate-metadata-mentions#0.2.0":
-  version "0.2.0"
-  resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/ff6b034418608ee7593f66c4e9725fba5dae20ef"
+"@eeacms/volto-group-block@github:eea/volto-group-block#0.1.1":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-group-block/tar.gz/765b51357e22e96d022a2fabf1d7fa1cf165bb5f"
 
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.1.2":
+"@eeacms/volto-metadata-block@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.1.tgz#7646e9670a0bd7d04c5e42fe29e7bd780180fe51"
+  integrity sha512-CwLuV7Bx6i0JMOnVn7vZYqw2Se7N7lii5Mo+CMRnoiyJ1sWxRNqFBFDYfXeG+gJuB3DhOVRXZCq/WIBT7kZTaw==
+
+"@eeacms/volto-object-widget@github:eea/volto-object-widget#0.2.1":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/08644af193e963de1b449db7500d8ee17bb4c853"
+
+"@eeacms/volto-slate-footnote@github:eea/volto-slate-footnote#0.2.1":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-slate-footnote/tar.gz/77c716cd676b345f976dda8fe0636b398a32e7c9"
+
+"@eeacms/volto-slate-metadata-mentions@github:eea/volto-slate-metadata-mentions#0.4.1":
+  version "0.3.0"
+  resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/bcbe713655f502512ca48a357c77314113cdcc18"
+
+"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.1.4":
   version "0.1.2"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/4b3a15e6dfb4ad375a97425e0f3cf6979ef10521"
+  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/cc8af54009a6b2a2eeb05c09e0fddc00e948a35a"
 
-"@eeacms/volto-tabs-block@github:eea/volto-tabs-block#0.2.2":
-  version "0.2.1"
-  resolved "https://codeload.github.com/eea/volto-tabs-block/tar.gz/d343ddb2b7ad69b60cc8445b04be27bdf803e797"
+"@eeacms/volto-widget-toggle@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-toggle/-/volto-widget-toggle-1.0.0.tgz#c43fbc94b7e4e898be0eb8dd1ebb8739213d5c4b"
+  integrity sha512-0I3HZ8LqLLqqQ56hjvnu/JySl551uLEcSyWbmxxhBO0rYiNLQlASrGyf9pd1xrTkO8FO1FYyzJSzUl28h+XjWA==
 
-"@eeacms/volto-widget-toggle@github:eea/volto-widget-toggle#0.1.0":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-widget-toggle/tar.gz/e5f0fc1e6a42fdc9e64da274f4781d73bfd270e2"
-
-"@eeacms/volto-widgets-view@github:eea/volto-widgets-view#0.2.4":
-  version "0.2.4"
-  resolved "https://codeload.github.com/eea/volto-widgets-view/tar.gz/c4146abe9202655772ced160046e20bb71e06785"
+"@eeacms/volto-widgets-view@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.1.tgz#8f734c22d8b7fdecf124c2e34231b4b41eeafd22"
+  integrity sha512-4RzTex/0g26anPkahGFm7xAxjuP5YJfEh8cZMhG+N6NoJ1gJblSTQOUmk1/HCHKkyM2FVzyOUUE32FCjAptORA==
 
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.29"
@@ -1728,9 +1743,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@github:eea/volto#7.12.0-beta.1":
-  version "7.12.0"
-  resolved "https://codeload.github.com/eea/volto/tar.gz/efa9745f6480a199a3869b094628c5ba40efb5c6"
+"@plone/volto@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.2.0.tgz#499223a81601cf8df17ebdabcec52e9583704ade"
+  integrity sha512-nzLOOR18s8LfaKyZzYoZr0/40r6WkQ1yCrfvEaw0R9CoSeB8jw73JB9jrOlUl6Ef293wTt53P8KXSDetr28wcg==
   dependencies:
     "@babel/core" "7.9.6"
     "@babel/plugin-proposal-decorators" "7.8.3"
@@ -14357,18 +14373,18 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slate-history@^0.58.3:
-  version "0.58.4"
-  resolved "https://registry.yarnpkg.com/slate-history/-/slate-history-0.58.4.tgz#f24f4745f192e8eb16975037536bdc22f6d1c03b"
-  integrity sha512-QWmVvB02R+Z+I8sC7Hb+27Zqtm1vDt9kulHjmqRk8ixPp7052S04q4WEjNsk0StrgmEOEd+POvzNGfOYELXitw==
+slate-history@^0.59:
+  version "0.59.0"
+  resolved "https://registry.yarnpkg.com/slate-history/-/slate-history-0.59.0.tgz#3c5ecbe8893ce2ae9523068ccc17c62d52b24a1a"
+  integrity sha512-LBaVmxA7QKr5faDUt0rjgFH4TwAslyl4rrltpM6PVZYeJ301KkpUTqZf83asDjwgt5pl9nEx4huKL7IlX+rZfA==
   dependencies:
     immer "^5.0.0"
     is-plain-object "^3.0.0"
 
-slate-hyperscript@^0.58.3:
-  version "0.58.4"
-  resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.58.4.tgz#430b2fc93e6a04808b9ed18414f0a9fdbc8fec79"
-  integrity sha512-Ix+oSvqiJ6rBsO5Bh+0n3d4+bGl8+/Bj7okwKnQA9A4hj9x1K/5+wrEm8ivO9mQP5j3ZHO4bGxt2RWxROSp93Q==
+slate-hyperscript@^0.59:
+  version "0.59.0"
+  resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.59.0.tgz#3bab0c418854b3e26530064c142b8a64b87dc7a8"
+  integrity sha512-HvZLA5RSAs27ZznD2r5sy2RP114K7+I/jOt3glFtQLFKEptxsIFTgTsEyxMhD6864tOPqs56m6IyA0tX/jhzjA==
   dependencies:
     is-plain-object "^3.0.0"
 
@@ -14377,10 +14393,10 @@ slate-plain-serializer@0.7.13:
   resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.7.13.tgz#6de8f5c645dd749f1b2e4426c20de74bfd213adf"
   integrity sha512-TtrlaslxQBEMV0LYdf3s7VAbTxRPe1xaW10WNNGAzGA855/0RhkaHjKkQiRjHv5rvbRleVf7Nxr9fH+4uErfxQ==
 
-slate-react@^0.58.3:
-  version "0.58.4"
-  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.58.4.tgz#ecde34dd322af8413c2f23f0f0a577fed2422f46"
-  integrity sha512-3JXWHVPmYrR/EMcH1qtmwXZtYxxCtuokQg+r/4wD1Ab9J3zRmW4UGLoaRP9/uQrZOAOvr8mMh4IgmrxV2dQskw==
+slate-react@^0.59:
+  version "0.59.0"
+  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.59.0.tgz#c8043dce7ea71279f314d9951c32e4f548b1ea0b"
+  integrity sha512-Fx5vfTi0s1fY5PaXzPH8uA9mW8aevVVYrGGvqX/k363tlPDnQSs/QTibIyFl1Y3MPJ+GdocoyOGjAaZMUIXfIg==
   dependencies:
     "@types/is-hotkey" "^0.1.1"
     "@types/lodash" "^4.14.149"
@@ -14390,10 +14406,10 @@ slate-react@^0.58.3:
     lodash "^4.17.4"
     scroll-into-view-if-needed "^2.2.20"
 
-slate@^0.58.3:
-  version "0.58.4"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.58.4.tgz#4259387e632b45b00cf88bcecf5570d7d16ddd8b"
-  integrity sha512-XxKwNJgCMf7S2sDT8CVJy0zYm95MiYorJo9Hah05zKjItrw0VVeCc2BGKDZSlNGcaIfM3xcfFUN7XE+c8ehAbA==
+slate@^0.59:
+  version "0.59.0"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.59.0.tgz#3169daf2f036e84aa149f60e0d12ef2fc4c0839e"
+  integrity sha512-M4UTMkXExxuq8tCD+knn7BtV2pmY8pepay++EF59rmg/v4RB6X1gNzA0xP3aw2rqYl8TmWdOBdy9InFrm3WyXw==
   dependencies:
     "@types/esrever" "^0.2.0"
     esrever "^0.2.0"
@@ -16046,20 +16062,20 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.5.3":
-  version "0.4.1"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/f3aa023fb0ddbe1d76c71730d682f9598511c1c5"
+"volto-slate@github:eea/volto-slate#0.7.2":
+  version "0.7.1"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/976062d4e4a9691e721ad61de8043076a6890a62"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
     image-extensions "1.1.0"
     is-url "1.2.4"
     jsdom "16.2.2"
-    slate "^0.58.3"
-    slate-history "^0.58.3"
-    slate-hyperscript "^0.58.3"
+    slate "^0.59"
+    slate-history "^0.59"
+    slate-hyperscript "^0.59"
     slate-plain-serializer "0.7.13"
-    slate-react "^0.58.3"
+    slate-react "^0.59"
     weak-key "^1.0.2"
 
 w3c-hr-time@^1.0.1, w3c-hr-time@^1.0.2:

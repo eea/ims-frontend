@@ -23,6 +23,7 @@ import {
 
 export const settings = {
   ...defaultSettings,
+  allowed_cors_destinations: ['www.eea.europa.eu'],
 };
 
 export const views = {
