@@ -1226,9 +1226,9 @@
   version "0.5.0"
   resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/0bea09e213b6c995a298662ae67ea8ec3942cdb8"
 
-"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.1":
+"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.2":
   version "0.3.0"
-  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/8b73c11e86016e2e2795bdcfa34f7524eb318f61"
+  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/2a98e6e382b1d4de939f0788a16cd1baa9f898d1"
   dependencies:
     react-color "2.18.1"
 
@@ -1257,9 +1257,9 @@
   version "0.3.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/a6bd37538e68a185d8e1d05f6a10bc615ed18f7c"
 
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.1.4":
-  version "0.1.2"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/cc8af54009a6b2a2eeb05c09e0fddc00e948a35a"
+"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.1":
+  version "0.2.0"
+  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/f526b773f5cc346cc4c8097fb0e508fa0526630f"
 
 "@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.0":
   version "0.1.0"
@@ -16226,9 +16226,9 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.8.2":
+"volto-slate@github:eea/volto-slate#0.9.0-beta.1":
   version "0.7.1"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/d9dd5e99460c8121d296ed8aa3b4f8c22989f513"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/94dbfe7447661ab9c546a97bfb3ef0d2b8085761"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
