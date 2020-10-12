@@ -120,7 +120,7 @@
     "volto-slate": "github:eea/volto-slate#0.9.0-beta.1",
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.4.2",
     "@eeacms/volto-slate-footnote": "github:eea/volto-slate-footnote#0.3.1",
-    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.1"
+    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.2"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
