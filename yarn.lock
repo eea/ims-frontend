@@ -1257,13 +1257,13 @@
   version "0.3.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/a6bd37538e68a185d8e1d05f6a10bc615ed18f7c"
 
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.1":
+"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.2":
   version "0.2.0"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/f526b773f5cc346cc4c8097fb0e508fa0526630f"
+  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/e169e42b62fc8436fbb772af021a9626f0cba348"
 
-"@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.0":
+"@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.1":
   version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-widget-geolocation/tar.gz/d59ab5dca975597dceceb5359bdcb0f63a1026f6"
+  resolved "https://codeload.github.com/eea/volto-widget-geolocation/tar.gz/a069a5cae86ad3852b66adfa3a0217b7b90d3529"
 
 "@eeacms/volto-widget-temporal-coverage@github:eea/volto-widget-temporal-coverage#0.1.0":
   version "0.1.0"

@@ -118,7 +118,7 @@
     "@eeacms/volto-widgets-view": "1.0.1",
     "@eeacms/volto-widget-toggle": "1.0.0",
     "@eeacms/volto-widget-temporal-coverage": "github:eea/volto-widget-temporal-coverage#0.1.0",
-    "@eeacms/volto-widget-geolocation": "github:eea/volto-widget-geolocation#0.1.0",
+    "@eeacms/volto-widget-geolocation": "github:eea/volto-widget-geolocation#0.1.1",
     "@eeacms/volto-blocks-form": "github:eea/volto-blocks-form#0.5.0",
     "@eeacms/volto-block-data-figure": "github:eea/volto-block-data-figure#0.1.0",
     "@eeacms/volto-metadata-block": "1.0.1",
