@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "addons": [
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-object-widget",
