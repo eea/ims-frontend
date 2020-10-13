@@ -1307,61 +1307,6 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.0":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/44354cfd7b26db162bf2022dbbda14e4480a727a"
-
-"@eeacms/volto-blocks-form@github:eea/volto-blocks-form#0.5.0":
-  version "0.5.0"
-  resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/0bea09e213b6c995a298662ae67ea8ec3942cdb8"
-
-"@eeacms/volto-corsproxy@github:eea/volto-corsproxy#0.1.3":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-corsproxy/tar.gz/b0f1016c234b92a6f7acf4073c2251de6548c87d"
-
-"@eeacms/volto-group-block@github:eea/volto-group-block#0.1.2":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-group-block/tar.gz/0620b9933d1e1a38dacfee3d2f0c28556368db9e"
-
-"@eeacms/volto-metadata-block@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.1.tgz#7646e9670a0bd7d04c5e42fe29e7bd780180fe51"
-  integrity sha512-CwLuV7Bx6i0JMOnVn7vZYqw2Se7N7lii5Mo+CMRnoiyJ1sWxRNqFBFDYfXeG+gJuB3DhOVRXZCq/WIBT7kZTaw==
-
-"@eeacms/volto-object-widget@github:eea/volto-object-widget#0.2.2":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/9290096884040feff4fc077a6ac32825a1003094"
-
-"@eeacms/volto-slate-footnote@github:eea/volto-slate-footnote#0.3.1":
-  version "0.4.0"
-  resolved "https://codeload.github.com/eea/volto-slate-footnote/tar.gz/fc453dc9de4cbd43806fc26d699c6fbf28737d26"
-
-"@eeacms/volto-slate-metadata-mentions@github:eea/volto-slate-metadata-mentions#0.4.2":
-  version "0.3.0"
-  resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/a6bd37538e68a185d8e1d05f6a10bc615ed18f7c"
-
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.2":
-  version "0.2.0"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/e169e42b62fc8436fbb772af021a9626f0cba348"
-
-"@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.1":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-widget-geolocation/tar.gz/a069a5cae86ad3852b66adfa3a0217b7b90d3529"
-
-"@eeacms/volto-widget-temporal-coverage@github:eea/volto-widget-temporal-coverage#0.1.0":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-widget-temporal-coverage/tar.gz/09be587b16d657bf10babe41c00577e189440863"
-
-"@eeacms/volto-widget-toggle@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-toggle/-/volto-widget-toggle-1.0.0.tgz#c43fbc94b7e4e898be0eb8dd1ebb8739213d5c4b"
-  integrity sha512-0I3HZ8LqLLqqQ56hjvnu/JySl551uLEcSyWbmxxhBO0rYiNLQlASrGyf9pd1xrTkO8FO1FYyzJSzUl28h+XjWA==
-
-"@eeacms/volto-widgets-view@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.1.tgz#8f734c22d8b7fdecf124c2e34231b4b41eeafd22"
-  integrity sha512-4RzTex/0g26anPkahGFm7xAxjuP5YJfEh8cZMhG+N6NoJ1gJblSTQOUmk1/HCHKkyM2FVzyOUUE32FCjAptORA==
-
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
