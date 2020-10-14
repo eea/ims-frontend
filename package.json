@@ -111,16 +111,16 @@
     "@eeacms/volto-widgets-view": "1.0.1",
     "@eeacms/volto-widget-toggle": "1.0.0",
     "@eeacms/volto-widget-temporal-coverage": "github:eea/volto-widget-temporal-coverage#0.1.0",
-    "@eeacms/volto-widget-geolocation": "github:eea/volto-widget-geolocation#0.1.1",
-    "@eeacms/volto-blocks-form": "github:eea/volto-blocks-form#0.5.0",
-    "@eeacms/volto-block-data-figure": "github:eea/volto-block-data-figure#0.1.0",
+    "@eeacms/volto-widget-geolocation": "github:eea/volto-widget-geolocation#0.1.2",
+    "@eeacms/volto-blocks-form": "github:eea/volto-blocks-form#0.5.1",
+    "@eeacms/volto-block-data-figure": "github:eea/volto-block-data-figure#0.1.1",
     "@eeacms/volto-metadata-block": "1.0.1",
     "@eeacms/volto-group-block": "github:eea/volto-group-block#0.1.2",
     "@eeacms/volto-columns-block": "github:eea/volto-columns-block#0.3.2",
-    "volto-slate": "github:eea/volto-slate#0.9.0-beta.1",
+    "volto-slate": "github:eea/volto-slate#0.9.0-beta.2",
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.4.2",
     "@eeacms/volto-slate-footnote": "github:eea/volto-slate-footnote#0.3.1",
-    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.2"
+    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.3"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
