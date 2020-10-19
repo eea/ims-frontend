@@ -1,5 +1,11 @@
 FROM node:12-stretch-slim
 
+RUN runDeps="openssl ca-certificates" \
+ && apt-get update \
+ && apt-get install -y --no-install-recommends $runDeps \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
+
 COPY . /opt/frontend/
 RUN chown -R node /opt/frontend/
 
