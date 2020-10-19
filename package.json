@@ -106,7 +106,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "8.5.0-alpha.0",
+    "@plone/volto": "8.5.0-alpha.1",
     "@eeacms/volto-corsproxy": "github:eea/volto-corsproxy#0.1.3",
     "@eeacms/volto-object-widget": "github:eea/volto-object-widget#0.2.3",
     "@eeacms/volto-widgets-view": "1.0.1",
