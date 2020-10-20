@@ -1396,9 +1396,9 @@
   version "0.5.0"
   resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/f75fc97a7642d1d28dedcc2da7ea9d007114c8cd"
 
-"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.3":
+"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.4":
   version "0.3.0"
-  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/0c54b745979db06ecc6cabf76976548fd347faa5"
+  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/d3468cb019de4e39030341376c5b08c23e8db471"
   dependencies:
     react-color "2.18.1"
 
@@ -1419,9 +1419,9 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/ca7b1944000adbba2ecf09ac31dd3c7bb1b9a46e"
 
-"@eeacms/volto-sentry-rancher-config@github:eea/volto-sentry-rancher-config#0.1.0":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-sentry-rancher-config/tar.gz/a58a9e00fbdfaf0d4400f369cf4c6dcd6940d854"
+"@eeacms/volto-sentry-rancher-config@github:eea/volto-sentry-rancher-config#0.1.1":
+  version "0.1.1"
+  resolved "https://codeload.github.com/eea/volto-sentry-rancher-config/tar.gz/b5cccadab70e1cb4d909c0290953819d2d956c3a"
 
 "@eeacms/volto-slate-footnote@github:eea/volto-slate-footnote#0.3.1":
   version "0.4.0"
