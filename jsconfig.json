@@ -45,6 +45,9 @@
             ],
             "@eeacms/volto-columns-block": [
                 "addons/volto-columns-block/src"
+            ],
+            "@eeacms/volto-sentry-rancher-config": [
+                "addons/volto-sentry-rancher-config/src"
             ]
         },
         "baseUrl": "src"
