@@ -2013,10 +2013,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@8.5.0-alpha.2":
-  version "8.5.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.5.0-alpha.2.tgz#12bc646bf7cfaa40589b08408cb879b9cb832dec"
-  integrity sha512-ByD3+W7X0mDZmmgUiU9GLmHiBunWLKN/tjjuyXX54maDpuLClLCI5XBpO/0xpG2OXFcpljNbxJICPoAA8OyZ9w==
+"@plone/volto@8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.5.0.tgz#9b2421021bc942c0c23b8a0be58e4b3925b04373"
+  integrity sha512-mVOCZjrazfQp4OYvBD7HdYkTPtn/+lMQKo+s3/qEJuEtd/SU9RTaUtJ2WSAD+II09rT54PR5f6y6uVoEeRnyug==
   dependencies:
     "@babel/core" "7.11.1"
     "@babel/plugin-proposal-decorators" "7.10.5"
