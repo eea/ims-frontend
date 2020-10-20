@@ -107,7 +107,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "8.5.0-alpha.2",
+    "@plone/volto": "8.5.0",
     "@eeacms/volto-sentry-rancher-config": "github:eea/volto-sentry-rancher-config#0.1.0",
     "@eeacms/volto-corsproxy": "github:eea/volto-corsproxy#0.1.3",
     "@eeacms/volto-object-widget": "github:eea/volto-object-widget#0.2.3",
