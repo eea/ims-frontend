@@ -1419,6 +1419,10 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/ca7b1944000adbba2ecf09ac31dd3c7bb1b9a46e"
 
+"@eeacms/volto-sentry-rancher-config@github:eea/volto-sentry-rancher-config#0.1.0":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-sentry-rancher-config/tar.gz/a58a9e00fbdfaf0d4400f369cf4c6dcd6940d854"
+
 "@eeacms/volto-slate-footnote@github:eea/volto-slate-footnote#0.3.1":
   version "0.4.0"
   resolved "https://codeload.github.com/eea/volto-slate-footnote/tar.gz/fc453dc9de4cbd43806fc26d699c6fbf28737d26"
@@ -1943,10 +1947,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@8.5.0-alpha.1":
-  version "8.5.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.5.0-alpha.1.tgz#d905f4bb297495216856730c867a6faa1aff7b1d"
-  integrity sha512-Iy1aOcj0PwTsfS/EAYpo3zuqiXkVJLMvPjImOLnLBYGXitxObEGvkc9LTJK1owP+uog/RA80ws0+qEBCzzHr/Q==
+"@plone/volto@8.5.0-alpha.2":
+  version "8.5.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.5.0-alpha.2.tgz#12bc646bf7cfaa40589b08408cb879b9cb832dec"
+  integrity sha512-ByD3+W7X0mDZmmgUiU9GLmHiBunWLKN/tjjuyXX54maDpuLClLCI5XBpO/0xpG2OXFcpljNbxJICPoAA8OyZ9w==
   dependencies:
     "@babel/core" "7.11.1"
     "@babel/plugin-proposal-decorators" "7.10.5"
