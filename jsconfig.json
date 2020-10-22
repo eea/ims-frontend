@@ -54,6 +54,9 @@
             ],
             "@eeacms/volto-block-toc": [
                 "addons/volto-block-toc/src"
+            ],
+            "@eeacms/volto-block-divider": [
+                "addons/volto-block-divider/src"
             ]
         },
         "baseUrl": "src"

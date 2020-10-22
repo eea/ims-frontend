@@ -12,6 +12,7 @@
   "addons": [
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-block-style",
+    "@eeacms/volto-block-divider",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-widgets-view",

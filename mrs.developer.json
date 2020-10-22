@@ -124,5 +124,12 @@
         "package": "@eeacms/volto-block-toc",
         "branch": "master",
         "path": "src"
+    },
+    "volto-block-divider": {
+        "url": "git@github.com:eea/volto-block-divider.git",
+        "https": "https://github.com/eea/volto-block-divider.git",
+        "package": "@eeacms/volto-block-divider",
+        "branch": "master",
+        "path": "src"
     }
  }
