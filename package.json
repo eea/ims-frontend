@@ -6,10 +6,12 @@
   "private": true,
   "workspaces": [
     "src/addons/volto-slate",
-    "src/addons/volto-columns-block"
+    "src/addons/volto-columns-block",
+    "src/addons/volto-widget-geolocation"
   ],
   "addons": [
     "@eeacms/volto-sentry-rancher-config",
+    "@eeacms/volto-block-style",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-widgets-view",

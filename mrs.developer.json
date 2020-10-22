@@ -110,5 +110,12 @@
         "package": "@eeacms/volto-sentry-rancher-config",
         "branch": "master",
         "path": "src"
+    },
+    "volto-block-style": {
+        "url": "git@github.com:eea/volto-block-style.git",
+        "https": "https://github.com/eea/volto-block-style.git",
+        "package": "@eeacms/volto-block-style",
+        "branch": "master",
+        "path": "src"
     }
  }
