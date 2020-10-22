@@ -1392,6 +1392,20 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/98cfa8614f1b89051c633c4cc78b20497cae9c26"
 
+"@eeacms/volto-block-divider@github:eea/volto-block-divider#0.1.0":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-block-divider/tar.gz/29c3b92cbec21480bc25a3054c49ceeb0fbd1f98"
+
+"@eeacms/volto-block-style@github:eea/volto-block-style#0.1.0":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-block-style/tar.gz/0be715154534e95735ca3512c7fbe36ac9ac11a7"
+  dependencies:
+    react-color "2.18.1"
+
+"@eeacms/volto-block-toc@github:eea/volto-block-toc#0.1.0":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-block-toc/tar.gz/9c0ab1dc886cebf32dde3f28b67092c33402c657"
+
 "@eeacms/volto-blocks-form@github:eea/volto-blocks-form#0.5.2":
   version "0.5.0"
   resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/f75fc97a7642d1d28dedcc2da7ea9d007114c8cd"
