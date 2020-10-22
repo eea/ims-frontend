@@ -20,6 +20,7 @@
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-block-data-figure",
+    "@eeacms/volto-block-toc",
     "@eeacms/volto-metadata-block",
     "@eeacms/volto-group-block",
     "@eeacms/volto-columns-block",

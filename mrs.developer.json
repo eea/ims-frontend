@@ -117,5 +117,12 @@
         "package": "@eeacms/volto-block-style",
         "branch": "master",
         "path": "src"
+    },
+    "volto-block-toc": {
+        "url": "git@github.com:eea/volto-block-toc.git",
+        "https": "https://github.com/eea/volto-block-toc.git",
+        "package": "@eeacms/volto-block-toc",
+        "branch": "master",
+        "path": "src"
     }
  }

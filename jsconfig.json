@@ -51,6 +51,9 @@
             ],
             "@eeacms/volto-block-style": [
                 "addons/volto-block-style/src"
+            ],
+            "@eeacms/volto-block-toc": [
+                "addons/volto-block-toc/src"
             ]
         },
         "baseUrl": "src"
