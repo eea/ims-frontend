@@ -11,7 +11,6 @@
   ],
   "addons": [
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-block-style",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-object-widget",
@@ -28,7 +27,8 @@
     "volto-slate:asDefault",
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-slate-footnote",
-    "@eeacms/volto-slate-zotero"
+    "@eeacms/volto-slate-zotero",
+    "@eeacms/volto-block-style"
   ],
   "scripts": {
     "start": "razzle start",
