@@ -12,7 +12,6 @@
     "@eeacms/volto-widget-temporal-coverage",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-blocks-form",
-    "@eeacms/volto-block-style",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-data-figure",
@@ -22,7 +21,8 @@
     "volto-slate:asDefault",
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-slate-footnote",
-    "@eeacms/volto-slate-zotero"
+    "@eeacms/volto-slate-zotero",
+    "@eeacms/volto-block-style"
   ],
   "scripts": {
     "start": "razzle start",
