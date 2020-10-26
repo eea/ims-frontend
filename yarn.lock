@@ -1388,17 +1388,17 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.3":
+"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.4":
   version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/98cfa8614f1b89051c633c4cc78b20497cae9c26"
+  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/a84dd4e10cc73bc6ba451ae4477a57847b381d0b"
 
 "@eeacms/volto-block-divider@github:eea/volto-block-divider#0.1.0":
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-block-divider/tar.gz/29c3b92cbec21480bc25a3054c49ceeb0fbd1f98"
 
-"@eeacms/volto-block-style@github:eea/volto-block-style#0.1.0":
+"@eeacms/volto-block-style@github:eea/volto-block-style#0.1.1":
   version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-block-style/tar.gz/0be715154534e95735ca3512c7fbe36ac9ac11a7"
+  resolved "https://codeload.github.com/eea/volto-block-style/tar.gz/a4889e1d48fd5a96f9ce913105b5a2b7e2355c6b"
   dependencies:
     react-color "2.18.1"
 
@@ -1410,9 +1410,9 @@
   version "0.5.0"
   resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/f75fc97a7642d1d28dedcc2da7ea9d007114c8cd"
 
-"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.4":
+"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.5":
   version "0.3.0"
-  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/d3468cb019de4e39030341376c5b08c23e8db471"
+  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/756f61f10e7e414b83fadd3874877a975ee7dfcd"
   dependencies:
     react-color "2.18.1"
 
@@ -1445,13 +1445,15 @@
   version "0.3.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/a6bd37538e68a185d8e1d05f6a10bc615ed18f7c"
 
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.4":
+"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.5":
   version "0.2.0"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/99a4f1f5897b6473022db969f46e39f07a382d69"
+  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/9cad529590fa4fe596b96b2372aed8c6ef3b911b"
 
-"@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.2":
+"@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.3":
   version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-widget-geolocation/tar.gz/85f66aede4fabdee800354cf6b6220e2daac8bb8"
+  resolved "https://codeload.github.com/eea/volto-widget-geolocation/tar.gz/36cd085ffe1e5421cd8b7f23289ab9f596fe9ee0"
+  dependencies:
+    i18n-iso-countries "6.2.1"
 
 "@eeacms/volto-widget-temporal-coverage@github:eea/volto-widget-temporal-coverage#0.1.0":
   version "0.1.0"
@@ -5741,6 +5743,11 @@ detect-port-alt@1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
+diacritics@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/diacritics/-/diacritics-1.3.0.tgz#3efa87323ebb863e6696cebb0082d48ff3d6f7a1"
+  integrity sha1-PvqHMj67hj5mls67AILUj/PW96E=
+
 diff-sequences@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
@@ -8160,6 +8167,13 @@ husky@4.2.5:
     please-upgrade-node "^3.2.0"
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
+
+i18n-iso-countries@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/i18n-iso-countries/-/i18n-iso-countries-6.2.1.tgz#b37a337b790348f8fa5a2ade9e32ea0206dfc1b6"
+  integrity sha512-lcu9KFffcZzEKYfwzAKZ5TgwoKYoMRoHlb8s3xa0xOYnChjd76OP1gl1n158UNfax4+Oeg9RCTYWWuZpKjwbdQ==
+  dependencies:
+    diacritics "1.3.0"
 
 i@0.3.x:
   version "0.3.6"
@@ -16520,9 +16534,9 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.9.0-beta.4":
+"volto-slate@github:eea/volto-slate#0.9.0-beta.5":
   version "0.7.1"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/104267231061869a22d9ab63aeeb9c68e8b72b4b"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/e89e624ff7d47a25fd331687ef4d4727af27ca1a"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
