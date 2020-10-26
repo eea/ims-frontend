@@ -1961,10 +1961,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@8.5.0":
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.5.0.tgz#9b2421021bc942c0c23b8a0be58e4b3925b04373"
-  integrity sha512-mVOCZjrazfQp4OYvBD7HdYkTPtn/+lMQKo+s3/qEJuEtd/SU9RTaUtJ2WSAD+II09rT54PR5f6y6uVoEeRnyug==
+"@plone/volto@8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.6.0.tgz#3a03ddd83871c64cf213db701b1ac574c3e9c15f"
+  integrity sha512-aaTa/gNBOOQXJn5FhWTdcidb7ocRrRS72siXbz/ZAXzcMBxOGFfMZVvY6H4bF0cgvM6hQo8tzJjMRjo4pwm0qQ==
   dependencies:
     "@babel/core" "7.11.1"
     "@babel/plugin-proposal-decorators" "7.10.5"
@@ -2054,8 +2054,6 @@
     mem "4.0.0"
     mini-css-extract-plugin "0.9.0"
     moment "2.24.0"
-    moment-locales-webpack-plugin "1.2.0"
-    moment-timezone "^0.5.31"
     pofile "1.0.10"
     postcss-flexbugs-fixes "4.2.1"
     postcss-loader "3.0.0"
@@ -10179,11 +10177,6 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
-lodash.difference@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
-  integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
-
 lodash.includes@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.includes/-/lodash.includes-4.3.0.tgz#60bb98a87cb923c68ca1e51325483314849f553f"
@@ -10854,20 +10847,6 @@ mkdirp@~1.0.3:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-moment-locales-webpack-plugin@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/moment-locales-webpack-plugin/-/moment-locales-webpack-plugin-1.2.0.tgz#9af83876a44053706b868ceece5119584d10d7aa"
-  integrity sha512-QAi5v0OlPUP7GXviKMtxnpBAo8WmTHrUNN7iciAhNOEAd9evCOvuN0g1N7ThIg3q11GLCkjY1zQ2saRcf/43nQ==
-  dependencies:
-    lodash.difference "^4.5.0"
-
-moment-timezone@^0.5.31:
-  version "0.5.31"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.31.tgz#9c40d8c5026f0c7ab46eda3d63e49c155148de05"
-  integrity sha512-+GgHNg8xRhMXfEbv81iDtrVeTcWt0kWmTEY1XQK14dICTXnWJnT0dxdlPspwqF3keKMVPXwayEsk1DI0AA/jdA==
-  dependencies:
-    moment ">= 2.9.0"
-
 moment@2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
@@ -10882,11 +10861,6 @@ moment@2.x, moment@>=1.6.0:
   version "2.25.3"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.25.3.tgz#252ff41319cf41e47761a1a88cab30edfe9808c0"
   integrity sha512-PuYv0PHxZvzc15Sp8ybUCoQ+xpyPWvjOuK72a5ovzp2LI32rJXOiIfyoFoYvG3s6EwwrdkMyWuRiEHSZRLJNdg==
-
-"moment@>= 2.9.0":
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
-  integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
 
 moniker@0.1.2:
   version "0.1.2"
@@ -16546,9 +16520,9 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.9.0-beta.3":
+"volto-slate@github:eea/volto-slate#0.9.0-beta.4":
   version "0.7.1"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/9b6f2ef56c1c18eaa32d4ed37bb5acb9ce6ad02f"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/104267231061869a22d9ab63aeeb9c68e8b72b4b"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
