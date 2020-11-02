@@ -125,7 +125,7 @@
     "@eeacms/volto-block-data-figure": "github:eea/volto-block-data-figure#0.1.5",
     "@eeacms/volto-metadata-block": "1.0.1",
     "@eeacms/volto-group-block": "github:eea/volto-group-block#0.1.2",
-    "@eeacms/volto-columns-block": "github:eea/volto-columns-block#0.3.5",
+    "@eeacms/volto-columns-block": "github:eea/volto-columns-block#0.3.6",
     "volto-slate": "github:eea/volto-slate#0.9.1",
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.4.2",
     "@eeacms/volto-slate-footnote": "github:eea/volto-slate-footnote#0.3.1",

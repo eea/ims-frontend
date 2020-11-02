@@ -1410,9 +1410,9 @@
   version "0.5.0"
   resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/f75fc97a7642d1d28dedcc2da7ea9d007114c8cd"
 
-"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.5":
-  version "0.3.0"
-  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/756f61f10e7e414b83fadd3874877a975ee7dfcd"
+"@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.6":
+  version "0.3.6"
+  resolved "https://codeload.github.com/eea/volto-columns-block/tar.gz/a2bf202558f2f3a407ef171005e44d666791cb08"
   dependencies:
     react-color "2.18.1"
 
