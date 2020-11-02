@@ -1388,9 +1388,9 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.5":
-  version "0.1.5"
-  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/37d3b679946b438a7e7dfb3e38f5a63a73d77905"
+"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.6":
+  version "0.1.6"
+  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/87ae827954fa6e516abf27fe2eb86a66c3d4658a"
 
 "@eeacms/volto-block-divider@github:eea/volto-block-divider#0.1.0":
   version "0.1.0"
