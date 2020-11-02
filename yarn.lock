@@ -1445,9 +1445,9 @@
   version "0.3.0"
   resolved "https://codeload.github.com/eea/volto-slate-metadata-mentions/tar.gz/a6bd37538e68a185d8e1d05f6a10bc615ed18f7c"
 
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.6":
-  version "0.2.0"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/fac54ddb80c5a7de9d9657abdfcb0a3765e00686"
+"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.8":
+  version "0.2.8"
+  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/9d37c45031dd5412c85d612eed9cea4046ba6516"
 
 "@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.5":
   version "0.1.0"

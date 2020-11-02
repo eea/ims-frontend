@@ -129,7 +129,7 @@
     "volto-slate": "github:eea/volto-slate#0.9.1",
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.4.2",
     "@eeacms/volto-slate-footnote": "github:eea/volto-slate-footnote#0.3.1",
-    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.6"
+    "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.8"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
