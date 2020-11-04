@@ -57,6 +57,9 @@
             ],
             "@eeacms/volto-block-divider": [
                 "addons/volto-block-divider/src"
+            ],
+            "@eeacms/volto-accordion-block": [
+                "addons/volto-accordion-block/src"
             ]
         },
         "baseUrl": "src"

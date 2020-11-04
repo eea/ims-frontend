@@ -10,6 +10,7 @@
     "src/addons/volto-widget-geolocation"
   ],
   "addons": [
+    "@eeacms/volto-accordion-block",
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-corsproxy",
