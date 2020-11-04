@@ -1963,10 +1963,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@8.7.1":
-  version "8.7.1"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.7.1.tgz#e46f25e71a08a7edbac86adf46260df8ae9ec1fa"
-  integrity sha512-ibErddpW7dr/SCY9mLZ2j7WV/pxdwyg5dkjqB7So28KVY0pHdqs41xxN7nob/V+hNCAn5gdwsMuknoVTo+6s1Q==
+"@plone/volto@8.8.0":
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-8.8.0.tgz#edbeeebc06564858d38891fed914c7784b6bd1ed"
+  integrity sha512-owVqMvkaSnLciyAvtoNNNHRNzH0maQulfQ7XeZn6urW+JPk9xGo8qTV/YTFv2VA0xO9BpS84y8EVpE3mZPsOow==
   dependencies:
     "@babel/core" "7.11.1"
     "@babel/plugin-proposal-decorators" "7.10.5"
