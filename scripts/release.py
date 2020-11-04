@@ -37,7 +37,7 @@ def main(verbose=True):
     # Get LATEST
     print("====================")
     with urllib.request.urlopen(VOLTO) as ofile:
-        volto = json.loads(ofile.read())
+        volto = json.load(ofile)
         latest_volto = volto['version']
     
     # Volto
