@@ -1406,9 +1406,10 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-block-toc/tar.gz/9c0ab1dc886cebf32dde3f28b67092c33402c657"
 
-"@eeacms/volto-blocks-form@github:eea/volto-blocks-form#0.5.2":
-  version "0.5.0"
-  resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/f75fc97a7642d1d28dedcc2da7ea9d007114c8cd"
+"@eeacms/volto-blocks-form@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.0.tgz#58931083916716b1f810bf57493c10b6390eb93d"
+  integrity sha512-nqax5jUsxJrimKtG2GbjRHpD7UtVIlMb3N2Mwgyn5N8NP80RnxltAU7C4f2/mAN3gi6LV4Ox/quUpg8ewNaENw==
 
 "@eeacms/volto-columns-block@github:eea/volto-columns-block#0.3.6":
   version "0.3.6"
