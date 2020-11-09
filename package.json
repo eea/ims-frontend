@@ -12,6 +12,7 @@
     "@eeacms/volto-widget-temporal-coverage",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-blocks-form",
+    "@eeacms/volto-accordion-block",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-data-figure",
@@ -110,6 +111,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
+    "@eeacms/volto-accordion-block": "github:eea/volto-accordion-block#0.1.0",
     "@eeacms/volto-block-data-figure": "github:eea/volto-block-data-figure#0.1.7",
     "@eeacms/volto-block-divider": "github:eea/volto-block-divider#0.1.0",
     "@eeacms/volto-block-style": "github:eea/volto-block-style#0.1.1",

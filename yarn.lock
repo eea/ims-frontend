@@ -1388,6 +1388,12 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@eeacms/volto-accordion-block@github:eea/volto-accordion-block#0.1.0":
+  version "0.1.0"
+  resolved "https://codeload.github.com/eea/volto-accordion-block/tar.gz/cd65e3bf71fc3cfdf9c9599537f9338b1177568c"
+  dependencies:
+    "@eeacms/volto-blocks-form" "^1.0.0"
+
 "@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.7":
   version "0.1.7"
   resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/f75d4009935acf65822c49553c243b722e986eea"
