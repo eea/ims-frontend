@@ -119,7 +119,7 @@
     "@eeacms/volto-blocks-form": "1.0.0",
     "@eeacms/volto-columns-block": "github:eea/volto-columns-block#0.3.7",
     "@eeacms/volto-corsproxy": "github:eea/volto-corsproxy#0.1.3",
-    "@eeacms/volto-group-block": "github:eea/volto-group-block#0.1.2",
+    "@eeacms/volto-group-block": "github:eea/volto-group-block#0.1.3",
     "@eeacms/volto-metadata-block": "1.0.1",
     "@eeacms/volto-object-widget": "1.0.2",
     "@eeacms/volto-sentry-rancher-config": "github:eea/volto-sentry-rancher-config#0.1.3",
