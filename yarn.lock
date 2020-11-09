@@ -1388,9 +1388,9 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.6":
-  version "0.1.6"
-  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/87ae827954fa6e516abf27fe2eb86a66c3d4658a"
+"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.7":
+  version "0.1.7"
+  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/f75d4009935acf65822c49553c243b722e986eea"
 
 "@eeacms/volto-block-divider@github:eea/volto-block-divider#0.1.0":
   version "0.1.0"
@@ -16547,9 +16547,9 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"volto-slate@github:eea/volto-slate#0.9.2":
-  version "0.9.2"
-  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/d81f7bc078d9d9ed0c3b32198406a54237af2e32"
+"volto-slate@github:eea/volto-slate#0.9.3":
+  version "0.9.3"
+  resolved "https://codeload.github.com/eea/volto-slate/tar.gz/fcdd0ffdf7ae5647001532d21384f8895ed85e34"
   dependencies:
     "@types/jest" "^25.2.3"
     classnames "2.2.6"
