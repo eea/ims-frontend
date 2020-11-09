@@ -87,7 +87,7 @@
         "url": "git@github.com:eea/volto-group-block.git",
         "https": "https://github.com/eea/volto-group-block.git",
         "package": "@eeacms/volto-group-block",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-corsproxy": {
