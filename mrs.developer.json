@@ -24,7 +24,7 @@
         "url": "git@github.com:eea/volto-metadata-block.git",
         "https": "https://github.com/eea/volto-metadata-block.git",
         "package": "@eeacms/volto-metadata-block",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
      "volto-block-data-figure": {
@@ -73,14 +73,14 @@
         "url": "git@github.com:eea/volto-object-widget.git",
         "https": "https://github.com/eea/volto-object-widget.git",
         "package": "@eeacms/volto-object-widget",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-blocks-form": {
         "url": "git@github.com:eea/volto-blocks-form.git",
         "https": "https://github.com/eea/volto-blocks-form.git",
         "package": "@eeacms/volto-blocks-form",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-group-block": {
@@ -94,42 +94,42 @@
         "url": "git@github.com:eea/volto-corsproxy.git",
         "https": "https://github.com/eea/volto-corsproxy.git",
         "package": "@eeacms/volto-corsproxy",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-columns-block": {
         "url": "git@github.com:eea/volto-columns-block.git",
         "https": "https://github.com/eea/volto-columns-block.git",
         "package": "@eeacms/volto-columns-block",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-sentry-rancher-config": {
         "url": "git@github.com:eea/volto-sentry-rancher-config.git",
         "https": "https://github.com/eea/volto-sentry-rancher-config.git",
         "package": "@eeacms/volto-sentry-rancher-config",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-block-style": {
         "url": "git@github.com:eea/volto-block-style.git",
         "https": "https://github.com/eea/volto-block-style.git",
         "package": "@eeacms/volto-block-style",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-block-toc": {
         "url": "git@github.com:eea/volto-block-toc.git",
         "https": "https://github.com/eea/volto-block-toc.git",
         "package": "@eeacms/volto-block-toc",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-block-divider": {
         "url": "git@github.com:eea/volto-block-divider.git",
         "https": "https://github.com/eea/volto-block-divider.git",
         "package": "@eeacms/volto-block-divider",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
      "volto-accordion-block": {
