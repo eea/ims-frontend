@@ -10,14 +10,14 @@
          "url": "git@github.com:eea/volto-slate-metadata-mentions.git",
          "https": "https://github.com/eea/volto-slate-metadata-mentions.git",
          "package": "@eeacms/volto-slate-metadata-mentions",
-         "branch": "master",
+         "branch": "develop",
          "path": "src"
      },
      "volto-widgets-view": {
          "url": "git@github.com:eea/volto-widgets-view.git",
          "https": "https://github.com/eea/volto-widgets-view.git",
          "package": "@eeacms/volto-widgets-view",
-         "branch": "master",
+         "branch": "develop",
          "path": "src"
      },
      "volto-metadata-block": {
@@ -38,7 +38,7 @@
         "url": "git@github.com:eea/volto-slate-footnote.git",
         "https": "https://github.com/eea/volto-slate-footnote.git",
         "package": "@eeacms/volto-slate-footnote",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
     },
     "volto-slate-zotero": {
@@ -52,7 +52,7 @@
       "url": "git@github.com:eea/volto-widget-toggle.git",
       "https": "https://github.com/eea/volto-widget-toggle.git",
       "package": "@eeacms/volto-widget-toggle",
-      "branch": "master",
+      "branch": "develop",
       "path": "src"
     },
     "volto-widget-geolocation": {
