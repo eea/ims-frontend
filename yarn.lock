@@ -1270,7 +1270,7 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@1.0.1":
+"@eeacms/volto-block-style@1.0.1", "@eeacms/volto-block-style@^1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-1.0.1.tgz#e6dfd4402b0a30556b69403e45a6afe2f787a691"
   integrity sha512-lj5PTuv8IimS+tC0zaN0zx3Am+ssQXORvKWvmM2i+l858a7VgCSV/CUbM3/MGG8ZkcvQzIjvmLYuvS1aYw9UOA==
@@ -1293,7 +1293,7 @@
   dependencies:
     react-color "2.18.1"
 
-"@eeacms/volto-corsproxy@1.0.1":
+"@eeacms/volto-corsproxy@1.0.1", "@eeacms/volto-corsproxy@^1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
   integrity sha512-peAEg795qMtSfnJtjluLTzlXBvjd1xwJ/ml8ThXd7NOcVWAeE/0qIcp3rSwE4PZ/uh5cnNRSsselgyy9utohEA==
@@ -1333,10 +1333,13 @@
   version "0.2.8"
   resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/9d37c45031dd5412c85d612eed9cea4046ba6516"
 
-"@eeacms/volto-widget-geolocation@github:eea/volto-widget-geolocation#0.1.5":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-widget-geolocation/tar.gz/aaea631972b712761c1f72b42bb2144aed2b72eb"
+"@eeacms/volto-widget-geolocation@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-1.0.0.tgz#646179765c1945f89e80884def625bcb9fada83a"
+  integrity sha512-SOgPLLWItQvRxX/5H6SdJJIp8+PgyDFnTxCJASvIjyM6YuGtUCQQ2lPVfntFniL27+YmTg18lbs3pxbpBFB1XA==
   dependencies:
+    "@eeacms/volto-block-style" "^1.0.0"
+    "@eeacms/volto-corsproxy" "^1.0.0"
     i18n-iso-countries "6.2.1"
 
 "@eeacms/volto-widget-temporal-coverage@1.0.0":
