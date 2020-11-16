@@ -1263,9 +1263,12 @@
   version "0.1.7"
   resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/f75d4009935acf65822c49553c243b722e986eea"
 
-"@eeacms/volto-block-divider@github:eea/volto-block-divider#0.1.0":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-block-divider/tar.gz/29c3b92cbec21480bc25a3054c49ceeb0fbd1f98"
+"@eeacms/volto-block-divider@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-1.0.0.tgz#6b1f3efdb4000be08c01b7025572a201379b8a3a"
+  integrity sha512-iNyHY5jq6upXqhOaiRCVQkMJ7Fi3dEm2iPEjOeroIXXchLkmC2tOrLsmfUFdu4l3QP8NezlWU7kli/24C7r8mw==
+  dependencies:
+    react-color "~2.18.1"
 
 "@eeacms/volto-block-style@github:eea/volto-block-style#0.1.1":
   version "0.1.0"
@@ -13254,7 +13257,7 @@ react-beautiful-dnd@13.0.0:
     redux "^4.0.4"
     use-memo-one "^1.1.1"
 
-react-color@2.18.1:
+react-color@2.18.1, react-color@~2.18.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.18.1.tgz#2cda8cc8e06a9e2c52ad391a30ddad31972472f4"
   integrity sha512-X5XpyJS6ncplZs74ak0JJoqPi+33Nzpv5RYWWxn17bslih+X7OlgmfpmGC1fNvdkK7/SGWYf1JJdn7D2n5gSuQ==
