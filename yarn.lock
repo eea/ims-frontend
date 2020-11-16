@@ -1310,9 +1310,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
   integrity sha512-peAEg795qMtSfnJtjluLTzlXBvjd1xwJ/ml8ThXd7NOcVWAeE/0qIcp3rSwE4PZ/uh5cnNRSsselgyy9utohEA==
 
-"@eeacms/volto-group-block@github:eea/volto-group-block#0.1.3":
-  version "0.1.3"
-  resolved "https://codeload.github.com/eea/volto-group-block/tar.gz/1bdc6658918057c13e1a39d8e04fc177d9cf724f"
+"@eeacms/volto-group-block@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-1.0.0.tgz#b786343a8c2928437281e3d0b77df823661f3c70"
+  integrity sha512-WNuPzGpGbhKNBzVTpmqhO6gpDD7CeSoOm86QfimsCO462YnY9OrYf5IC709n8SAltHMojlOxYD/Gtht+C1Qn6Q==
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
