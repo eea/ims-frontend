@@ -134,7 +134,7 @@
     "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.4.2",
     "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.8",
     "@eeacms/volto-widget-geolocation": "github:eea/volto-widget-geolocation#0.1.5",
-    "@eeacms/volto-widget-temporal-coverage": "github:eea/volto-widget-temporal-coverage#0.1.0",
+    "@eeacms/volto-widget-temporal-coverage": "1.0.0",
     "@eeacms/volto-widget-toggle": "1.0.0",
     "@eeacms/volto-widgets-view": "1.0.1",
     "@plone/volto": "9.0.0",

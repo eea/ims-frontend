@@ -1339,9 +1339,10 @@
   dependencies:
     i18n-iso-countries "6.2.1"
 
-"@eeacms/volto-widget-temporal-coverage@github:eea/volto-widget-temporal-coverage#0.1.0":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-widget-temporal-coverage/tar.gz/09be587b16d657bf10babe41c00577e189440863"
+"@eeacms/volto-widget-temporal-coverage@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-1.0.0.tgz#3d3bd9d9df926c0402f0f90f8eb9420808cb54f6"
+  integrity sha512-V4EcNyEGo070Uyxo0E2z3lJzVeBSNMVPoQ9qoL3VCFp+R+ME/FaZXPaUj03VBRBi4M/gJj2BcxDFu9yVPQ9XuQ==
 
 "@eeacms/volto-widget-toggle@1.0.0":
   version "1.0.0"
