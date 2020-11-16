@@ -131,7 +131,7 @@
     "@eeacms/volto-object-widget": "1.0.3",
     "@eeacms/volto-sentry-rancher-config": "1.0.0",
     "@eeacms/volto-slate-footnote": "github:eea/volto-slate-footnote#0.3.1",
-    "@eeacms/volto-slate-metadata-mentions": "github:eea/volto-slate-metadata-mentions#0.4.2",
+    "@eeacms/volto-slate-metadata-mentions": "1.0.0",
     "@eeacms/volto-slate-zotero": "github:eea/volto-slate-zotero#0.2.8",
     "@eeacms/volto-widget-geolocation": "1.0.1",
     "@eeacms/volto-widget-temporal-coverage": "1.0.0",
