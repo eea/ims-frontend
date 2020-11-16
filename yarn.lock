@@ -1270,11 +1270,12 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@github:eea/volto-block-style#0.1.1":
-  version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-block-style/tar.gz/a4889e1d48fd5a96f9ce913105b5a2b7e2355c6b"
+"@eeacms/volto-block-style@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-1.0.1.tgz#e6dfd4402b0a30556b69403e45a6afe2f787a691"
+  integrity sha512-lj5PTuv8IimS+tC0zaN0zx3Am+ssQXORvKWvmM2i+l858a7VgCSV/CUbM3/MGG8ZkcvQzIjvmLYuvS1aYw9UOA==
   dependencies:
-    react-color "2.18.1"
+    react-color "~2.18.1"
 
 "@eeacms/volto-block-toc@1.0.0":
   version "1.0.0"
