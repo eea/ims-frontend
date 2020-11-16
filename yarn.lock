@@ -1335,7 +1335,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-1.0.0.tgz#0678140cd38b60e4b4789e0c269f8087217e8855"
   integrity sha512-LrGWzPCW9TCurxtRDEjmL7OLmclXyfm8xl+IPVbUwn3rFOWG15a582XNrLVj0TkjWe3EWCak3SAQUQp7KhO1rQ==
 
-"@eeacms/volto-slate-footnote@1.0.0":
+"@eeacms/volto-slate-footnote@1.0.0", "@eeacms/volto-slate-footnote@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-1.0.0.tgz#0f51737a917c4265efcfc0b0c1b0573bf807bbdf"
   integrity sha512-ZETEFnG76LmHP2aWGBaQ28dwHGdS/L6O5Fbf4cLE1xP95x1fdSmyGLck91Wajg+fJQQsMCXdMMCIog4cn/T1rg==
@@ -1350,9 +1350,13 @@
     "@eeacms/volto-widgets-view" "^1.0.0"
     volto-slate "^1.0.0"
 
-"@eeacms/volto-slate-zotero@github:eea/volto-slate-zotero#0.2.8":
-  version "0.2.8"
-  resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/9d37c45031dd5412c85d612eed9cea4046ba6516"
+"@eeacms/volto-slate-zotero@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-1.0.0.tgz#1a3580fd9b68d08dca1868579cc655c2289d3cae"
+  integrity sha512-xY7cWBl1OwDNnPEVpYajMoQmN3/VacSUEpv427nIpQ7gRJPXVDaBn5Kx612yCR/3Lt0KjAZr8yVAGAWO79uiMA==
+  dependencies:
+    "@eeacms/volto-slate-footnote" "^1.0.0"
+    volto-slate "^1.0.0"
 
 "@eeacms/volto-widget-geolocation@1.0.1", "@eeacms/volto-widget-geolocation@^1.0.0":
   version "1.0.1"
