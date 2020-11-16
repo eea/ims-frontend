@@ -122,7 +122,7 @@
     "@eeacms/volto-block-data-figure": "github:eea/volto-block-data-figure#0.1.7",
     "@eeacms/volto-block-divider": "1.0.0",
     "@eeacms/volto-block-style": "github:eea/volto-block-style#0.1.1",
-    "@eeacms/volto-block-toc": "github:eea/volto-block-toc#0.1.0",
+    "@eeacms/volto-block-toc": "1.0.0",
     "@eeacms/volto-blocks-form": "1.0.0",
     "@eeacms/volto-columns-block": "github:eea/volto-columns-block#0.3.7",
     "@eeacms/volto-corsproxy": "github:eea/volto-corsproxy#0.1.3",
