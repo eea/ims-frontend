@@ -119,7 +119,7 @@
   },
   "dependencies": {
     "@eeacms/volto-accordion-block": "github:eea/volto-accordion-block#0.1.0",
-    "@eeacms/volto-block-data-figure": "github:eea/volto-block-data-figure#0.1.7",
+    "@eeacms/volto-block-data-figure": "1.0.1",
     "@eeacms/volto-block-divider": "1.0.0",
     "@eeacms/volto-block-style": "1.0.3",
     "@eeacms/volto-block-toc": "1.0.0",

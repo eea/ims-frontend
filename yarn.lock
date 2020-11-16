@@ -1259,9 +1259,14 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-block-data-figure@github:eea/volto-block-data-figure#0.1.7":
-  version "0.1.7"
-  resolved "https://codeload.github.com/eea/volto-block-data-figure/tar.gz/f75d4009935acf65822c49553c243b722e986eea"
+"@eeacms/volto-block-data-figure@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-1.0.1.tgz#eb6fdedb13902f112f5d87ffa63ded338f0d9651"
+  integrity sha512-CvZdW+FH5vuO6IwCywilaKW1xoWNTnUORukPAob8mCyOdSorNSK5wIRd2unfAD/nb7/7F5RlAWSBuSzBlFA2OQ==
+  dependencies:
+    "@eeacms/volto-corsproxy" "^1.0.0"
+    "@eeacms/volto-widget-geolocation" "^1.0.0"
+    "@eeacms/volto-widget-temporal-coverage" "^1.0.0"
 
 "@eeacms/volto-block-divider@1.0.0":
   version "1.0.0"
@@ -1335,7 +1340,7 @@
   version "0.2.8"
   resolved "https://codeload.github.com/eea/volto-slate-zotero/tar.gz/9d37c45031dd5412c85d612eed9cea4046ba6516"
 
-"@eeacms/volto-widget-geolocation@1.0.1":
+"@eeacms/volto-widget-geolocation@1.0.1", "@eeacms/volto-widget-geolocation@^1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-1.0.1.tgz#70e8eb587bbc8e3cfc896e4234c6c04a8142123f"
   integrity sha512-4RqfMkopR3hr+3wYcYQZGm6aKyL3Jn1MTQIwCHZ0HlysElDiP1LTAJwzKIMfMQD9gdFWRIsws3uP1RhxSrVmSg==
@@ -1344,7 +1349,7 @@
     "@eeacms/volto-corsproxy" "^1.0.0"
     i18n-iso-countries "6.2.1"
 
-"@eeacms/volto-widget-temporal-coverage@1.0.0":
+"@eeacms/volto-widget-temporal-coverage@1.0.0", "@eeacms/volto-widget-temporal-coverage@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-1.0.0.tgz#3d3bd9d9df926c0402f0f90f8eb9420808cb54f6"
   integrity sha512-V4EcNyEGo070Uyxo0E2z3lJzVeBSNMVPoQ9qoL3VCFp+R+ME/FaZXPaUj03VBRBi4M/gJj2BcxDFu9yVPQ9XuQ==
