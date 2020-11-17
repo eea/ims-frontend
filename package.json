@@ -129,7 +129,7 @@
     "@eeacms/volto-group-block": "1.0.0",
     "@eeacms/volto-metadata-block": "1.0.2",
     "@eeacms/volto-object-widget": "1.0.3",
-    "@eeacms/volto-sentry-rancher-config": "1.0.0",
+    "@eeacms/volto-sentry-rancher-config": "1.0.1",
     "@eeacms/volto-slate-footnote": "1.0.0",
     "@eeacms/volto-slate-metadata-mentions": "1.0.0",
     "@eeacms/volto-slate-zotero": "1.0.0",
