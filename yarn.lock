@@ -1377,7 +1377,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-toggle/-/volto-widget-toggle-1.0.1.tgz#d0d188732c567cdc009d20fd92b9b7a2e94ffd13"
   integrity sha512-fHBmz0M4VByKI5jPJ5uMYluUjJ8yKpS7iEtxm59YwTQ0vNIGXUW0PFz9g2qRUpu1qZ0WY3LjJAqT7Lp834y1jg==
 
-"@eeacms/volto-widgets-view@1.0.2", "@eeacms/volto-widgets-view@^1.0.0":
+"@eeacms/volto-widgets-view@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.3.tgz#6c2385c39bccc613152332c181f17633fb0dbd72"
+  integrity sha512-vrIg7Sox0ZXu8xwRdjAlIoPAadXddpGCUaOPr4L8XuR6dW+qFi5efxqgecKNJUuvswpB0MW+i+4b2KFb8PXcSw==
+
+"@eeacms/volto-widgets-view@^1.0.0":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.2.tgz#7526758ed211dfea34f8c1d03c80052ca47e9604"
   integrity sha512-UP1CdEGuED/DZF3EXHbGsnl30pKvlVyssWyEBVaPfDa4ORHAeG1mPlH7CfChEMzBKZuWANPd6X8Uj84kGpetfQ==
@@ -1876,10 +1881,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-9.0.0.tgz#89a03b3e7fc89069a61cc79b3686335aa0155523"
-  integrity sha512-u0eh3Lqu6MDIiytbgzy66Cq8C1XortoB2i9Nmt2J1YNMyWJhkige/RAd3bPndXNX7cI30yHE8IZ0YHQdByQnqw==
+"@plone/volto@9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-9.1.0.tgz#1760310b059997f106d7522a44e0b44c6d4a24ea"
+  integrity sha512-yGtDu6MQs6eZnn6LxoQ7fIROPkrfgO196MG/u6q1LsF2c7lmoN68HPZJoKcK7n7cua+skChfcymWQv3xzKTQPw==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"

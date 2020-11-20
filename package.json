@@ -136,8 +136,8 @@
     "@eeacms/volto-widget-geolocation": "1.0.1",
     "@eeacms/volto-widget-temporal-coverage": "1.0.0",
     "@eeacms/volto-widget-toggle": "1.0.1",
-    "@eeacms/volto-widgets-view": "1.0.2",
-    "@plone/volto": "9.0.0",
+    "@eeacms/volto-widgets-view": "1.0.3",
+    "@plone/volto": "9.1.0",
     "volto-slate": "1.0.0"
   },
   "devDependencies": {
