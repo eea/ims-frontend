@@ -1265,10 +1265,20 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.0.tgz#58931083916716b1f810bf57493c10b6390eb93d"
   integrity sha512-nqax5jUsxJrimKtG2GbjRHpD7UtVIlMb3N2Mwgyn5N8NP80RnxltAU7C4f2/mAN3gi6LV4Ox/quUpg8ewNaENw==
 
+"@eeacms/volto-blocks-form@github:eea/volto-blocks-form#0.5.2":
+  version "0.5.0"
+  resolved "https://codeload.github.com/eea/volto-blocks-form/tar.gz/f75fc97a7642d1d28dedcc2da7ea9d007114c8cd"
+
 "@eeacms/volto-corsproxy@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.0.tgz#5c8be5f38387468e18e302358027d270874638c3"
   integrity sha512-DdzUzOqrKrqKiS2NaYhYkZ/kEmCzly5VtbNRTWXLB35LqhysPxfxWKmY6Xhak2WgXgPF3+4wwpXeKOLMlcWb+w==
+
+"@eeacms/volto-object-widget@eea/volto-object-widget":
+  version "1.0.3"
+  resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/65381d93145c3e71c15874194d0afaa94711917d"
+  dependencies:
+    "@eeacms/volto-blocks-form" "^1.0.0"
 
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.29"
@@ -1764,10 +1774,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@9.1.0":
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-9.1.0.tgz#1760310b059997f106d7522a44e0b44c6d4a24ea"
-  integrity sha512-yGtDu6MQs6eZnn6LxoQ7fIROPkrfgO196MG/u6q1LsF2c7lmoN68HPZJoKcK7n7cua+skChfcymWQv3xzKTQPw==
+"@plone/volto@9.2.0":
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-9.2.0.tgz#e2c086d8afeb3eff3ad7a2f96adbd7edd1638a11"
+  integrity sha512-SL9iQqv0KCFVvFTzc/SK1R6xIH5gc5XE5V3odni99ZcJTjcwUQh7Vm8Im/9NR1xGG3z/V1QEy6HHiJ9x+wzqMQ==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -1925,6 +1935,13 @@
     lodash.debounce "^4.0.8"
     native-url "^0.2.6"
     schema-utils "^2.6.5"
+
+"@rohberg/volto-accordion-block@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@rohberg/volto-accordion-block/-/volto-accordion-block-0.1.0.tgz#0d3061a5b43574c212878d4ab6209a1aa025b984"
+  integrity sha512-TYQFJALMoCWxk4yFwi3T/Ua6Zr/Tpl2saFyiBILqsGRDr+UIQqTJacUlt4FJtLYoTpx8XZG1HQQgRGCJRsOoug==
+  dependencies:
+    "@eeacms/volto-blocks-form" "github:eea/volto-blocks-form#0.5.2"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
