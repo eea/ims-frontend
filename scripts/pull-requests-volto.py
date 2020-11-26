@@ -5,7 +5,7 @@ import base64
 import os
 import sys
 import json
-import urllib.request, urllib.error, urllib.parse
+from six.moves import urllib
 import logging
 import contextlib
 from datetime import datetime
