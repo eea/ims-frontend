@@ -45,7 +45,9 @@
     "release": "./scripts/release.py",
     "issues": "./scripts/pull-requests.py WARN",
     "issues:all": "./scripts/pull-requests-volto.py WARN",
-    "status": "./scripts/status.sh"
+    "status": "./scripts/status.sh",
+    "pull": "./scripts/pull.sh"
+
   },
   "jest": {
     "modulePathIgnorePatterns": [

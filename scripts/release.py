@@ -65,7 +65,7 @@ def main(verbose=True):
                     if(verbose):
                         print("==================== %s " % path)
                         print(res.decode('utf-8'))
-                    to_be_release.append(addon)
+                    to_be_release.append("%s: %s ->" % (addon, release))
 
     return to_be_release
 
