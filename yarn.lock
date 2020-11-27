@@ -1318,10 +1318,12 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-metadata-block@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.2.tgz#ebcca45feb97ce64cf308ef5c9f4b7dad3bfd628"
-  integrity sha512-5aNwnHRigdUtXWiuSww6BQbEzhYe5W/+1Gxrj5NRL2FwBjWRA0gHW4K1iOip84sH+xGzGK4gsR5ubVNp74CRaQ==
+"@eeacms/volto-metadata-block@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.3.tgz#1f44787ed02594a74bd3e83718b3437ece96966f"
+  integrity sha512-PtVctcbXaOeruYM7WcLbD4PlSk7QhdmAFxj1AzhzL+I5Zn27SLK87HhbPMfEYvjqj4N5u5XEizyFDykHPaBWzA==
+  dependencies:
+    "@eeacms/volto-widgets-view" "^1.0.3"
 
 "@eeacms/volto-object-widget@1.0.3":
   version "1.0.3"
@@ -1382,7 +1384,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-toggle/-/volto-widget-toggle-1.0.1.tgz#d0d188732c567cdc009d20fd92b9b7a2e94ffd13"
   integrity sha512-fHBmz0M4VByKI5jPJ5uMYluUjJ8yKpS7iEtxm59YwTQ0vNIGXUW0PFz9g2qRUpu1qZ0WY3LjJAqT7Lp834y1jg==
 
-"@eeacms/volto-widgets-view@1.0.3":
+"@eeacms/volto-widgets-view@1.0.3", "@eeacms/volto-widgets-view@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.3.tgz#6c2385c39bccc613152332c181f17633fb0dbd72"
   integrity sha512-vrIg7Sox0ZXu8xwRdjAlIoPAadXddpGCUaOPr4L8XuR6dW+qFi5efxqgecKNJUuvswpB0MW+i+4b2KFb8PXcSw==
