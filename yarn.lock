@@ -1260,14 +1260,16 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-block-data-figure@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-1.0.3.tgz#386d245271ba40f9b6de205d3539752da61a3d94"
-  integrity sha512-lGkkbv1hYTkFhMGCEs1p6Xu1bhWHvKvVEHwl3Y8gzE2u6l+iEcibsd4H9Te4eMSwJ+IqqEbrl1Q1kgzr5sRe5g==
+"@eeacms/volto-block-data-figure@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-1.0.5.tgz#ea90421c858fe6b6dcf90f9bc08d0b9f79e44f7d"
+  integrity sha512-CbrKbzEQdcc/8oUMyPLRo31mJj3JcfyGg3Tjo+auo+k00SK3EOGFLbu976seaDhLOyl49BRHcfS+7rmxDTFXHg==
   dependencies:
+    "@eeacms/volto-block-style" "^1.0.0"
     "@eeacms/volto-corsproxy" "^1.0.0"
     "@eeacms/volto-widget-geolocation" "^1.0.0"
     "@eeacms/volto-widget-temporal-coverage" "^1.0.0"
+    volto-slate "^1.0.0"
 
 "@eeacms/volto-block-divider@1.1.0":
   version "1.1.0"
