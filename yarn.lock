@@ -1288,10 +1288,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-1.0.0.tgz#13c2e644ec51914ae5426c8406ad36b6a6060db2"
   integrity sha512-IdKD0KSEZJ73ezak2oX5jsbCgxD8bZbqnRret7gR6WfDsRwZIObrz7xhE3P33S89sdvd5uXD12+Q13LTKjN4zA==
 
-"@eeacms/volto-blocks-form@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.1.tgz#b7a6022a52a34666be258529e560171c7f595e96"
-  integrity sha512-0yf7x8QNxhUelDPdMzpQRgBrqTsvBiGOOvBSt+C9W2bzw5D9rJvj4NUVeo3tEIPWKJHHxBgh83Av1EquQjxsTw==
+"@eeacms/volto-blocks-form@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.2.tgz#de2e89ea7e591a68c6aa35e6f99b53673b5f71aa"
+  integrity sha512-ZRbylEuS7CrsFXG2JeY8nA9lJu8Loz8fkj1RE7VfBHLuW0xWr5EZsTWWc2WaaNbnVocNlV+ZvvVN0bx6ZtPprw==
 
 "@eeacms/volto-blocks-form@^1.0.0":
   version "1.0.0"
@@ -1332,7 +1332,7 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-object-widget@github:eea/volto-object-widget":
+"@eeacms/volto-object-widget@eea/volto-object-widget":
   version "1.0.3"
   resolved "https://codeload.github.com/eea/volto-object-widget/tar.gz/65381d93145c3e71c15874194d0afaa94711917d"
   dependencies:
