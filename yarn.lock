@@ -1269,10 +1269,10 @@
     "@eeacms/volto-widget-geolocation" "^1.0.0"
     "@eeacms/volto-widget-temporal-coverage" "^1.0.0"
 
-"@eeacms/volto-block-divider@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-1.0.1.tgz#c8057d8232935910c59893fb73948e3a8c52d9c7"
-  integrity sha512-ceqgyXLLUUSmkxliSJfgTFTNxgUGoeOK3ymAQu2IkmE0e3DInhsUQAEIJkEL+6D04WClDKvvdn9XyiB4EZW+TQ==
+"@eeacms/volto-block-divider@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-1.1.0.tgz#4609aff2229d41d4fdbe2e4220e778e4c13e6c22"
+  integrity sha512-ibNms+ROtu5Bqzw8DioEGjiChiUhJ0Ukkq0WPITorUSMNCsMJLgbbd/hJZTb3+vRbGgkSQ0reZB4+lh1c/VBUg==
   dependencies:
     react-color "~2.18.1"
 
