@@ -137,7 +137,7 @@
     "@eeacms/volto-widget-temporal-coverage": "1.0.1",
     "@eeacms/volto-widget-toggle": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",
-    "@plone/volto": "9.2.0",
+    "@plone/volto": "10.1.0",
     "volto-slate": "1.0.2"
   },
   "devDependencies": {
