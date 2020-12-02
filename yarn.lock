@@ -1337,10 +1337,10 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-metadata-block@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.3.tgz#1f44787ed02594a74bd3e83718b3437ece96966f"
-  integrity sha512-PtVctcbXaOeruYM7WcLbD4PlSk7QhdmAFxj1AzhzL+I5Zn27SLK87HhbPMfEYvjqj4N5u5XEizyFDykHPaBWzA==
+"@eeacms/volto-metadata-block@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.4.tgz#45b161fba5663a80ab2dfa30da808986ad1f88b6"
+  integrity sha512-cKNt2QdocMIYkQESItCct7aP2U6uqnno7zNruVkHRoruvgi/tGh2mWwH7tmj7EAR37wFVMmLtNglIUAh2nDqZw==
   dependencies:
     "@eeacms/volto-widgets-view" "^1.0.3"
 
