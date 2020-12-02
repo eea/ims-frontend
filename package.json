@@ -120,7 +120,7 @@
   "dependencies": {
     "@eeacms/volto-accordion-block": "2.0.1",
     "@eeacms/volto-block-data-figure": "1.0.6",
-    "@eeacms/volto-block-divider": "1.1.0",
+    "@eeacms/volto-block-divider": "1.1.1",
     "@eeacms/volto-block-style": "1.0.3",
     "@eeacms/volto-block-toc": "1.0.0",
     "@eeacms/volto-blocks-form": "1.0.3",
