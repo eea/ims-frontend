@@ -1317,10 +1317,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.0.tgz#58931083916716b1f810bf57493c10b6390eb93d"
   integrity sha512-nqax5jUsxJrimKtG2GbjRHpD7UtVIlMb3N2Mwgyn5N8NP80RnxltAU7C4f2/mAN3gi6LV4Ox/quUpg8ewNaENw==
 
-"@eeacms/volto-columns-block@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-1.0.0.tgz#f48d9a08fa756b7888af134fee5c8e4a9d512e63"
-  integrity sha512-QAfiDzTmhRlhoCVcLMWjKnkFs7wVBiFlcGfNArCzWddetl8Hap1ktb7CRW1l4kGFfxkBj7RTNL3723BWy+P4Bg==
+"@eeacms/volto-columns-block@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-1.0.1.tgz#2557399a97f00370434b3f7a8e17d5d23686d679"
+  integrity sha512-Ij3cc7u6k2+8rcw7pbH0QAVooV7J6Dvd20V7lS1SYrWLnlr7e/mTDlYdb5W+mA97VAmv3KmcpIsNLh7WS2V9dQ==
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
     react-color "~2.18.1"
