@@ -138,5 +138,12 @@
        "package": "@eeacms/volto-accordion-block",
        "branch": "develop",
        "path": "src"
-     }
+     },
+     "volto-grid-block": {
+        "url": "git@github.com:eea/volto-grid-block.git",
+        "https": "https://github.com/eea/volto-grid-block.git",
+        "package": "@eeacms/volto-grid-block",
+        "branch": "develop",
+        "path": "src"
+      }
  }
