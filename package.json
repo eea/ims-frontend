@@ -135,7 +135,7 @@
     "@eeacms/volto-slate-footnote": "1.0.0",
     "@eeacms/volto-slate-metadata-mentions": "1.0.0",
     "@eeacms/volto-slate-zotero": "1.0.0",
-    "@eeacms/volto-widget-geolocation": "1.0.1",
+    "@eeacms/volto-widget-geolocation": "1.0.2",
     "@eeacms/volto-widget-temporal-coverage": "1.0.1",
     "@eeacms/volto-widget-toggle": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",
