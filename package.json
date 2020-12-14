@@ -11,6 +11,10 @@
     "@eeacms/volto-widget-toggle",
     "@eeacms/volto-widget-temporal-coverage",
     "@eeacms/volto-widget-geolocation",
+    "volto-slate:asDefault",
+    "@eeacms/volto-slate-metadata-mentions",
+    "@eeacms/volto-slate-footnote",
+    "@eeacms/volto-slate-zotero",
     "@eeacms/volto-blocks-form",
     "@eeacms/volto-accordion-block",
     "@eeacms/volto-block-toc",
@@ -20,10 +24,6 @@
     "@eeacms/volto-group-block",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-grid-block",
-    "volto-slate:asDefault",
-    "@eeacms/volto-slate-metadata-mentions",
-    "@eeacms/volto-slate-footnote",
-    "@eeacms/volto-slate-zotero",
     "@eeacms/volto-block-style"
   ],
   "scripts": {
