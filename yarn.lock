@@ -1330,10 +1330,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
   integrity sha512-peAEg795qMtSfnJtjluLTzlXBvjd1xwJ/ml8ThXd7NOcVWAeE/0qIcp3rSwE4PZ/uh5cnNRSsselgyy9utohEA==
 
-"@eeacms/volto-grid-block@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-grid-block/-/volto-grid-block-1.0.1.tgz#06b0bbb763f1a21428d591c57edf8bdc4386d69f"
-  integrity sha512-3/2P6CwRD3OEyc8XRCOfcafVZ4cXNFh/T7KP6zedmLrLMxOZZ3i6lLaLQIIrxWv+ZfF/btc2k1H9fUzICOhAGw==
+"@eeacms/volto-grid-block@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-grid-block/-/volto-grid-block-1.1.0.tgz#712bc602df9acf1e336405c7e1cf9e989c993772"
+  integrity sha512-yUnh/HveoXmtPtzioMGYJv0IN/2Kk8ziAOM0UlkmvWZvB8uID8eSWdfijO/KExcT5sgbmiI9bfC5ptv5Tqvh+g==
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
     css-to-react-native "3.0.0"

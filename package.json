@@ -127,7 +127,7 @@
     "@eeacms/volto-blocks-form": "1.0.3",
     "@eeacms/volto-columns-block": "1.0.3",
     "@eeacms/volto-corsproxy": "1.0.1",
-    "@eeacms/volto-grid-block": "1.0.1",
+    "@eeacms/volto-grid-block": "1.1.0",
     "@eeacms/volto-group-block": "1.0.1",
     "@eeacms/volto-metadata-block": "1.0.4",
     "@eeacms/volto-object-widget": "1.0.3",
