@@ -140,7 +140,7 @@
     "@eeacms/volto-widget-toggle": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",
     "@plone/volto": "10.4.1",
-    "volto-slate": "1.0.4"
+    "volto-slate": "1.0.5"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
