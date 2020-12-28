@@ -8,7 +8,8 @@
     "src/addons/volto-slate",
     "src/addons/volto-columns-block",
     "src/addons/volto-widget-geolocation",
-    "src/addons/volto-grid-block"
+    "src/addons/volto-grid-block",
+    "src/addons/volto-ims-theme"
   ],
   "addons": [
     "@eeacms/volto-accordion-block",
@@ -31,7 +32,9 @@
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-slate-zotero",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-workflow-progress",
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-ims-theme"
   ],
   "scripts": {
     "start": "razzle start",
@@ -132,7 +135,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "10.1.0"
+    "@plone/volto": "10.6.1"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",

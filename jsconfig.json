@@ -63,6 +63,12 @@
             ],
             "@eeacms/volto-grid-block": [
                 "addons/volto-grid-block/src"
+            ],
+            "@eeacms/volto-workflow-progress": [
+                "addons/volto-workflow-progress/src"
+            ],
+            "@eeacms/volto-ims-theme": [
+                "addons/volto-ims-theme/src"
             ]
         },
         "baseUrl": "src"
