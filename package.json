@@ -24,7 +24,8 @@
     "@eeacms/volto-group-block",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-grid-block",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-ims-theme"
   ],
   "scripts": {
     "start": "razzle start",
@@ -129,6 +130,7 @@
     "@eeacms/volto-corsproxy": "1.0.1",
     "@eeacms/volto-grid-block": "1.1.0",
     "@eeacms/volto-group-block": "1.0.1",
+    "@eeacms/volto-ims-theme": "0.2.0",
     "@eeacms/volto-metadata-block": "1.0.4",
     "@eeacms/volto-object-widget": "1.0.3",
     "@eeacms/volto-sentry-rancher-config": "1.1.0",

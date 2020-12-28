@@ -1346,6 +1346,11 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
+"@eeacms/volto-ims-theme@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-0.2.0.tgz#b730309b456e80b35a53a5bc551a91394fd1b5ea"
+  integrity sha512-Y6zg33e7er/Q3DBKh4Z3NGK4DRJ0oRcKdxjOfZZzX1RwrQFMxgYB64tsPFX382Y0ajWOjQpmKwete/rSfFdfQg==
+
 "@eeacms/volto-metadata-block@1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.4.tgz#45b161fba5663a80ab2dfa30da808986ad1f88b6"
