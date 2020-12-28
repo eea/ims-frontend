@@ -24,6 +24,7 @@
     "@eeacms/volto-group-block",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-grid-block",
+    "@eeacms/volto-workflow-progress",
     "@eeacms/volto-block-style",
     "@eeacms/volto-ims-theme"
   ],
@@ -141,6 +142,7 @@
     "@eeacms/volto-widget-temporal-coverage": "1.0.1",
     "@eeacms/volto-widget-toggle": "1.0.1",
     "@eeacms/volto-widgets-view": "1.0.3",
+    "@eeacms/volto-workflow-progress": "1.0.0",
     "@plone/volto": "10.6.1",
     "volto-slate": "1.0.7"
   },
