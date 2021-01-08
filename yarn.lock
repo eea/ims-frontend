@@ -1268,6 +1268,13 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@eeacms/volto-accordion-block@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-1.0.0.tgz#dd9b50cdcfa4360d91948f55d99753201b83d9e5"
+  integrity sha512-akRTx0BrOTh0y/JXllGLrp1gpNEHNrSr1MLca3V48+vt3w+XVFmrnQPLHOfk6Fdh/WZT+y6TpDcEfwaJDzkBbg==
+  dependencies:
+    "@eeacms/volto-blocks-form" "^1.0.0"
+
 "@eeacms/volto-block-style@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-1.0.0.tgz#ce148c1f75126216224e27fa83d3b05dacb9e3f6"
@@ -1797,10 +1804,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@10.6.1":
-  version "10.6.1"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-10.6.1.tgz#0af580287086c924bce9a093470c34b59a9f4a4b"
-  integrity sha512-hiIW6gQLzRhNflpaTX3jJrQTlkwQGMNFtB8I7vXfMMKiwXgz9y6IEzJ6LnUVECmCYM3EW9PLzX9gLcwDRcaVRg==
+"@plone/volto@10.7.0":
+  version "10.7.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-10.7.0.tgz#7ceb1cdd2990a5fecb21e541ecb80df1fb73c70c"
+  integrity sha512-dVfZw6lzvAn8HRpC7bcGUC1gUJx4UrV/AOPq/iS+2ldLkYtfrjhWnSQmnsGgBTi9E/nty3l5AviJTBaV8Td2ZQ==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
