@@ -1346,10 +1346,10 @@
     css-to-react-native "3.0.0"
     react-color "^2.18.1"
 
-"@eeacms/volto-group-block@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-1.0.1.tgz#63944c1f1456c289c406081827f19c5ae9a5f494"
-  integrity sha512-Qrcoj9gZTD7TRH0kktA18jXaYZQZiKAaXh7/PoXkPRwNYfVm8zH/eY5eCE06x1fJ1FpST+euW8LjxpyLVzTpCg==
+"@eeacms/volto-group-block@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-1.0.3.tgz#8191f2b0ec399d1a6d84faa10c34228b1f2b9e39"
+  integrity sha512-26rsTVGef28w3e1iCve2jWoOUM/X2OkiOQ8YcDM7X6iGei8vZ8ANEb0a7N9isA5y6g+OrFQaOnLgGy36MBCeYg==
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
