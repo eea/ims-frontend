@@ -20,3 +20,338 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Add {schemaTitle}"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+msgid "Advance search"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Alignment"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "All Styles Applied"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Breadcrumbs/Breadcrumbs
+msgid "Breadcrumbs"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Cancel"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Cell"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Choices"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Click the Add button below to add an item to this empty list."
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Close"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Navigation/Navigation
+msgid "Close menu"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+msgid "Data Visualization URL or SVG/PNG image"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Data sources "
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Default"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Delete"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Delete col"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Delete row"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Description"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Divide each row into separate cells"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Edit"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/index
+msgid "Edit citation"
+msgstr ""
+
+#: addons/volto-slate/src/components/ElementEditor/messages
+msgid "Edit element"
+msgstr ""
+
+#: addons/volto-slate-footnote/src/editor/index
+msgid "Edit footnote"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/Link/index
+msgid "Edit link"
+msgstr ""
+
+#: addons/volto-slate-metadata-mentions/src/plugins/Mentions/index
+msgid "Edit metadata"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+msgid "Edit values"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+msgid "Error"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Logo/Logo
+msgid "European Environment Agency"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "External URL"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Fixed width table cells"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "Font Style"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+msgid "Geographic coverage"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+msgid "Geographic group"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Breadcrumbs/Breadcrumbs
+msgid "Home"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Image"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+msgid "Image(s) not found"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert col after"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert col before"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert row after"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert row before"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Interactive link "
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Label "
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Make the table compact"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "No Style"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "No image selected"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "No options"
+msgstr ""
+
+#: addons/volto-widget-temporal-coverage/src/components/manage/Widgets/TemporalWidget
+msgid "No selection"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "No value"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Open in a new tab"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Navigation/Navigation
+msgid "Open menu"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Origin"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "Paragraph Style"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+msgid "Please use valid daviz url."
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Reduce complexity"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/index
+msgid "Remove citation"
+msgstr ""
+
+#: addons/volto-slate/src/components/ElementEditor/messages
+msgid "Remove element"
+msgstr ""
+
+#: addons/volto-slate-footnote/src/editor/index
+msgid "Remove footnote"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/Link/index
+msgid "Remove link"
+msgstr ""
+
+#: addons/volto-slate-metadata-mentions/src/plugins/Mentions/index
+msgid "Remove metadata"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Required"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Save"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/SearchWidget/SearchWidget
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/SearchWidget
+msgid "Search"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/SearchWidget
+msgid "Search for geoTags"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Select…"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Short Name"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Logo/Logo
+msgid "Site"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Size"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Stripe alternate rows with color"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Table"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Table color inverted"
+msgstr ""
+
+#: addons/volto-block-toc/src/Block/DefaultTocRenderer
+#: addons/volto-block-toc/src/Block/HorizontalMenu
+msgid "Table of Contents"
+msgstr ""
+
+#: addons/volto-widget-temporal-coverage/src/components/manage/Widgets/TemporalWidget
+msgid "Temporal coverage"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+msgid "There were some errors"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Title"
+msgstr ""
+
+#: addons/volto-blocks-form/src/customizations/components/manage/Blocks/Text/Edit
+msgid "Type text…"
+msgstr ""
+
+#: addons/volto-accordion-block/src/components/manage/Blocks/Accordion/EditBlockWrapper
+#: addons/volto-blocks-form/src/components/manage/Blocks/Block/Edit
+#: addons/volto-blocks-form/src/components/theme/View/RenderBlocks
+#: addons/volto-columns-block/src/ColumnsBlock/EditBlockWrapper
+#: addons/volto-grid-block/src/components/manage/Blocks/Block/Edit
+#: addons/volto-grid-block/src/components/theme/View/RenderBlocks
+#: addons/volto-grid-block/src/GridBlock/EditBlockWrapper
+msgid "Unknown Block"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Used for programmatic access to the fieldset."
+msgstr ""
+
+#: addons/volto-accordion-block/src/components/manage/Blocks/Accordion/EditBlockWrapper
+#: addons/volto-blocks-form/src/components/manage/Blocks/Block/EditBlockWrapper
+#: addons/volto-columns-block/src/ColumnsBlock/EditBlockWrapper
+#: addons/volto-grid-block/src/components/manage/Blocks/Block/Edit
+#: addons/volto-grid-block/src/GridBlock/EditBlockWrapper
+msgid "delete"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "{count} x {type}"
+msgstr ""

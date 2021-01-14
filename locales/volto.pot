@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2018-10-03T09:01:24.737Z\n"
+"POT-Creation-Date: 2021-01-14T11:03:33.219Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -12,3 +12,417 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+# defaultMessage: Add {schemaTitle}
+msgid "Add {schemaTitle}"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+# defaultMessage: Advance search
+msgid "Advance search"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Alignment
+msgid "Alignment"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+# defaultMessage: All Styles Applied
+msgid "All Styles Applied"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Breadcrumbs/Breadcrumbs
+# defaultMessage: Breadcrumbs
+msgid "Breadcrumbs"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+# defaultMessage: Cancel
+msgid "Cancel"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Cell
+msgid "Cell"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Choices
+msgid "Choices"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+# defaultMessage: Click the Add button below to add an item to this empty list.
+msgid "Click the Add button below to add an item to this empty list."
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Close
+msgid "Close"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Navigation/Navigation
+# defaultMessage: Close menu
+msgid "Close menu"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+# defaultMessage: Data Visualization URL or SVG/PNG image
+msgid "Data Visualization URL or SVG/PNG image"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Data sources
+msgid "Data sources "
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Default
+msgid "Default"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+# defaultMessage: Delete
+msgid "Delete"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Delete col
+msgid "Delete col"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Delete row
+msgid "Delete row"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Description
+msgid "Description"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Divide each row into separate cells
+msgid "Divide each row into separate cells"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+# defaultMessage: Edit
+msgid "Edit"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/index
+# defaultMessage: Edit citation
+msgid "Edit citation"
+msgstr ""
+
+#: addons/volto-slate/src/components/ElementEditor/messages
+# defaultMessage: Edit element
+msgid "Edit element"
+msgstr ""
+
+#: addons/volto-slate-footnote/src/editor/index
+# defaultMessage: Edit footnote
+msgid "Edit footnote"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/Link/index
+# defaultMessage: Edit link
+msgid "Edit link"
+msgstr ""
+
+#: addons/volto-slate-metadata-mentions/src/plugins/Mentions/index
+# defaultMessage: Edit metadata
+msgid "Edit metadata"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+# defaultMessage: Edit values
+msgid "Edit values"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+# defaultMessage: Error
+msgid "Error"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Logo/Logo
+# defaultMessage: European Environment Agency
+msgid "European Environment Agency"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: External URL
+msgid "External URL"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Fixed width table cells
+msgid "Fixed width table cells"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+# defaultMessage: Font Style
+msgid "Font Style"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+# defaultMessage: Geographic coverage
+msgid "Geographic coverage"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+# defaultMessage: Geographic group
+msgid "Geographic group"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Breadcrumbs/Breadcrumbs
+# defaultMessage: Home
+msgid "Home"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Image
+msgid "Image"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+# defaultMessage: Image(s) not found.
+msgid "Image(s) not found"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Insert col after
+msgid "Insert col after"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Insert col before
+msgid "Insert col before"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Insert row after
+msgid "Insert row after"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Insert row before
+msgid "Insert row before"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Interactive link
+msgid "Interactive link "
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Label
+msgid "Label "
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Make the table compact
+msgid "Make the table compact"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+# defaultMessage: No Style
+msgid "No Style"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: No image selected
+msgid "No image selected"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: No options
+msgid "No options"
+msgstr ""
+
+#: addons/volto-widget-temporal-coverage/src/components/manage/Widgets/TemporalWidget
+# defaultMessage: No selection
+msgid "No selection"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: No value
+msgid "No value"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Open in a new tab
+msgid "Open in a new tab"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Navigation/Navigation
+# defaultMessage: Open menu
+msgid "Open menu"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Origin
+msgid "Origin"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+# defaultMessage: Paragraph Style
+msgid "Paragraph Style"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+# defaultMessage: Please use valid daviz url.
+msgid "Please use valid daviz url."
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Reduce complexity
+msgid "Reduce complexity"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/index
+# defaultMessage: Remove citation
+msgid "Remove citation"
+msgstr ""
+
+#: addons/volto-slate/src/components/ElementEditor/messages
+# defaultMessage: Remove element
+msgid "Remove element"
+msgstr ""
+
+#: addons/volto-slate-footnote/src/editor/index
+# defaultMessage: Remove footnote
+msgid "Remove footnote"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/Link/index
+# defaultMessage: Remove link
+msgid "Remove link"
+msgstr ""
+
+#: addons/volto-slate-metadata-mentions/src/plugins/Mentions/index
+# defaultMessage: Remove metadata
+msgid "Remove metadata"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Required
+msgid "Required"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+# defaultMessage: Save
+msgid "Save"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/SearchWidget/SearchWidget
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/SearchWidget
+# defaultMessage: Search
+msgid "Search"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/SearchWidget
+# defaultMessage: Search for geoTags
+msgid "Search for geoTags"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Select…
+msgid "Select…"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Short Name
+msgid "Short Name"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Logo/Logo
+# defaultMessage: Site
+msgid "Site"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+# defaultMessage: Size
+msgid "Size"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Stripe alternate rows with color
+msgid "Stripe alternate rows with color"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Table
+msgid "Table"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+# defaultMessage: Table color inverted
+msgid "Table color inverted"
+msgstr ""
+
+#: addons/volto-block-toc/src/Block/DefaultTocRenderer
+#: addons/volto-block-toc/src/Block/HorizontalMenu
+# defaultMessage: Table of Contents
+msgid "Table of Contents"
+msgstr ""
+
+#: addons/volto-widget-temporal-coverage/src/components/manage/Widgets/TemporalWidget
+# defaultMessage: Temporal coverage
+msgid "Temporal coverage"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+# defaultMessage: There were some errors
+msgid "There were some errors"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Title
+msgid "Title"
+msgstr ""
+
+#: addons/volto-blocks-form/src/customizations/components/manage/Blocks/Text/Edit
+# defaultMessage: Type text…
+msgid "Type text…"
+msgstr ""
+
+#: addons/volto-accordion-block/src/components/manage/Blocks/Accordion/EditBlockWrapper
+#: addons/volto-blocks-form/src/components/manage/Blocks/Block/Edit
+#: addons/volto-blocks-form/src/components/theme/View/RenderBlocks
+#: addons/volto-columns-block/src/ColumnsBlock/EditBlockWrapper
+#: addons/volto-grid-block/src/components/manage/Blocks/Block/Edit
+#: addons/volto-grid-block/src/components/theme/View/RenderBlocks
+#: addons/volto-grid-block/src/GridBlock/EditBlockWrapper
+# defaultMessage: Unknown Block {block}
+msgid "Unknown Block"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+# defaultMessage: Used for programmatic access to the fieldset.
+msgid "Used for programmatic access to the fieldset."
+msgstr ""
+
+#: addons/volto-accordion-block/src/components/manage/Blocks/Accordion/EditBlockWrapper
+#: addons/volto-blocks-form/src/components/manage/Blocks/Block/EditBlockWrapper
+#: addons/volto-columns-block/src/ColumnsBlock/EditBlockWrapper
+#: addons/volto-grid-block/src/components/manage/Blocks/Block/Edit
+#: addons/volto-grid-block/src/GridBlock/EditBlockWrapper
+# defaultMessage: delete
+msgid "delete"
+msgstr ""
+
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+# defaultMessage: {count} x {type}
+msgid "{count} x {type}"
+msgstr ""

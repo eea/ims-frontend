@@ -18,413 +18,337 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "X-Is-Fallback-For: ja-jp\n"
 
-#: addons/kitconcept.volto-blocks/src/components/Listing/QuerystringWidget
-msgid "Add criteria"
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Add {schemaTitle}"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+msgid "Advance search"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
 msgid "Alignment"
 msgstr ""
 
-#: components/Blocks/JobFilter/View
-#: components/Blocks/JobListing/View
-msgid "All"
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "All Styles Applied"
 msgstr ""
 
-#: components/Blocks/ContactBlock/Edit
-#: components/Blocks/ContactBlock/View
-msgid "Also use our Whatsapp-Chat:"
+#: addons/volto-ims-theme/src/customizations/components/theme/Breadcrumbs/Breadcrumbs
+msgid "Breadcrumbs"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
-msgid "Alt text"
-msgstr ""
-
-#: components/manage/Sidebar/HeroSidebar
-msgid "Background Color"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Slider/Edit
-#: addons/kitconcept.volto-blocks/src/Freezer/ObjectBrowser/ObjectBrowserInner
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/Edit
-msgid "Browse or type URL"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/Freezer/Image/Edit
-#: components/Blocks/ContactBlock/Edit
-#: components/Blocks/HeroBlock/Edit
-#: components/Blocks/JobOffersBlock/Edit
-msgid "Browse the site, drop an image, or type an URL"
-msgstr ""
-
-#: components/manage/Sidebar/HeroSidebar
-msgid "Buttons"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/BlockModal/BlockModal
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
 msgid "Cancel"
 msgstr ""
 
-#: customizations/components/theme/Navigation/Navigation
-msgid "Carreer"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Cell"
 msgstr ""
 
-#: components/manage/Sidebar/HeroSidebar
-msgid "Choose a background color for the Block"
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Choices"
 msgstr ""
 
-#: customizations/components/theme/Navigation/Navigation
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Click the Add button below to add an item to this empty list."
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Close"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Navigation/Navigation
 msgid "Close menu"
 msgstr ""
 
-#: components/manage/Sidebar/HeroSidebar
-msgid "Color Button Red"
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+msgid "Data Visualization URL or SVG/PNG image"
 msgstr ""
 
-#: components/Blocks/ContactBlock/Edit
-#: components/Blocks/ContactBlock/View
-#: customizations/components/theme/Footer/Footer
-msgid "Contact"
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Data sources "
 msgstr ""
 
-#: components/manage/Sidebar/ContactSidebar
-msgid "Contact Person"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Listing/Edit
-msgid "Contained items"
-msgstr ""
-
-#: customizations/components/theme/Footer/Footer
-msgid "Copyright"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Listing/QuerystringWidget
-msgid "Criteria"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Widgets/CheckboxWidget
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
 msgid "Default"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Widgets/CheckboxWidget
-#: components/Blocks/ContactBlock/Edit
-#: components/Blocks/HeroBlock/Edit
-#: components/Blocks/JobOffersBlock/Edit
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Delete"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Delete col"
+msgstr ""
+
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Delete row"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
 msgid "Description"
 msgstr ""
 
-#: components/manage/Sidebar/HeroSidebar
-msgid "Displaying this block as a page title block will show the heading in bold and change the mobile layout of the block to have the image cover the whole background of the block"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Divide each row into separate cells"
 msgstr ""
 
-#: components/manage/Sidebar/ContactSidebar
-msgid "Division"
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "Edit"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageBody
-msgid "Drop a file, click for upload or browse the site"
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/index
+msgid "Edit citation"
 msgstr ""
 
-#: customizations/components/manage/Blocks/Video/Edit
-msgid "Enter Video URL"
+#: addons/volto-slate/src/components/ElementEditor/messages
+msgid "Edit element"
 msgstr ""
 
-#: components/Blocks/JobFilter/View
-#: components/Blocks/JobListing/View
-msgid "Entry levels"
+#: addons/volto-slate-footnote/src/editor/index
+msgid "Edit footnote"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
+#: addons/volto-slate/src/editor/plugins/Link/index
+msgid "Edit link"
+msgstr ""
+
+#: addons/volto-slate-metadata-mentions/src/plugins/Mentions/index
+msgid "Edit metadata"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+msgid "Edit values"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+msgid "Error"
+msgstr ""
+
+#: addons/volto-ims-theme/src/customizations/components/theme/Logo/Logo
+msgid "European Environment Agency"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
 msgid "External URL"
 msgstr ""
 
-#: components/Blocks/JobFilter/View
-#: components/Blocks/JobListing/View
-msgid "Find job now"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Fixed width table cells"
 msgstr ""
 
-#: components/Blocks/JobOffersBlock/Edit
-#: components/Blocks/JobOffersBlock/View
-msgid "Free Jobs at Talke"
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "Font Style"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Grid/GridSidebar
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/GridSidebar
-msgid "Grid"
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+msgid "Geographic coverage"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Grid/GridSidebar
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/GridSidebar
-msgid "Grid Element"
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/GeolocationWidget
+msgid "Geographic group"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Grid/GridSidebar
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/GridSidebar
-msgid "Grid Image"
+#: addons/volto-ims-theme/src/customizations/components/theme/Breadcrumbs/Breadcrumbs
+msgid "Home"
 msgstr ""
 
-#: components/manage/Sidebar/ContactSidebar
-msgid "Icon"
-msgstr ""
-
-#: components/Blocks/ContactBlock/Edit
-#: components/Blocks/ContactBlock/View
-msgid "If you have any further questions, please do not hesitate to contact us:"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
 msgid "Image"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Grid/GridSidebar
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/GridSidebar
-msgid "Images Grid"
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+msgid "Image(s) not found"
 msgstr ""
 
-#: customizations/components/theme/Footer/Footer
-msgid "Imprint"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert col after"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingData
-msgid "Item batch size"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert col before"
 msgstr ""
 
-#: components/manage/Sidebar/HeroSidebar
-msgid "Layout"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert row after"
 msgstr ""
 
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-msgid "Link Title"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Insert row before"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
-msgid "Link to"
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Interactive link "
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingSidebar
-msgid "Listing"
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Label "
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Make the table compact"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "No Style"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
 msgid "No image selected"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingBody
-msgid "No items found in this container."
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "No options"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingBody
-msgid "No results found."
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingData
+#: addons/volto-widget-temporal-coverage/src/components/manage/Widgets/TemporalWidget
 msgid "No selection"
 msgstr ""
 
-#: components/manage/Sidebar/HeroSidebar
-msgid "Only mobile"
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "No value"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/components/TeaserGrid/TeaserData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
 msgid "Open in a new tab"
 msgstr ""
 
-#: customizations/components/theme/Navigation/Navigation
+#: addons/volto-ims-theme/src/customizations/components/theme/Navigation/Navigation
 msgid "Open menu"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/BlockModal/BlockModal
-#: addons/kitconcept.volto-blocks/src/components/Cards/Edit
-#: addons/kitconcept.volto-blocks/src/components/Slider/Edit
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/Edit
-msgid "Options"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/Freezer/UberGrid/ImageData
-#: components/manage/Sidebar/ContactSidebar
-#: components/manage/Sidebar/HeroSidebar
-#: components/manage/Sidebar/JobOffersSidebar
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
 msgid "Origin"
 msgstr ""
 
-#: components/manage/Sidebar/ContactSidebar
-msgid "Phone Number"
+#: addons/volto-slate/src/editor/plugins/StyleMenu/StyleMenu
+msgid "Paragraph Style"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/TeaserGrid/TeaserBody
-#: addons/kitconcept.volto-blocks/src/components/TeaserHero/TeaserHeroBody
-msgid "Please choose an existing content as source for this element"
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/Edit
+msgid "Please use valid daviz url."
 msgstr ""
 
-#: components/Blocks/ContactBlock/Edit
-#: components/Blocks/ContactBlock/View
-msgid "Please send your questions or applications to: {mailAddress}"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Reduce complexity"
 msgstr ""
 
-#: customizations/components/theme/Logo/Logo
-msgid "Plone Site"
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/index
+msgid "Remove citation"
 msgstr ""
 
-#: customizations/components/theme/Footer/Footer
-msgid "Privacy Policy"
+#: addons/volto-slate/src/components/ElementEditor/messages
+msgid "Remove element"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Widgets/CheckboxWidget
+#: addons/volto-slate-footnote/src/editor/index
+msgid "Remove footnote"
+msgstr ""
+
+#: addons/volto-slate/src/editor/plugins/Link/index
+msgid "Remove link"
+msgstr ""
+
+#: addons/volto-slate-metadata-mentions/src/plugins/Mentions/index
+msgid "Remove metadata"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
 msgid "Required"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingData
-msgid "Results limit"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Listing/Edit
-msgid "Results preview"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingData
-msgid "Reversed order"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/BlockModal/BlockModal
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
 msgid "Save"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Widgets/CheckboxWidget
+#: addons/volto-ims-theme/src/customizations/components/theme/SearchWidget/SearchWidget
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/SearchWidget
+msgid "Search"
+msgstr ""
+
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/SearchWidget
+msgid "Search for geoTags"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
+msgid "Select…"
+msgstr ""
+
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
 msgid "Short Name"
 msgstr ""
 
-#: components/manage/Sidebar/HeroSidebar
-msgid "Show Image as Miniature Icon"
-msgstr ""
-
-#: components/manage/Sidebar/HeroSidebar
-msgid "Show block as site title block"
-msgstr ""
-
-#: components/manage/Sidebar/HeroSidebar
-msgid "Show this button only on smartphones and tablets"
-msgstr ""
-
-#: components/manage/Sidebar/JobOffersSidebar
-msgid "Shown Jobs"
-msgstr ""
-
-#: customizations/components/theme/Logo/Logo
+#: addons/volto-ims-theme/src/customizations/components/theme/Logo/Logo
 msgid "Site"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingData
-msgid "Sort on"
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+msgid "Size"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/BlockDataWidgets/MultiSourceWidget
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageData
-#: addons/kitconcept.volto-blocks/src/components/Listing/ListingData
-#: addons/kitconcept.volto-blocks/src/components/TeaserGrid/TeaserData
-msgid "Source"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Stripe alternate rows with color"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Grid/GridSidebar
-msgid "Teaser Grid"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Table"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/TeaserHero/TeaserHeroSidebar
-msgid "Teaser Hero"
+#: addons/volto-slate/src/blocks/Table/Edit
+msgid "Table color inverted"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Widgets/CheckboxWidget
-#: components/Blocks/ContactBlock/Edit
-#: components/Blocks/HeroBlock/Edit
-#: components/Blocks/JobOffersBlock/Edit
+#: addons/volto-block-toc/src/Block/DefaultTocRenderer
+#: addons/volto-block-toc/src/Block/HorizontalMenu
+msgid "Table of Contents"
+msgstr ""
+
+#: addons/volto-widget-temporal-coverage/src/components/manage/Widgets/TemporalWidget
+msgid "Temporal coverage"
+msgstr ""
+
+#: addons/volto-slate-zotero/src/plugins/zotero/editor/InlineForm
+#: addons/volto-slate/src/futurevolto/InlineForm
+#: addons/volto-widget-geolocation/src/components/manage/Widgets/InlineForm
+msgid "There were some errors"
+msgstr ""
+
+#: addons/volto-block-data-figure/src/components/manage/Blocks/DataFigure/ImageSidebar
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
 msgid "Title"
 msgstr ""
 
-#: components/Blocks/JobOffersBlock/Edit
-#: components/Blocks/JobOffersBlock/View
-msgid "To Job Board"
-msgstr ""
-
-#: addons/kitconcept.volto-blocks/src/components/Card/Edit
-#: addons/kitconcept.volto-blocks/src/components/SimpleBlocks/TextBody
-#: addons/kitconcept.volto-blocks/src/Freezer/TextTileWithAppendActions/Edit
+#: addons/volto-blocks-form/src/customizations/components/manage/Blocks/Text/Edit
 msgid "Type text…"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/ImagesGrid/ImageBody
-msgid "Uploading image"
+#: addons/volto-accordion-block/src/components/manage/Blocks/Accordion/EditBlockWrapper
+#: addons/volto-blocks-form/src/components/manage/Blocks/Block/Edit
+#: addons/volto-blocks-form/src/components/theme/View/RenderBlocks
+#: addons/volto-columns-block/src/ColumnsBlock/EditBlockWrapper
+#: addons/volto-grid-block/src/components/manage/Blocks/Block/Edit
+#: addons/volto-grid-block/src/components/theme/View/RenderBlocks
+#: addons/volto-grid-block/src/GridBlock/EditBlockWrapper
+msgid "Unknown Block"
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/Widgets/CheckboxWidget
+#: addons/volto-block-toc/src/Widgets/MultiSelectWidget
 msgid "Used for programmatic access to the fieldset."
 msgstr ""
 
-#: addons/kitconcept.volto-blocks/src/components/TeaserHero/TeaserHeroData
-msgid "Variation"
+#: addons/volto-accordion-block/src/components/manage/Blocks/Accordion/EditBlockWrapper
+#: addons/volto-blocks-form/src/components/manage/Blocks/Block/EditBlockWrapper
+#: addons/volto-columns-block/src/ColumnsBlock/EditBlockWrapper
+#: addons/volto-grid-block/src/components/manage/Blocks/Block/Edit
+#: addons/volto-grid-block/src/GridBlock/EditBlockWrapper
+msgid "delete"
 msgstr ""
 
-#: components/Blocks/JobFilter/View
-#: components/Blocks/JobListing/View
-msgid "Working area"
-msgstr ""
-
-#: components/Blocks/JobFilter/View
-#: components/Blocks/JobListing/View
-msgid "Workplace Location"
-msgstr ""
-
-#: components/Blocks/JobListing/View
-msgid "Zu Ihrer Jobauswahl liegen zur Zeit leider keine Angebote vor."
-msgstr ""
-
-#: components/Blocks/JobListing/View
-msgid "Zum Stellenangebot"
-msgstr ""
-
-#: components/Blocks/JobListing/View
-msgid "load more"
-msgstr ""
-
-#: components/Blocks/HeroBlock/Edit
-msgid "only mobile"
-msgstr ""
-
-#: components/manage/Sidebar/HeroSidebar
-msgid "title"
-msgstr ""
-
-#: components/Blocks/JobOffersBlock/Edit
-#: components/Blocks/JobOffersBlock/View
-msgid "{amount} free Jobs:"
+#: addons/volto-object-widget/src/Widget/ObjectListWidget
+msgid "{count} x {type}"
 msgstr ""
