@@ -157,7 +157,7 @@
         "url": "git@github.com:eea/volto-ims-theme.git",
         "https": "https://github.com/eea/volto-ims-theme.git",
         "package": "@eeacms/volto-ims-theme",
-        "branch": "master",
+        "branch": "develop",
         "path": "src"
       }
  }
