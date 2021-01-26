@@ -144,7 +144,7 @@
     "@eeacms/volto-widgets-view": "1.0.3",
     "@eeacms/volto-workflow-progress": "1.0.1",
     "@plone/volto": "10.10.0",
-    "volto-slate": "1.0.7"
+    "volto-slate": "1.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
