@@ -1353,10 +1353,10 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-ims-theme@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-1.1.0.tgz#8b95599898473cec1c9f5a705df2286d9bc7e83d"
-  integrity sha512-ADk/dec+zCPOsqylmhqW+B3fuX7FaHF1Mdx30U6mTfRWuPgaNd6P7CSxVF+A7Fem1/8T43+vFmueGVZL8/hTJA==
+"@eeacms/volto-ims-theme@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-1.1.1.tgz#3641e73dffc49d5be7c1bdff91438ac07d45c965"
+  integrity sha512-JhG/cvakJYG/HeRN4lTHaBgFXv/dHKEMkgx0bO2YRKBtST0pPmq/KwYz882Asc6BW7k4laTsI6ZhUPNQ1as4WQ==
   dependencies:
     "@eeacms/volto-accordion-block" "^1.0.0"
 
