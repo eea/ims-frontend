@@ -135,7 +135,7 @@
     "node": "^10 || ^12"
   },
   "dependencies": {
-    "@plone/volto": "11.0.0"
+    "@plone/volto": "11.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
