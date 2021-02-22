@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "addons": [
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-corsproxy",
