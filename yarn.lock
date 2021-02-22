@@ -1315,10 +1315,10 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-block-data-figure@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-1.2.1.tgz#aedb953ab49541ddd6f3bbecd1331d2137d5bfa3"
-  integrity sha512-a1euNJgwblQtU+RfX1uVuphFsb2/2DUVbAuAowo8ekm+bHYXyXgV76vrRmfU/79txJEUFZh2m7Qi2vEBU/R2Eg==
+"@eeacms/volto-block-data-figure@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-1.2.2.tgz#1855ca7fc8548e07ff76631a843a7e2504712ef2"
+  integrity sha512-/7t7U7o4adAgCpEi6wX2gkzfwYNd05BTqAtXK6oacGbZEC6rR2kPFApk2OQas7PSrpIHiQM6AVua2ivV8BVOyw==
   dependencies:
     "@eeacms/volto-block-style" "^1.0.0"
     "@eeacms/volto-corsproxy" "^1.0.0"
