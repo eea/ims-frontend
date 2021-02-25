@@ -1320,17 +1320,24 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.0.tgz#58931083916716b1f810bf57493c10b6390eb93d"
   integrity sha512-nqax5jUsxJrimKtG2GbjRHpD7UtVIlMb3N2Mwgyn5N8NP80RnxltAU7C4f2/mAN3gi6LV4Ox/quUpg8ewNaENw==
 
+"@eeacms/volto-blocks-form@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-2.0.0.tgz#120529b05706c7eda45580810526730b2c33b605"
+  integrity sha512-h240mIV5v492oh9PLcupzUu5yNdSwBgYg2oaepiv+6anQYtsZBeVD2BXD3hreoNwMbmQzlnFQ8UkQ97oxI8zNg==
+  dependencies:
+    react-beautiful-dnd "13.0.0"
+
 "@eeacms/volto-corsproxy@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.0.tgz#5c8be5f38387468e18e302358027d270874638c3"
   integrity sha512-DdzUzOqrKrqKiS2NaYhYkZ/kEmCzly5VtbNRTWXLB35LqhysPxfxWKmY6Xhak2WgXgPF3+4wwpXeKOLMlcWb+w==
 
-"@eeacms/volto-object-widget@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-1.0.3.tgz#8d4227e322b1fbf6958d36294745dfa42d1cbc1d"
-  integrity sha512-kNGQdY/P61kDXynjbIwBhGbutu7aI5rUUCktaXv3yFfftPDClYB8jBxoq5y5h80AdWGbZS0y1Mrcm9+lHocxYA==
+"@eeacms/volto-object-widget@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.0.0.tgz#b246ca305a508e30931a634d3b22de8ddb299340"
+  integrity sha512-d4lfbe6JgOPYBez93gQbWlaf31Jzd4ceUZXO7AjQPeMRWQ1hhi9BkgRiFBoqQgyqg3xk3hhMYurE6WklWfKl+g==
   dependencies:
-    "@eeacms/volto-blocks-form" "^1.0.0"
+    "@eeacms/volto-blocks-form" "^2.0.0"
 
 "@emotion/babel-plugin@^11.0.0":
   version "11.1.2"
@@ -4263,11 +4270,6 @@ camelcase@5.3.1, camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-camelize@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
-  integrity sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
-
 caniuse-api@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
@@ -5154,11 +5156,6 @@ css-box-model@^1.2.0:
   dependencies:
     tiny-invariant "^1.0.6"
 
-css-color-keywords@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/css-color-keywords/-/css-color-keywords-1.0.0.tgz#fea2616dc676b2962686b3af8dbdbe180b244e05"
-  integrity sha1-/qJhbcZ2spYmhrOvjb2+GAskTgU=
-
 css-color-names@0.0.4, css-color-names@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
@@ -5230,15 +5227,6 @@ css-select@^2.0.0:
     css-what "^3.2.1"
     domutils "^1.7.0"
     nth-check "^1.0.2"
-
-css-to-react-native@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-3.0.0.tgz#62dbe678072a824a689bcfee011fc96e02a7d756"
-  integrity sha512-Ro1yETZA813eoyUp2GDBhG2j+YggidUmzO1/v9eYBKR2EHVEniE2MI/NqpTQ954BMpTPZFsGNPm46qFB9dpaPQ==
-  dependencies:
-    camelize "^1.0.0"
-    css-color-keywords "^1.0.0"
-    postcss-value-parser "^4.0.2"
 
 css-tree@1.0.0-alpha.37:
   version "1.0.0-alpha.37"
@@ -10381,11 +10369,6 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
-lodash-es@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
-  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
-
 lodash-move@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/lodash-move/-/lodash-move-1.1.1.tgz#59f76e0f1ac57e6d8683f531bec07c5b6ea4e348"
@@ -13550,19 +13533,6 @@ react-beautiful-dnd@13.0.0:
     redux "^4.0.4"
     use-memo-one "^1.1.1"
 
-react-color@^2.18.1:
-  version "2.19.3"
-  resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.19.3.tgz#ec6c6b4568312a3c6a18420ab0472e146aa5683d"
-  integrity sha512-LEeGE/ZzNLIsFWa1TMe8y5VYqr7bibneWmvJwm1pCn/eNmrabWDh659JSPn9BuaMpEfU83WTOJfnCcjDZwNQTA==
-  dependencies:
-    "@icons/material" "^0.2.4"
-    lodash "^4.17.15"
-    lodash-es "^4.17.15"
-    material-colors "^1.2.1"
-    prop-types "^15.5.10"
-    reactcss "^1.2.0"
-    tinycolor2 "^1.4.1"
-
 react-color@~2.18.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.18.1.tgz#2cda8cc8e06a9e2c52ad391a30ddad31972472f4"
@@ -15134,11 +15104,6 @@ slate-hyperscript@^0.59:
   integrity sha512-HvZLA5RSAs27ZznD2r5sy2RP114K7+I/jOt3glFtQLFKEptxsIFTgTsEyxMhD6864tOPqs56m6IyA0tX/jhzjA==
   dependencies:
     is-plain-object "^3.0.0"
-
-slate-plain-serializer@0.7.13:
-  version "0.7.13"
-  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.7.13.tgz#6de8f5c645dd749f1b2e4426c20de74bfd213adf"
-  integrity sha512-TtrlaslxQBEMV0LYdf3s7VAbTxRPe1xaW10WNNGAzGA855/0RhkaHjKkQiRjHv5rvbRleVf7Nxr9fH+4uErfxQ==
 
 slate-react@^0.59:
   version "0.59.0"

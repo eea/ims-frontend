@@ -61,9 +61,6 @@
             "@eeacms/volto-accordion-block": [
                 "addons/volto-accordion-block/src"
             ],
-            "@eeacms/volto-grid-block": [
-                "addons/volto-grid-block/src"
-            ],
             "@eeacms/volto-workflow-progress": [
                 "addons/volto-workflow-progress/src"
             ],

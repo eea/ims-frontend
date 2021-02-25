@@ -8,7 +8,6 @@
     "src/addons/volto-slate",
     "src/addons/volto-columns-block",
     "src/addons/volto-widget-geolocation",
-    "src/addons/volto-grid-block",
     "src/addons/volto-ims-theme"
   ],
   "addons": [
@@ -31,7 +30,6 @@
     "@eeacms/volto-metadata-block",
     "@eeacms/volto-group-block",
     "@eeacms/volto-columns-block",
-    "@eeacms/volto-grid-block",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-block-style",
     "@eeacms/volto-ims-theme"

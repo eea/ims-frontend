@@ -139,13 +139,6 @@
        "branch": "develop",
        "path": "src"
      },
-     "volto-grid-block": {
-        "url": "git@github.com:eea/volto-grid-block.git",
-        "https": "https://github.com/eea/volto-grid-block.git",
-        "package": "@eeacms/volto-grid-block",
-        "branch": "develop",
-        "path": "src"
-      },
       "volto-workflow-progress": {
         "url": "git@github.com:eea/volto-workflow-progress.git",
         "https": "https://github.com/eea/volto-workflow-progress.git",
