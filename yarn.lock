@@ -1866,10 +1866,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-11.1.0.tgz#57605200e90501600d37f7b77c1fa307e793ee60"
-  integrity sha512-L6E1jHsCjK2jU15/teh4zwVvbm2USwn21ZNm2qX51CrmwZ9nE4B0fQ4/vxx2JsN3VNNDgog0/ZbIbpwBIUfAww==
+"@plone/volto@12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.1.0.tgz#b5aed65f9a5e38b5214d0b766e0b5d0b731a034c"
+  integrity sha512-Unq5Z+RemieQOQBlwHVtAY/5E2JLLfXVu5UA9X/rF3TiqHSyMK8LMzV+CJRmaZdUM6oGVhlsW6bvSLYqYNqkPA==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -1896,6 +1896,7 @@
     babel-plugin-root-import "6.1.0"
     bundlesize "0.18.0"
     bundlewatch "0.2.7"
+    circular-dependency-plugin "5.2.2"
     classnames "2.2.6"
     connected-react-router "6.8.0"
     coveralls "3.0.2"
@@ -4475,6 +4476,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+circular-dependency-plugin@5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/circular-dependency-plugin/-/circular-dependency-plugin-5.2.2.tgz#39e836079db1d3cf2f988dc48c5188a44058b600"
+  integrity sha512-g38K9Cm5WRwlaH6g03B9OEz/0qRizI+2I7n+Gz+L5DxXJAPAiWQvwlYNm1V1jkdpUv95bOe/ASm2vfi/G560jQ==
 
 class-utils@^0.3.5:
   version "0.3.6"
