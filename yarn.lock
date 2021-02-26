@@ -1301,24 +1301,12 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-accordion-block@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-1.0.0.tgz#dd9b50cdcfa4360d91948f55d99753201b83d9e5"
-  integrity sha512-akRTx0BrOTh0y/JXllGLrp1gpNEHNrSr1MLca3V48+vt3w+XVFmrnQPLHOfk6Fdh/WZT+y6TpDcEfwaJDzkBbg==
-  dependencies:
-    "@eeacms/volto-blocks-form" "^1.0.0"
-
-"@eeacms/volto-block-style@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-1.0.0.tgz#ce148c1f75126216224e27fa83d3b05dacb9e3f6"
-  integrity sha512-8NxC01WHCv097+3ip9wtvanH6BLj9pTAj1+EKnCHW/5JYEGmxFViyhpyMTSBMldmqKO7Qzgb1OYi1WqPhm//mQ==
+"@eeacms/volto-block-style@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.0.0.tgz#6e83944450821e132dc85d80bb4146dd347acb51"
+  integrity sha512-UFOFA3Es+nSidUA8PUeWv2EiwtQXBjKpzaZWGyxCuNfQmluUTuMQ4gCe94nLsll4ZoYweSErwjNlSL4z4bAVBA==
   dependencies:
     react-color "~2.18.1"
-
-"@eeacms/volto-blocks-form@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.0.tgz#58931083916716b1f810bf57493c10b6390eb93d"
-  integrity sha512-nqax5jUsxJrimKtG2GbjRHpD7UtVIlMb3N2Mwgyn5N8NP80RnxltAU7C4f2/mAN3gi6LV4Ox/quUpg8ewNaENw==
 
 "@eeacms/volto-blocks-form@^2.0.0":
   version "2.0.0"
@@ -1327,10 +1315,10 @@
   dependencies:
     react-beautiful-dnd "13.0.0"
 
-"@eeacms/volto-corsproxy@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.0.tgz#5c8be5f38387468e18e302358027d270874638c3"
-  integrity sha512-DdzUzOqrKrqKiS2NaYhYkZ/kEmCzly5VtbNRTWXLB35LqhysPxfxWKmY6Xhak2WgXgPF3+4wwpXeKOLMlcWb+w==
+"@eeacms/volto-corsproxy@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.0.0.tgz#0ad9ec7cb4017a60d51278597312a5c4aa14de5f"
+  integrity sha512-qzcBVwSrkIXSxf6J/uWXg0U7gDlVSB8gI7od0mdeGdBuysUGPo1lc0X4Ij7LOAXxkN2w8E/tBr3897ecRz2zjg==
 
 "@eeacms/volto-object-widget@^2.0.0":
   version "2.0.0"
