@@ -140,7 +140,7 @@
     "@eeacms/volto-widget-geolocation": "1.0.2",
     "@eeacms/volto-widget-temporal-coverage": "1.0.1",
     "@eeacms/volto-widget-toggle": "1.0.1",
-    "@eeacms/volto-widgets-view": "1.0.3",
+    "@eeacms/volto-widgets-view": "2.0.0",
     "@eeacms/volto-workflow-progress": "1.0.1",
     "@plone/volto": "12.1.0",
     "volto-slate": "2.0.0"
