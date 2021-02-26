@@ -125,7 +125,7 @@
     "@eeacms/volto-block-data-figure": "2.0.0",
     "@eeacms/volto-block-divider": "1.1.1",
     "@eeacms/volto-block-style": "2.0.0",
-    "@eeacms/volto-block-toc": "1.0.0",
+    "@eeacms/volto-block-toc": "2.0.0",
     "@eeacms/volto-blocks-form": "2.0.0",
     "@eeacms/volto-columns-block": "2.0.0",
     "@eeacms/volto-corsproxy": "2.0.0",
