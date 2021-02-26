@@ -1398,12 +1398,12 @@
   dependencies:
     "@eeacms/volto-accordion-block" "^1.0.0"
 
-"@eeacms/volto-metadata-block@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-1.0.4.tgz#45b161fba5663a80ab2dfa30da808986ad1f88b6"
-  integrity sha512-cKNt2QdocMIYkQESItCct7aP2U6uqnno7zNruVkHRoruvgi/tGh2mWwH7tmj7EAR37wFVMmLtNglIUAh2nDqZw==
+"@eeacms/volto-metadata-block@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-metadata-block/-/volto-metadata-block-2.0.0.tgz#878b20c1cdf22663f9bfae24aa074ad1254c5894"
+  integrity sha512-paFPZnT8lZVjlZ29I7CXgmRpfM7DpV4ZXH6TIlp9k7DnqocFQ6K1FwJtVpqk2KkYAPSubMiFv6uR7K+U6O+GJA==
   dependencies:
-    "@eeacms/volto-widgets-view" "^1.0.3"
+    "@eeacms/volto-widgets-view" "^2.0.0"
 
 "@eeacms/volto-object-widget@1.0.4":
   version "1.0.4"
@@ -1491,11 +1491,6 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-2.0.0.tgz#edc51432a8c03307849ac85ccd0e993a36663b57"
   integrity sha512-zgDbgUa9zzmy+jjkS4PMgP/eNVqcaSnRsEvilk6y4DNI3fTL7RFxvdiYUue9wxmf7qPhjj2gmwPP/fFQ0c8k8g==
-
-"@eeacms/volto-widgets-view@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.3.tgz#6c2385c39bccc613152332c181f17633fb0dbd72"
-  integrity sha512-vrIg7Sox0ZXu8xwRdjAlIoPAadXddpGCUaOPr4L8XuR6dW+qFi5efxqgecKNJUuvswpB0MW+i+4b2KFb8PXcSw==
 
 "@eeacms/volto-workflow-progress@1.0.1":
   version "1.0.1"
