@@ -1308,13 +1308,6 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-accordion-block@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-1.0.0.tgz#dd9b50cdcfa4360d91948f55d99753201b83d9e5"
-  integrity sha512-akRTx0BrOTh0y/JXllGLrp1gpNEHNrSr1MLca3V48+vt3w+XVFmrnQPLHOfk6Fdh/WZT+y6TpDcEfwaJDzkBbg==
-  dependencies:
-    "@eeacms/volto-blocks-form" "^1.0.0"
-
 "@eeacms/volto-block-data-figure@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-2.0.0.tgz#ea2e923e8c0c144018104623b3f88b9803eeaf73"
@@ -1389,12 +1382,12 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^1.0.0"
 
-"@eeacms/volto-ims-theme@1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-1.1.3.tgz#69b07fb82ad5ab975fccc9eee754f9279d4e99a3"
-  integrity sha512-IGNHmSxmKNjdSoG7+MSAIoXarPRDWEE39I/Afy64GTKRQ/ObGF61Jms/TpLJUphgP/84844GgL/SMJCCcGrM6g==
+"@eeacms/volto-ims-theme@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-2.0.0.tgz#0b5feabfc69c28e96007a8512f137e8d3115e679"
+  integrity sha512-by45N6xrgOGsanTVH7CW2wv5ky12AyhCztifBrrL3HhbxZIwf7W8on32l3AvwaCxwcd/Zsf5JZY9tpH8xgE1HQ==
   dependencies:
-    "@eeacms/volto-accordion-block" "^1.0.0"
+    "@eeacms/volto-corsproxy" "^2.0.0"
 
 "@eeacms/volto-metadata-block@2.0.0":
   version "2.0.0"
