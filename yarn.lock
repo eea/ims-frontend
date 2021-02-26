@@ -1438,13 +1438,13 @@
   dependencies:
     volto-slate "^1.0.0"
 
-"@eeacms/volto-slate-metadata-mentions@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-1.0.0.tgz#eb73b59e7715f1b37c99771da95f21ce79a83745"
-  integrity sha512-NCZ+n0jrpiZzYZsNsC8g+XmLn1WbwVfTAYhzs+s0E5L69cRR1paN9WqvY9ejiEvqy9BHrw6/uM+rVH/TgMihfA==
+"@eeacms/volto-slate-metadata-mentions@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-2.0.0.tgz#a683cf598ea831a0c18319e4949a87d0449d7567"
+  integrity sha512-dyS/5Xgv7aU2jbwfvgq/QeTZv0tl3NK26RmoT0esn7p2EQNkg2++W8E9ZfJboUxcRrI//H6KLQRxp783RifFmQ==
   dependencies:
-    "@eeacms/volto-widgets-view" "^1.0.0"
-    volto-slate "^1.0.0"
+    "@eeacms/volto-widgets-view" "^2.0.0"
+    volto-slate "^2.0.0"
 
 "@eeacms/volto-slate-zotero@1.0.2":
   version "1.0.2"
@@ -1492,10 +1492,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.3.tgz#6c2385c39bccc613152332c181f17633fb0dbd72"
   integrity sha512-vrIg7Sox0ZXu8xwRdjAlIoPAadXddpGCUaOPr4L8XuR6dW+qFi5efxqgecKNJUuvswpB0MW+i+4b2KFb8PXcSw==
 
-"@eeacms/volto-widgets-view@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-1.0.2.tgz#7526758ed211dfea34f8c1d03c80052ca47e9604"
-  integrity sha512-UP1CdEGuED/DZF3EXHbGsnl30pKvlVyssWyEBVaPfDa4ORHAeG1mPlH7CfChEMzBKZuWANPd6X8Uj84kGpetfQ==
+"@eeacms/volto-widgets-view@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-2.0.0.tgz#edc51432a8c03307849ac85ccd0e993a36663b57"
+  integrity sha512-zgDbgUa9zzmy+jjkS4PMgP/eNVqcaSnRsEvilk6y4DNI3fTL7RFxvdiYUue9wxmf7qPhjj2gmwPP/fFQ0c8k8g==
 
 "@eeacms/volto-workflow-progress@1.0.1":
   version "1.0.1"
@@ -16941,7 +16941,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@2.0.0:
+volto-slate@2.0.0, volto-slate@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.0.0.tgz#68fd4f0d6b3eb2f77197636710abb380bfbadd19"
   integrity sha512-yijlSz9PJ1xB1IdvPxLmI5MuVGAzyitXsg5OPQnNR5bRNlYK0PK38J+G/fWu3Z1Wpwv7VqNx52eKil0xiLd2Bg==
