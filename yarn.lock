@@ -1417,14 +1417,7 @@
   dependencies:
     "@eeacms/volto-widgets-view" "^2.0.0"
 
-"@eeacms/volto-object-widget@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-1.0.4.tgz#a7fa9da6ee02ac5cd110e944e893937c0e3bf07b"
-  integrity sha512-0DVFRW7C5Q8fy3jY8Kf0IxTHS1cAGuw1iDJuM1jMiRxWK8DA80XoX4vB0hqlOtXzhtcZc553PTDDyKFL2Hxk3A==
-  dependencies:
-    "@eeacms/volto-blocks-form" "^1.0.0"
-
-"@eeacms/volto-object-widget@^2.0.0":
+"@eeacms/volto-object-widget@2.0.0", "@eeacms/volto-object-widget@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.0.0.tgz#b246ca305a508e30931a634d3b22de8ddb299340"
   integrity sha512-d4lfbe6JgOPYBez93gQbWlaf31Jzd4ceUZXO7AjQPeMRWQ1hhi9BkgRiFBoqQgyqg3xk3hhMYurE6WklWfKl+g==
