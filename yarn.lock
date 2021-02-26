@@ -1359,10 +1359,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-1.0.0.tgz#13c2e644ec51914ae5426c8406ad36b6a6060db2"
   integrity sha512-IdKD0KSEZJ73ezak2oX5jsbCgxD8bZbqnRret7gR6WfDsRwZIObrz7xhE3P33S89sdvd5uXD12+Q13LTKjN4zA==
 
-"@eeacms/volto-blocks-form@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.4.tgz#ad939b3918db4721b28a2a910e3c13a18e9e66ad"
-  integrity sha512-KZ40VTv5zEbQ3/URNl76WbT5sgYWMwE0ugYcdCYrEul6mZz2kDjJqFH2K3uGWJtX1ei7XdecC9VAZl1J3YT1xg==
+"@eeacms/volto-blocks-form@2.0.0", "@eeacms/volto-blocks-form@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-2.0.0.tgz#120529b05706c7eda45580810526730b2c33b605"
+  integrity sha512-h240mIV5v492oh9PLcupzUu5yNdSwBgYg2oaepiv+6anQYtsZBeVD2BXD3hreoNwMbmQzlnFQ8UkQ97oxI8zNg==
   dependencies:
     react-beautiful-dnd "13.0.0"
 
@@ -1370,13 +1370,6 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.0.tgz#58931083916716b1f810bf57493c10b6390eb93d"
   integrity sha512-nqax5jUsxJrimKtG2GbjRHpD7UtVIlMb3N2Mwgyn5N8NP80RnxltAU7C4f2/mAN3gi6LV4Ox/quUpg8ewNaENw==
-
-"@eeacms/volto-blocks-form@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-2.0.0.tgz#120529b05706c7eda45580810526730b2c33b605"
-  integrity sha512-h240mIV5v492oh9PLcupzUu5yNdSwBgYg2oaepiv+6anQYtsZBeVD2BXD3hreoNwMbmQzlnFQ8UkQ97oxI8zNg==
-  dependencies:
-    react-beautiful-dnd "13.0.0"
 
 "@eeacms/volto-columns-block@1.0.6":
   version "1.0.6"
