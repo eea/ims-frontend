@@ -1431,13 +1431,13 @@
     "@eeacms/volto-slate-footnote" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-widget-geolocation@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-1.0.2.tgz#ef09130715116a8a0e4b764a9c6760789bab0907"
-  integrity sha512-J9MVjMyohaj/JeUAnOqJO/Mc8Fev8VCA4InqEzkp4Yn2pdL/Sl0d+PUWNQycQ6wvL+VhXpry4IpA05+I5tb7Bw==
+"@eeacms/volto-widget-geolocation@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.0.0.tgz#53b50a47863d2a30749e140702c8e0c1ae4341da"
+  integrity sha512-3lZIn7vW8dsefLC5cj0M0S9UbuDJCUy2XfEdlblsO7GQTCCCMk2T45IGwqjO+Ly341ehGN38f561iUKyyR6Fkw==
   dependencies:
-    "@eeacms/volto-block-style" "^1.0.0"
-    "@eeacms/volto-corsproxy" "^1.0.0"
+    "@eeacms/volto-block-style" "^2.0.0"
+    "@eeacms/volto-corsproxy" "^2.0.0"
     i18n-iso-countries "6.2.1"
 
 "@eeacms/volto-widget-geolocation@^1.0.0":
