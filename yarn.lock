@@ -1408,19 +1408,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-1.1.0.tgz#6e242ac6f50dd0660baf925b223f45b678b9b26b"
   integrity sha512-J9HYhbcIzTug5x75xJdAt2qWumpCCiX/Ilgy5x0kT6B+Mt9I9NwNhlZdYh1CF9WhznjfJSmpgWGDG1+QNJpajQ==
 
-"@eeacms/volto-slate-footnote@2.0.0":
+"@eeacms/volto-slate-footnote@2.0.0", "@eeacms/volto-slate-footnote@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-2.0.0.tgz#af0f34f62978ca903771c7fec2911d397bb3ccf5"
   integrity sha512-IWvXhUX2ZKW+g9lCu4SjqFU2Ig+Ah3vHiZgvB/OpWs3rjxC6ERwdWCLNR0NcKUmPr6SQII+aI+6+mA1+pWP3qA==
   dependencies:
     volto-slate "^2.0.0"
-
-"@eeacms/volto-slate-footnote@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-1.0.0.tgz#0f51737a917c4265efcfc0b0c1b0573bf807bbdf"
-  integrity sha512-ZETEFnG76LmHP2aWGBaQ28dwHGdS/L6O5Fbf4cLE1xP95x1fdSmyGLck91Wajg+fJQQsMCXdMMCIog4cn/T1rg==
-  dependencies:
-    volto-slate "^1.0.0"
 
 "@eeacms/volto-slate-metadata-mentions@2.0.0":
   version "2.0.0"
@@ -1430,13 +1423,13 @@
     "@eeacms/volto-widgets-view" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-slate-zotero@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-1.0.2.tgz#97ee6da080c2d3b6042a7efb932414e05ab455b0"
-  integrity sha512-vNIWN1HfqGsbBclSCNFYVUbeJrGJpjaANCz+VS7dgTH61YxFK6HQb+hec/NXXcdbAJYmQ6h/IIZEMBXHum/maQ==
+"@eeacms/volto-slate-zotero@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-2.0.0.tgz#bcf2544c81c5cdc733de3f9e28cb9f04fe5c828c"
+  integrity sha512-xUUokoCgkU2hPLLr6QBGS5ShFvKwvZnQIqEeFMu5cjtZ4ZDPpP1nuHB00LURnK/hOat5ZRFQ0smvHdO9kubmWQ==
   dependencies:
-    "@eeacms/volto-slate-footnote" "^1.0.0"
-    volto-slate "^1.0.0"
+    "@eeacms/volto-slate-footnote" "^2.0.0"
+    volto-slate "^2.0.0"
 
 "@eeacms/volto-widget-geolocation@1.0.2":
   version "1.0.2"
@@ -2563,14 +2556,6 @@
   integrity sha512-nwKNbvnwJ2/mndE9ItP/zc2TCzw6uuodnF4EHYWD+gCQDVBuRQL5UzbZD0/ezy1iKsFU2ZQiDqg4M9dN4+wZgA==
   dependencies:
     "@types/istanbul-lib-report" "*"
-
-"@types/jest@^25.2.3":
-  version "25.2.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-25.2.3.tgz#33d27e4c4716caae4eced355097a47ad363fdcaf"
-  integrity sha512-JXc1nK/tXHiDhV55dvfzqtmP4S3sy3T3ouV2tkViZgxY/zeUkcpQcQPGRlgF4KmWzWW5oiWYSZwtCB+2RsE4Fw==
-  dependencies:
-    jest-diff "^25.2.1"
-    pretty-format "^25.2.1"
 
 "@types/keyv@*":
   version "3.1.1"
@@ -5868,11 +5853,6 @@ diff-sequences@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
   integrity sha512-Dj6Wk3tWyTE+Fo1rW8v0Xhwk80um6yFYKbuAxc9c3EZxIHFDYwbi34Uk42u1CdnIiVorvt4RmlSDjIPyzGC2ew==
-
-diff-sequences@^25.2.6:
-  version "25.2.6"
-  resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-25.2.6.tgz#5f467c00edd35352b7bca46d7927d60e687a76dd"
-  integrity sha512-Hq8o7+6GaZeoFjtpgvRBUknSXNeJiCx7V9Fr94ZMljNiCr9n9L8H8aJqgWOQiDDGdyn29fRNcDdRVJ5fdyihfg==
 
 diff@3.5.0:
   version "3.5.0"
@@ -9422,16 +9402,6 @@ jest-diff@^24.0.0, jest-diff@^24.9.0:
     jest-get-type "^24.9.0"
     pretty-format "^24.9.0"
 
-jest-diff@^25.2.1:
-  version "25.5.0"
-  resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-25.5.0.tgz#1dd26ed64f96667c068cef026b677dfa01afcfa9"
-  integrity sha512-z1kygetuPiREYdNIumRpAHY6RXiGmp70YHptjdaxTWGmA085W3iCnXNx0DhflK3vwrKmrRWyY1wUpkPMVxMK7A==
-  dependencies:
-    chalk "^3.0.0"
-    diff-sequences "^25.2.6"
-    jest-get-type "^25.2.6"
-    pretty-format "^25.5.0"
-
 jest-docblock@^24.3.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-24.9.0.tgz#7970201802ba560e1c4092cc25cbedf5af5a8ce2"
@@ -9492,11 +9462,6 @@ jest-get-type@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-24.9.0.tgz#1684a0c8a50f2e4901b6644ae861f579eed2ef0e"
   integrity sha512-lUseMzAley4LhIcpSP9Jf+fTrQ4a1yHQwLNeeVa2cEmbCGeoZAtYPOIv8JaxLD/sUpKxetKGP+gsHl8f8TSj8Q==
-
-jest-get-type@^25.2.6:
-  version "25.2.6"
-  resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-25.2.6.tgz#0b0a32fab8908b44d508be81681487dbabb8d877"
-  integrity sha512-DxjtyzOHjObRM+sM1knti6or+eOgcGU4xVSb2HNP1TqO4ahsT+rqZg+nyqHWJSvWgKC5cG3QjGFBqxLghiF/Ig==
 
 jest-haste-map@^24.9.0:
   version "24.9.0"
@@ -13084,16 +13049,6 @@ pretty-format@^24.0.0, pretty-format@^24.9.0:
     ansi-styles "^3.2.0"
     react-is "^16.8.4"
 
-pretty-format@^25.2.1, pretty-format@^25.5.0:
-  version "25.5.0"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-25.5.0.tgz#7873c1d774f682c34b8d48b6743a2bf2ac55791a"
-  integrity sha512-kbo/kq2LQ/A/is0PQwsEHM7Ca6//bGPPvU6UnsdDRSKTWxT/ru/xb88v4BJf6a69H+uTytOEsTusT9ksd/1iWQ==
-  dependencies:
-    "@jest/types" "^25.5.0"
-    ansi-regex "^5.0.0"
-    ansi-styles "^4.0.0"
-    react-is "^16.12.0"
-
 pretty-format@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-26.6.2.tgz#e35c2705f14cb7fe2fe94fa078345b444120fc93"
@@ -15166,11 +15121,6 @@ slate-hyperscript@^0.59:
   dependencies:
     is-plain-object "^3.0.0"
 
-slate-plain-serializer@0.7.13:
-  version "0.7.13"
-  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.7.13.tgz#6de8f5c645dd749f1b2e4426c20de74bfd213adf"
-  integrity sha512-TtrlaslxQBEMV0LYdf3s7VAbTxRPe1xaW10WNNGAzGA855/0RhkaHjKkQiRjHv5rvbRleVf7Nxr9fH+4uErfxQ==
-
 slate-react@^0.59:
   version "0.59.0"
   resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.59.0.tgz#c8043dce7ea71279f314d9951c32e4f548b1ea0b"
@@ -16934,24 +16884,6 @@ volto-slate@2.0.0, volto-slate@^2.0.0:
     slate "^0.59"
     slate-history "^0.59"
     slate-hyperscript "^0.59"
-    slate-react "^0.59"
-    weak-key "^1.0.2"
-
-volto-slate@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-1.0.0.tgz#76f75455990f5e2b2eea9bc590d815ea1a1288e4"
-  integrity sha512-hU60uRcvljHABk07mxGhqaI4pWwoahxJTDXYLrLw5ItyD/lebC1K5sGk7i9nkzp5eGXlNt6UCc3TDkeWBh42Qw==
-  dependencies:
-    "@types/jest" "^25.2.3"
-    classnames "2.2.6"
-    image-extensions "1.1.0"
-    is-url "1.2.4"
-    jsdom "16.2.2"
-    react-visibility-sensor "5.1.1"
-    slate "^0.59"
-    slate-history "^0.59"
-    slate-hyperscript "^0.59"
-    slate-plain-serializer "0.7.13"
     slate-react "^0.59"
     weak-key "^1.0.2"
 
