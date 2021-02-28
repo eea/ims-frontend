@@ -1375,12 +1375,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-1.0.1.tgz#f7f83def98dfb4f00bb77e7842027c66d53cb769"
   integrity sha512-peAEg795qMtSfnJtjluLTzlXBvjd1xwJ/ml8ThXd7NOcVWAeE/0qIcp3rSwE4PZ/uh5cnNRSsselgyy9utohEA==
 
-"@eeacms/volto-group-block@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-1.0.3.tgz#8191f2b0ec399d1a6d84faa10c34228b1f2b9e39"
-  integrity sha512-26rsTVGef28w3e1iCve2jWoOUM/X2OkiOQ8YcDM7X6iGei8vZ8ANEb0a7N9isA5y6g+OrFQaOnLgGy36MBCeYg==
+"@eeacms/volto-group-block@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-2.0.0.tgz#107abacfbb387b23d08830311c4aec55a072c92a"
+  integrity sha512-oM18VfqPnJET82TEu7wv5XGv1l7uMN8L2jzIfde2DhW+XT4tGQHDtIMNgZySSkgxmCK0Yfz7bUI6bxmFAq0hKQ==
   dependencies:
-    "@eeacms/volto-blocks-form" "^1.0.0"
+    "@eeacms/volto-blocks-form" "^2.0.0"
 
 "@eeacms/volto-ims-theme@2.0.0":
   version "2.0.0"
