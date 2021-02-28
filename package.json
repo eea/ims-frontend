@@ -121,7 +121,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-accordion-block": "2.0.2",
+    "@eeacms/volto-accordion-block": "2.1.0",
     "@eeacms/volto-block-data-figure": "2.0.0",
     "@eeacms/volto-block-divider": "2.0.0",
     "@eeacms/volto-block-style": "2.0.0",

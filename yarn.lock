@@ -1301,12 +1301,12 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-accordion-block@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-2.0.2.tgz#bbe903734e477cc917ab3a087948f0052d6b3065"
-  integrity sha512-+UXN0R+jvXUGqX5bDVN0EKxxOGyy1akCxeFlQRE5zEmExMvNfsmzRZ525tpnnnBNuE5Oq/fbpuxKWmxjHGkvvg==
+"@eeacms/volto-accordion-block@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-2.1.0.tgz#f014d6ed9332e91dc9b7215b48769c6208411376"
+  integrity sha512-8929mfNK6lY8TLZayc0fB0ddKFPMj6q+5YGP4RnGKjCUWShjPgbDhOKmNRSjk7UPx1zBr90gbBK4090LcnpQCg==
   dependencies:
-    "@eeacms/volto-blocks-form" "^1.0.0"
+    "@eeacms/volto-blocks-form" "^2.0.0"
 
 "@eeacms/volto-block-data-figure@2.0.0":
   version "2.0.0"
@@ -1351,11 +1351,6 @@
   integrity sha512-h240mIV5v492oh9PLcupzUu5yNdSwBgYg2oaepiv+6anQYtsZBeVD2BXD3hreoNwMbmQzlnFQ8UkQ97oxI8zNg==
   dependencies:
     react-beautiful-dnd "13.0.0"
-
-"@eeacms/volto-blocks-form@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-1.0.0.tgz#58931083916716b1f810bf57493c10b6390eb93d"
-  integrity sha512-nqax5jUsxJrimKtG2GbjRHpD7UtVIlMb3N2Mwgyn5N8NP80RnxltAU7C4f2/mAN3gi6LV4Ox/quUpg8ewNaENw==
 
 "@eeacms/volto-columns-block@2.0.0":
   version "2.0.0"
