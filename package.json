@@ -138,7 +138,7 @@
     "@eeacms/volto-slate-metadata-mentions": "2.0.0",
     "@eeacms/volto-slate-zotero": "2.0.0",
     "@eeacms/volto-widget-geolocation": "2.0.0",
-    "@eeacms/volto-widget-temporal-coverage": "1.0.1",
+    "@eeacms/volto-widget-temporal-coverage": "2.0.0",
     "@eeacms/volto-widget-toggle": "2.0.0",
     "@eeacms/volto-widgets-view": "2.0.0",
     "@eeacms/volto-workflow-progress": "1.0.1",
