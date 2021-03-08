@@ -76,13 +76,6 @@
         "branch": "develop",
         "path": "src"
     },
-    "volto-blocks-form": {
-        "url": "git@github.com:eea/volto-blocks-form.git",
-        "https": "https://github.com/eea/volto-blocks-form.git",
-        "package": "@eeacms/volto-blocks-form",
-        "branch": "develop",
-        "path": "src"
-    },
     "volto-group-block": {
         "url": "git@github.com:eea/volto-group-block.git",
         "https": "https://github.com/eea/volto-group-block.git",

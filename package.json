@@ -22,7 +22,6 @@
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-slate-zotero",
-    "@eeacms/volto-blocks-form",
     "@eeacms/volto-accordion-block",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-block-divider",
