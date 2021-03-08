@@ -1345,7 +1345,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.0.0.tgz#4d273ee2f5b70625da73adedad92342baf7c9b50"
   integrity sha512-j/aaQmH982lvOzpZaOUgwvvEcizt5I/4cSfODgy/+jZn/jnurKUgK9DZiwKJDmmSpoMlyBuiGOMmUoiBqEMrkg==
 
-"@eeacms/volto-blocks-form@2.0.0", "@eeacms/volto-blocks-form@^2.0.0":
+"@eeacms/volto-blocks-form@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-2.0.0.tgz#120529b05706c7eda45580810526730b2c33b605"
   integrity sha512-h240mIV5v492oh9PLcupzUu5yNdSwBgYg2oaepiv+6anQYtsZBeVD2BXD3hreoNwMbmQzlnFQ8UkQ97oxI8zNg==
