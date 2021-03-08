@@ -1478,7 +1478,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-toggle/-/volto-widget-toggle-2.1.0.tgz#71d654b0d16b19fabdd580945d720a5c157dc31b"
   integrity sha512-PK4rNSz+EtoLMUYcCqEzFwhAUlliwZOXp8GsQy1OhGC/+p3I0M+1I0hAthRB4yP+XWo4VaNCvWez8ZRwLg2Cpg==
 
-"@eeacms/volto-widgets-view@2.0.0", "@eeacms/volto-widgets-view@^2.0.0":
+"@eeacms/volto-widgets-view@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-2.1.0.tgz#dcc5aa304a55204df9862edaa049ec12017950e6"
+  integrity sha512-wvvLubNyBe0aldLA7SWa9kOfZbJX4l1jLJXVnEv4AGlK/LLaQ7Pgq38Ds+Tf6N2da0vhgjBe3pwUBQyX7ZjrPA==
+
+"@eeacms/volto-widgets-view@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-2.0.0.tgz#edc51432a8c03307849ac85ccd0e993a36663b57"
   integrity sha512-zgDbgUa9zzmy+jjkS4PMgP/eNVqcaSnRsEvilk6y4DNI3fTL7RFxvdiYUue9wxmf7qPhjj2gmwPP/fFQ0c8k8g==
