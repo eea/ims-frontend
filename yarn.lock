@@ -1463,10 +1463,10 @@
     "@eeacms/volto-corsproxy" "^1.0.0"
     i18n-iso-countries "6.2.1"
 
-"@eeacms/volto-widget-temporal-coverage@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-2.0.0.tgz#6bf8b1a651b2ea2dee5ee7604d369d3068461b5e"
-  integrity sha512-zIW8Hxs2qLkvouRfUHQ4aZcwwmatky4ONhVy5/urk4gA831j09mCkasXhKLH0I8fHJkRDfTBybfY5JsjGYJM4A==
+"@eeacms/volto-widget-temporal-coverage@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-2.1.0.tgz#dc7fe3b80f193b3f3462a7eb8969b7121f80bc90"
+  integrity sha512-G7hooAi8uyTa0A9xP6Klog4JjAoYzMkf0CaBSUGe2Rj7wRufXxyOM7VlxxnmqZr+9ukerWsl3/NvZlahs+Zx6w==
 
 "@eeacms/volto-widget-temporal-coverage@^1.0.0":
   version "1.0.0"
