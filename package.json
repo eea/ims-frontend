@@ -142,7 +142,7 @@
     "@eeacms/volto-widget-toggle": "2.0.0",
     "@eeacms/volto-widgets-view": "2.0.0",
     "@eeacms/volto-workflow-progress": "2.0.0",
-    "@plone/volto": "12.1.2",
+    "@plone/volto": "12.2.0",
     "volto-slate": "2.0.0"
   },
   "devDependencies": {
