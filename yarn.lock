@@ -1415,7 +1415,14 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.0.tgz#c52c9d3392faf2fad462ac3875d5f19bb493f5bf"
   integrity sha512-o2NiBM37Uz+F5HInH/Be3eBxF2rj6jKopUR5fj0+Sejkt4L6HJ0zytrLCuTo1yEPp3098kMnrcVDgKr6dw4n4A==
 
-"@eeacms/volto-slate-footnote@2.0.0", "@eeacms/volto-slate-footnote@^2.0.0":
+"@eeacms/volto-slate-footnote@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-2.1.0.tgz#615dc2d2dfccc2168f513aa4fa2615c8fefae557"
+  integrity sha512-XGfNW5BatmvmSl7bDZrNkz7+X+6ycVDoYm1CS/Gtwc8XZ/Dd0bQgWn/nMShRNaPEel29w83XcjDA3+Tpke8QGg==
+  dependencies:
+    volto-slate "^2.0.0"
+
+"@eeacms/volto-slate-footnote@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-2.0.0.tgz#af0f34f62978ca903771c7fec2911d397bb3ccf5"
   integrity sha512-IWvXhUX2ZKW+g9lCu4SjqFU2Ig+Ah3vHiZgvB/OpWs3rjxC6ERwdWCLNR0NcKUmPr6SQII+aI+6+mA1+pWP3qA==
@@ -16883,7 +16890,24 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@2.0.0, volto-slate@^2.0.0:
+volto-slate@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.1.0.tgz#7b99fd17d4cebb513166ea2aabf5a4770d3b2c12"
+  integrity sha512-vOfUKDav/+ibptboagEElQ1nM5mAWOrPGziXQ8allvA7kq8Yz3hTVfHPQ6H0tAPKJNBEV8HiMBU8aZ1N6ab2jw==
+  dependencies:
+    "@eeacms/volto-object-widget" "^2.0.0"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-visibility-sensor "5.1.1"
+    slate "^0.59"
+    slate-history "^0.59"
+    slate-hyperscript "^0.59"
+    slate-react "^0.59"
+    weak-key "^1.0.2"
+
+volto-slate@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.0.0.tgz#68fd4f0d6b3eb2f77197636710abb380bfbadd19"
   integrity sha512-yijlSz9PJ1xB1IdvPxLmI5MuVGAzyitXsg5OPQnNR5bRNlYK0PK38J+G/fWu3Z1Wpwv7VqNx52eKil0xiLd2Bg==
