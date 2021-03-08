@@ -1861,10 +1861,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@12.1.2":
-  version "12.1.2"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.1.2.tgz#729129551c32608c9aa94873ef2d3c4dcf8a3193"
-  integrity sha512-pqU5r2tf3dMG9kEacBOcEfTqpPd2piQnrYP+Se6oNkRo219i7ZzvcFpd46r6dc8CJ5oMgFIhLxMUVnvDkJyAoQ==
+"@plone/volto@12.2.0":
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.2.0.tgz#64be6d72e09b082261c91d4bd27602b4094efcd6"
+  integrity sha512-FSEm3tmXPc4+1Sik/aHbwEUrh5FwYqXiJwll31kZQhNU7wiK389TMIxKjXrEfmng84nmu9ucPy2h14NlTYEDHw==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -1898,6 +1898,7 @@
     cypress "5.6.0"
     cypress-axe "0.8.1"
     cypress-file-upload "4.1.1"
+    dependency-graph "0.10.0"
     detect-browser "5.1.0"
     diff "3.5.0"
     draft-js "0.10.5"
@@ -1952,7 +1953,7 @@
     postcss-overrides "3.1.4"
     prettier "2.0.5"
     pretty-bytes "5.3.0"
-    prismjs "1.21.0"
+    prismjs "1.23.0"
     promise-file-reader "1.0.2"
     prop-types "15.7.2"
     query-string "4.1.0"
@@ -5709,6 +5710,11 @@ depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+
+dependency-graph@0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.10.0.tgz#dfebe384f1f36faf7782be203a7a71102a6335a6"
+  integrity sha512-c9amUgpgxSi1bE5/sbLwcs5diLD0ygCQYmhfM5H1s5VH1mCsYkcmAL3CcNdv4kdSw6JuMoHeDGzLgj/gAXdWVg==
 
 deprecated-obj@2.0.0:
   version "2.0.0"
@@ -13050,10 +13056,10 @@ print-message@^3.0.1:
   dependencies:
     kleur "3.0.3"
 
-prismjs@1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
-  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
+prismjs@1.23.0:
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
   optionalDependencies:
     clipboard "^2.0.0"
 
