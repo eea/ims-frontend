@@ -1445,10 +1445,10 @@
     "@eeacms/volto-slate-footnote" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-widget-geolocation@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.0.0.tgz#53b50a47863d2a30749e140702c8e0c1ae4341da"
-  integrity sha512-3lZIn7vW8dsefLC5cj0M0S9UbuDJCUy2XfEdlblsO7GQTCCCMk2T45IGwqjO+Ly341ehGN38f561iUKyyR6Fkw==
+"@eeacms/volto-widget-geolocation@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.1.0.tgz#dce7f24aed8b2197ae6ce1509896aae303b5b94e"
+  integrity sha512-boCkSr+2dtP4+ChXE4OSimiidDgxvIWbt7AdRMNK80d2psiKlkoWunm3gzMacaTmP/T6xrRibh7v+TMP6plTZg==
   dependencies:
     "@eeacms/volto-block-style" "^2.0.0"
     "@eeacms/volto-corsproxy" "^2.0.0"
