@@ -1410,10 +1410,10 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^2.0.0"
 
-"@eeacms/volto-sentry-rancher-config@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.0.0.tgz#cd79d818c3ea05f7fea2d7af2483b1995414de25"
-  integrity sha512-/lqzVIQ3Sb0MxnAslX0iDiBvIZCYq13MAOBeoO+r+Avv+VnFWI3RFESHOnF2Wxd6THmloFZ2mpBm9tJJkn9Wng==
+"@eeacms/volto-sentry-rancher-config@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.0.tgz#c52c9d3392faf2fad462ac3875d5f19bb493f5bf"
+  integrity sha512-o2NiBM37Uz+F5HInH/Be3eBxF2rj6jKopUR5fj0+Sejkt4L6HJ0zytrLCuTo1yEPp3098kMnrcVDgKr6dw4n4A==
 
 "@eeacms/volto-slate-footnote@2.0.0", "@eeacms/volto-slate-footnote@^2.0.0":
   version "2.0.0"
