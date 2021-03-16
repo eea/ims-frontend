@@ -34,7 +34,8 @@
     "build": "razzle build",
     "test": "./node_modules/jest/bin/jest.js --env=jsdom --passWithNoTests src/addons --verbose",
     "start:prod": "NODE_ENV=production node build/server.js",
-    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js"
+    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
+    "update": "./scripts/update.sh"
   },
   "jest": {
     "modulePathIgnorePatterns": [
