@@ -1323,10 +1323,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.2.0.tgz#8d302b388b3bed8435c3f9599c2c6b7550e4154f"
-  integrity sha512-Eqn3akUseuzUenVqW2qYYDSZB1YzPhFnzlzDsSwqkmjHQdy4OukrvmNcOFrWgGEVB5Zp0VjLvYezUdcAIlWXqQ==
+"@eeacms/volto-block-style@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.3.0.tgz#02e4627fce8dcc410931ccac5002285c02a73611"
+  integrity sha512-hlzUYo/sEczzka7d0je9URlWSFwRdXNfcZW8+fBMgtIjUKI/A0TXwv94O2KCCGPn7ruhmdx+RCLVTetwaXfxNQ==
   dependencies:
     react-color "~2.18.1"
 
