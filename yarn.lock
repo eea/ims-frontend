@@ -1316,10 +1316,10 @@
     "@eeacms/volto-widget-temporal-coverage" "^1.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-block-divider@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-2.1.0.tgz#daf346b197c3ab8864d02d1a4203836ec99bcd77"
-  integrity sha512-avc+t0p4SgKkBfLf333gymdEoXOVNy5uwzwZP7BKF+u4QIFqvzLur8woZw7VqMkmQBkIXnfXCTumdZ4yQbOmBw==
+"@eeacms/volto-block-divider@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-2.1.1.tgz#32b910667ec91ecab521d2d76b52002e9eaa930b"
+  integrity sha512-4ZYQK+78e+NBei4C4DhuSCBZ6vdUGq2qHXKgNKSHqusJ2HAiHP19RZoIgHPrWv4dI/Uwxn+izF7NjByU7ucPiQ==
   dependencies:
     react-color "~2.18.1"
 
