@@ -1356,10 +1356,10 @@
   dependencies:
     react-beautiful-dnd "13.0.0"
 
-"@eeacms/volto-columns-block@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-3.0.0.tgz#aa3c0a409b0ef05029b4c1707a336be99396db3b"
-  integrity sha512-ua44gtrIpacPva3BbwG4dMXAXBGP+5oE5ERaa6XuEr2qPjnjELuF2UZI68NWRZqEJFM7+KNf/nNW+EBTgfoc+A==
+"@eeacms/volto-columns-block@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.0.0.tgz#d47d7c5e1634166cec65d339c72b821d14714c10"
+  integrity sha512-Ml/bdawnL5cge4ua67IGhr7jugWj7+4VHv8p1SCq7y7Q62IKr1a9qij2G/IaD7eaJ4eJbTqyRG8pAEGu82ngtw==
   dependencies:
     react-color "~2.18.1"
 
