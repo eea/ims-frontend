@@ -128,7 +128,7 @@
     "@eeacms/volto-block-toc": "2.1.0",
     "@eeacms/volto-columns-block": "4.0.0",
     "@eeacms/volto-corsproxy": "2.1.0",
-    "@eeacms/volto-group-block": "4.0.1",
+    "@eeacms/volto-group-block": "4.1.0",
     "@eeacms/volto-ims-theme": "2.2.0",
     "@eeacms/volto-metadata-block": "2.1.0",
     "@eeacms/volto-object-widget": "2.1.0",
