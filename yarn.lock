@@ -1337,13 +1337,6 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.0.0.tgz#6e83944450821e132dc85d80bb4146dd347acb51"
-  integrity sha512-UFOFA3Es+nSidUA8PUeWv2EiwtQXBjKpzaZWGyxCuNfQmluUTuMQ4gCe94nLsll4ZoYweSErwjNlSL4z4bAVBA==
-  dependencies:
-    react-color "~2.18.1"
-
 "@eeacms/volto-block-toc@2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.1.0.tgz#05b677d0f32662e1799f6a91a92ecac7b15d47f5"
@@ -1444,12 +1437,11 @@
     "@eeacms/volto-slate-footnote" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-widget-geolocation@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.1.1.tgz#5500dfa430b03f19fb70341fe2fde7476e9ef540"
-  integrity sha512-7f2PAzd8IS/vIKGgOzfivuSSUbo0ajI1EoNACgRlLakT4PyuZ1xLv7EwfhaFszK/9h8wX2aKQ6Sn9RVX1qRtyg==
+"@eeacms/volto-widget-geolocation@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.2.0.tgz#30bca1cd145a8262415c30a02f75ac23afba270d"
+  integrity sha512-r+rG57W+jZ2xj66x5A6Tti9qp3QpeCYuaylgiqlxWke5fsgJvED/3kZSoviBP/FRfT5KGGPoOSgVglDuUBhqsQ==
   dependencies:
-    "@eeacms/volto-block-style" "^2.0.0"
     "@eeacms/volto-corsproxy" "^2.0.0"
     i18n-iso-countries "6.2.1"
 
