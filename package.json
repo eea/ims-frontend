@@ -42,7 +42,7 @@
     "test": "./node_modules/jest/bin/jest.js --env=jsdom --passWithNoTests src/addons --verbose",
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
-    "develop": "missdev --config=jsconfig.json --output=addons",
+    "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
     "release": "./scripts/release.py",
     "issues": "./scripts/pull-requests.py WARN",
     "issues:all": "./scripts/pull-requests-volto.py WARN",
