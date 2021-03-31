@@ -1,6 +1,6 @@
 FROM node:12-stretch-slim
 
-RUN runDeps="openssl ca-certificates patch gosu git tmux" \
+RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
  && apt-get update \
  && apt-get install -y --no-install-recommends $runDeps \
  && apt-get clean \
