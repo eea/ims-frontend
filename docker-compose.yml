@@ -21,8 +21,8 @@ services:
     ports:
     - "${BACKEND:-8080}:8080"
     environment:
-      PROFILES: "kitconcept.volto:default-homepage eea.geolocation:default eea.progress.workflow:default eea.zotero:default"
-      ADDONS: "kitconcept.volto eea.geolocation eea.progress.workflow eea.zotero"
+      PROFILES: "kitconcept.volto:default-homepage eea.geolocation:default eea.progress.workflow:default eea.zotero:default eea.api.layout:default eea.dexterity.indicators:default"
+      ADDONS: "kitconcept.volto eea.geolocation eea.progress.workflow eea.zotero eea.api.layout eea.dexterity.indicators"
       SITE: "Plone"
     volumes:
     - data:/data
