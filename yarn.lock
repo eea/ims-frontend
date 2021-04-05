@@ -1371,10 +1371,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.0.0.tgz#0ad9ec7cb4017a60d51278597312a5c4aa14de5f"
   integrity sha512-qzcBVwSrkIXSxf6J/uWXg0U7gDlVSB8gI7od0mdeGdBuysUGPo1lc0X4Ij7LOAXxkN2w8E/tBr3897ecRz2zjg==
 
-"@eeacms/volto-group-block@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.1.2.tgz#6dff76aa66cd61d77996f4fb50b82386860dd6b9"
-  integrity sha512-XdsjlOneWeazuc9LeZzskBOLuj8+JXypZ7c9OXTj0ik/h4MtJN+mVT+J0tNOz9b8bsAPEw+yn+mvGKPghv/zdw==
+"@eeacms/volto-group-block@4.1.4":
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.1.4.tgz#4f58fd290fe73c74d4e68f733a4a64657aa7cb8b"
+  integrity sha512-8mNzwmWnxv1dyc6xsZpIiO06Yw2ZqwOVWicKf2PQMYJrnUvnI70nSmv/cLOt8S0DLJwK2lyHzHfQhvWkT0e9ng==
 
 "@eeacms/volto-ims-theme@2.2.0":
   version "2.2.0"
