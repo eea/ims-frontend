@@ -1421,10 +1421,10 @@
   dependencies:
     volto-slate "^2.0.0"
 
-"@eeacms/volto-slate-metadata-mentions@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-2.1.0.tgz#5a395bae1849cf6469c3d77bcdb4d1a5fc1e2c7e"
-  integrity sha512-BSGRdb7cw1HRlybjeeeMhI+RTkJQgcGqMEUNBwc6Tni3lUYjPK7JIMXtczIFV5GY2VBmsRsryGXmXW16viiYVQ==
+"@eeacms/volto-slate-metadata-mentions@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-metadata-mentions/-/volto-slate-metadata-mentions-2.2.0.tgz#16f0c38057f184b019f11a4b9690f41f6774e3c9"
+  integrity sha512-LkTk/Heq81z8iLiseHzoSKOPztTo1LlLPmLSnr7n44Dzw5uD8wuQyWZhf5je4GsbwomT8KzqWsasbdUwYTElRg==
   dependencies:
     "@eeacms/volto-widgets-view" "^2.0.0"
     volto-slate "^2.0.0"
