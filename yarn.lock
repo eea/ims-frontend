@@ -2018,10 +2018,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@12.6.0":
-  version "12.6.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.6.0.tgz#fc49583f1808e7fef9e55826c3b65571e9691d5c"
-  integrity sha512-VX5zItkMsCOAqlQ8LaQtVXS+B7PhNptlgS3Kyp1y0PocQkkBDhTmwWVh75Vb+56mF5ztvbN1HSfgNlZPpBfdbA==
+"@plone/volto@12.7.0":
+  version "12.7.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-12.7.0.tgz#141db52ba76422d7fb3903766edd4e7ea835ea3d"
+  integrity sha512-lxw49ZZJSq5ksjYxKAtyv+/TgEYWy7uyF625x42gxNeH0SexvXw82fbtQMCcysi7aSxwg8LWbhnRKVKP/yV1Og==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
