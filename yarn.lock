@@ -1301,10 +1301,10 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-accordion-block@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.1.0.tgz#cb1debbf264e5d7853ea369c1094c63b1b8e4b3e"
-  integrity sha512-wTjjuAJSF/7GECXqRin24vJlG+fjEP0qC5YabDp0QE/YeWn4/bH8rn9tsOFG81G9ex7BLdawj75j5I6lHKE+rQ==
+"@eeacms/volto-accordion-block@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.2.0.tgz#46bc61e1123e17aef089744fb376f0081f308b3e"
+  integrity sha512-mgIX9XQbSJHFp6ZyMWlZHW+E8afNqtMamMSd+9pt6xSrB0zYNvATz55pMLKlU08BhPR+4ClJQ9/H3+wT2AqdfA==
 
 "@eeacms/volto-block-data-figure@3.2.0":
   version "3.2.0"
