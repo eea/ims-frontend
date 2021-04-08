@@ -4,29 +4,27 @@ services:
   frontend:
     image: eeacms/ims-frontend
     ports:
-    - "${FRONTEND:-8000}:3000"
+    - "${FRONTEND:-4000}:4000"
     depends_on:
-    - ploneapi
+    - backend
     environment:
+      PORT: "${FRONTEND:-4000}"
       API_PATH: "http://localhost:${BACKEND:-8080}/Plone"
-      INTERNAL_API_PATH: "http://ploneapi:${BACKEND:-8080}/Plone"
+      INTERNAL_API_PATH: "http://backend:${BACKEND:-8080}/Plone"
+      RAZZLE_API_PATH: "http://localhost:${BACKEND:-8080}/Plone"
+      RAZZLE_INTERNAL_API_PATH: "http://backend:${BACKEND:-8080}/Plone"
 
-  ploneapi:
-    image: eeacms/plonesaas-devel
+  backend:
+    image: plone
     ports:
     - "${BACKEND:-8080}:8080"
     environment:
-      CORS_ALLOW_ORIGIN: "http://localhost:3000,http://127.0.0.1:3000,http://localhost:${FRONTEND:-8000},http://127.0.0.1:${FRONTEND:-8000}"
-    depends_on:
-    - memcached
+      CORS_ALLOW_ORIGIN: "http://localhost:3000,http://localhost:${FRONTEND:-4000}"
+      PROFILES: "kitconcept.volto:default-homepage eea.geolocation:default eea.progress.workflow:default eea.zotero:default eea.api.layout:default eea.dexterity.indicators:default"
+      ADDONS: "kitconcept.volto eea.geolocation eea.progress.workflow eea.zotero eea.api.layout eea.dexterity.indicators"
+      SITE: "Plone"
     volumes:
     - data:/data
-
-  memcached:
-    image: memcached
-    command:
-    - "-m"
-    - "512"
 
 volumes:
   data:
