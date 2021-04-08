@@ -2,6 +2,7 @@
 src/addons/
 logs
 *.log
+.env
 npm-debug.log*
 .DS_Store
 
