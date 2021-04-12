@@ -1390,10 +1390,10 @@
   dependencies:
     "@eeacms/volto-widgets-view" "^2.0.0"
 
-"@eeacms/volto-object-widget@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.1.0.tgz#3116a9fd2016d0c85959830a7ae719a6ad0afb06"
-  integrity sha512-hu6jO6CRPmR6X2h9iMqsW3LQYCcraUi6fMrp2j4kijFQHkFcw0iWe2Bq72BT3PC9kyrII96LSMTJqkvZx/EHRw==
+"@eeacms/volto-object-widget@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.2.0.tgz#b03750559d50a48ef31ef2c525270a45b5819e7b"
+  integrity sha512-lYRPSVLJfCWbrL/4fJyCfXOpLyJlDVXKh5EbHEBmHgFVdojtIimlfS+gLZ3/DtfhtleDoLuem7vlN06AKwhhcg==
 
 "@eeacms/volto-object-widget@^2.0.0":
   version "2.0.0"
