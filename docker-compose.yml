@@ -23,8 +23,8 @@ services:
     - "${BACKEND:-8080}:8080"
     environment:
       CORS_ALLOW_ORIGIN: "http://localhost:3000,http://localhost:${FRONTEND:-4000}"
-      PROFILES: "kitconcept.volto:default-homepage eea.geolocation:default eea.progress.workflow:default eea.zotero:default eea.api.layout:default eea.dexterity.indicators:default"
-      ADDONS: "kitconcept.volto eea.geolocation eea.progress.workflow eea.zotero eea.api.layout eea.dexterity.indicators"
+      PROFILES: "kitconcept.volto:default-homepage eea.geolocation:default eea.progress.workflow:default eea.zotero:default eea.api.layout:default eea.dexterity.indicators:default eea.dexterity.themes:default"
+      ADDONS: "kitconcept.volto eea.geolocation eea.progress.workflow eea.zotero eea.api.layout eea.dexterity.indicators eea.dexterity.themes"
       SITE: "Plone"
     volumes:
     - data:/data
