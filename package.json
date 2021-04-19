@@ -126,7 +126,7 @@
     "@eeacms/volto-block-divider": "2.1.1",
     "@eeacms/volto-block-style": "3.2.0",
     "@eeacms/volto-block-toc": "2.1.0",
-    "@eeacms/volto-columns-block": "4.3.0",
+    "@eeacms/volto-columns-block": "4.3.1",
     "@eeacms/volto-corsproxy": "2.1.0",
     "@eeacms/volto-group-block": "4.2.1",
     "@eeacms/volto-ims-theme": "2.4.0",
