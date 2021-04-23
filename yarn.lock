@@ -1337,10 +1337,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-toc@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.1.0.tgz#05b677d0f32662e1799f6a91a92ecac7b15d47f5"
-  integrity sha512-zvE7YPhhzmz1YeO7L+E3dKI8/cb8tVUptKPGErP4Zj81qCi3uYQbQDRrpp8weYmaHYDlCsQq/Byf36FcqJMXmg==
+"@eeacms/volto-block-toc@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.0.tgz#5b1dc3be2982a8a96793a741e46b1a8c8df739ec"
+  integrity sha512-TsALVLX8pDP5uWl5pPSVV6K4523knw2U4CST7WVYnhfzY8jll/7fZIQy5Au/DAeNdLBJCL6Is0gylZciQRVv3g==
 
 "@eeacms/volto-blocks-form@^2.0.0":
   version "2.0.0"
