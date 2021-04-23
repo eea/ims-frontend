@@ -142,7 +142,7 @@
     "@eeacms/volto-widgets-view": "2.1.0",
     "@eeacms/volto-workflow-progress": "2.2.0",
     "@plone/volto": "12.10.1",
-    "volto-slate": "2.4.0"
+    "volto-slate": "2.4.2"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
