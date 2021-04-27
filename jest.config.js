@@ -30,7 +30,7 @@ module.exports = {
       statements: 5,
     },
   },
-  setupFiles: ['@plone/volto/test-setup.js'],
+  setupFiles: ['@plone/volto/test-setup-config.js'],
   globals: {
     __DEV__: true,
   },
