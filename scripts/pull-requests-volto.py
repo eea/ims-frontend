@@ -146,8 +146,7 @@ class Github(object):
                 pulls = json.loads(conn.read())
                 for pull in pulls:
                     self.status = 1
-                    self.logger.warning("%s - %s", name, pull.get('title', '-'))
-        except Exception as err:
+                    self.logger.warning("%s - %s - %s - %s from %s", name, pull.get('user').get('login', '-'), pull.get('title', '-'), pull.get('html_url', '-'), pull.get('created_at', '-') )        except Exception as err:
             self.logger.exception(err)
 
         url = repo.get('url', '') + '/forks'
