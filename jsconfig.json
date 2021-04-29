@@ -63,6 +63,9 @@
             ],
             "@eeacms/volto-ims-theme": [
                 "addons/volto-ims-theme/src"
+            ],
+            "@eeacms/volto-ims-policy": [
+                "addons/volto-ims-policy/src"
             ]
         },
         "baseUrl": "src"

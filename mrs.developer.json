@@ -145,5 +145,12 @@
         "package": "@eeacms/volto-ims-theme",
         "branch": "develop",
         "path": "src"
+      },
+      "volto-ims-policy": {
+        "url": "git@github.com:eea/volto-ims-policy.git",
+        "https": "https://github.com/eea/volto-ims-policy.git",
+        "package": "@eeacms/volto-ims-policy",
+        "branch": "develop",
+        "path": "src"
       }
  }

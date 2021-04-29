@@ -31,7 +31,8 @@
     "@eeacms/volto-columns-block",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-block-style",
-    "@eeacms/volto-ims-theme"
+    "@eeacms/volto-ims-theme",
+    "@eeacms/volto-ims-policy"
   ],
   "scripts": {
     "start": "razzle start",
