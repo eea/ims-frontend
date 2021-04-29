@@ -1323,10 +1323,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.2.1.tgz#b904490f58f44025d31fe7414d5380e35762ba81"
-  integrity sha512-MNwrvmeMF1SPeUFQsRH15cP1kVJ3hbvH4UOHHKE9KmdGs0aKzOtgfKbpiORkap4HSYI0hTdU85JLisxFh9q5Lw==
+"@eeacms/volto-block-style@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.2.2.tgz#b49664c5fb739752379a20ff660a649bf9ee463e"
+  integrity sha512-pZuDAGxuqqbeIZAeOkaeHuZiYiQEi3GKJSkTWZhHhp1EujJZTPpEcIL+7dK/O7JAucE6MBDbKugTZM1+ZEKbZA==
   dependencies:
     react-color "~2.18.1"
 
@@ -1349,10 +1349,10 @@
   dependencies:
     react-beautiful-dnd "13.0.0"
 
-"@eeacms/volto-columns-block@4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.1.tgz#573ad29c4aa3c68acedd4f9a59112e65141e6eb8"
-  integrity sha512-Tc7pSrhO2OiqnqohUHQ9y5GwNCHj3sMmCRgMN5FTbOMU4Sv86zZ5BhpGvoE6Cxsua6YqQZbmEl/YtohOaJm+Pg==
+"@eeacms/volto-columns-block@4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.2.tgz#bbbf585faa3eab05c651d39e9f8e7f517bdd5d3b"
+  integrity sha512-5a6ZrHLkHOrDBJinQWqEVq319YaFXAE9ach+OJVHcsB+XOJHXx1ILejHZOhwPeASBHvOL1ourFqgJzJzeN9/EA==
   dependencies:
     react-color "~2.18.1"
 
