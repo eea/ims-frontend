@@ -5,6 +5,9 @@ logs
 npm-debug.log*
 .DS_Store
 
+# locales
+locales/*.json
+
 coverage
 node_modules
 build
