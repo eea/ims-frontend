@@ -1330,10 +1330,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@3.2.3":
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.2.3.tgz#00eedece3170d470cb36054b120871e06eac0d9c"
-  integrity sha512-66TtNVVnoHUMuk83JfznGwU0Nj5m46JgRxiEExYj1AZBFIlSMrMPJxqCq6fPZgeVGxEa5Nb0RzUWrXKKC/k9Kw==
+"@eeacms/volto-block-style@3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.2.4.tgz#980059fff17eeb85887a38696c0180af44de60a9"
+  integrity sha512-echRH7YGnGX5qhM3c0kwQIGgOPTnu7iq3WhaZnUOvlIjDyGMAwgpbxLIPq9N3/AdYmSyjFWfMTD9h4chfcO5Rw==
   dependencies:
     react-color "~2.18.1"
 
@@ -2004,10 +2004,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.0.0.tgz#ff8f304e16d9619ae0a3e679222e5f69775f0a07"
-  integrity sha512-bYUctJ2Thmn3gX3vSAtoUaT1Tpq8HYjH4KEcnQg0P8ZomKyHXBkpFLk0CiOLUkVOj3vFirNvKfUFY+LSheftYQ==
+"@plone/volto@13.0.1":
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.0.1.tgz#ca1b8ae6e3222bd336767389a3605f025d4f9b13"
+  integrity sha512-sUP7kwepWwYv0ay3T/2TGHgoqRPfTFVpsraUiDsONmUlPu/BmVsoKk1x4bLzcDB/G+ulyAj0FuardK7Cq2gMKg==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
