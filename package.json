@@ -130,7 +130,7 @@
     "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-corsproxy": "2.1.1",
     "@eeacms/volto-group-block": "4.2.2",
-    "@eeacms/volto-ims-policy": "1.0.0",
+    "@eeacms/volto-ims-policy": "1.0.1",
     "@eeacms/volto-ims-theme": "2.7.0",
     "@eeacms/volto-metadata-block": "3.0.0",
     "@eeacms/volto-object-widget": "2.2.1",
