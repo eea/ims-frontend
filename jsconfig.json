@@ -64,6 +64,9 @@
             "@eeacms/volto-workflow-progress": [
                 "addons/volto-workflow-progress/src"
             ],
+            "@eeacms/volto-taxonomy": [
+                "addons/volto-taxonomy/src"
+            ],
             "@eeacms/volto-ims-theme": [
                 "addons/volto-ims-theme/src"
             ],

@@ -146,6 +146,13 @@
         "branch": "develop",
         "path": "src"
       },
+      "volto-taxonomy": {
+        "url": "git@github.com:eea/volto-taxonomy.git",
+        "https": "https://github.com/eea/volto-taxonomy.git",
+        "package": "@eeacms/volto-taxonomy",
+        "branch": "develop",
+        "path": "src"
+    },
       "volto-ims-theme": {
         "url": "git@github.com:eea/volto-ims-theme.git",
         "https": "https://github.com/eea/volto-ims-theme.git",
