@@ -104,6 +104,13 @@
         "branch": "develop",
         "path": "src"
     },
+    "volto-resize-helper": {
+        "url": "git@github.com:eea/volto-resize-helper.git",
+        "https": "https://github.com/eea/volto-resize-helper.git",
+        "package": "@eeacms/volto-resize-helper",
+        "branch": "develop",
+        "path": "src"
+    },
     "volto-block-style": {
         "url": "git@github.com:eea/volto-block-style.git",
         "https": "https://github.com/eea/volto-block-style.git",

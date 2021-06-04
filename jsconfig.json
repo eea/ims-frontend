@@ -46,6 +46,9 @@
             "@eeacms/volto-sentry-rancher-config": [
                 "addons/volto-sentry-rancher-config/src"
             ],
+            "@eeacms/volto-resize-helper": [
+                "addons/volto-resize-helper/src"
+            ],
             "@eeacms/volto-block-style": [
                 "addons/volto-block-style/src"
             ],
