@@ -1313,15 +1313,15 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.2.3.tgz#d91461c6c03fea836e3b5f043663233e0897c563"
   integrity sha512-cwm4KY8LB86q/9k4JY9iWoLVA4oaT3MlbUjs76SoDkO51npRWur/N7Lmekh6rJc4qO3OaPXplzJuQkE89IbCQQ==
 
-"@eeacms/volto-block-data-figure@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-3.4.0.tgz#3ebf62cac506dab50a2cee3ecdf2b28dc5a1e71d"
-  integrity sha512-rcjiHQ12rTJXI6SnujwqX7fCm3tRYwBrcooeAjEodowd7MUs7pUoaPLrWZsYssrc+SqCbQYqypWsyLN1Vkq52w==
+"@eeacms/volto-block-data-figure@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-4.0.0.tgz#ccd1592ecfc43c1d8658659f2eafa9a682d653d3"
+  integrity sha512-FYsLe0K1r8UZuOxmLW40XtrA6hlgRnni2talDVvYaicrgen3jHJhuyVYjfSHYVBOwzAlZ2N6x5ATfvpecuBu5A==
   dependencies:
-    "@eeacms/volto-corsproxy" "^2.0.0"
-    "@eeacms/volto-widget-geolocation" "^2.0.0"
-    "@eeacms/volto-widget-temporal-coverage" "^2.0.0"
-    volto-slate "^2.0.0"
+    "@eeacms/volto-corsproxy" ">=2.0.0"
+    "@eeacms/volto-widget-geolocation" ">=3.0.0"
+    "@eeacms/volto-widget-temporal-coverage" ">=3.0.0"
+    volto-slate ">=2.0.0"
 
 "@eeacms/volto-block-divider@2.1.3":
   version "2.1.3"
@@ -1356,7 +1356,7 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-corsproxy@2.1.2":
+"@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@>=2.0.0":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
@@ -1402,10 +1402,10 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^2.0.0"
 
-"@eeacms/volto-resize-helper@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.1.1.tgz#7148b2560b2a34297183f235ed2f580a72d469dd"
-  integrity sha512-bxxjzYzsOpd4JnbmHSBZpewQgXEs+1MIGdFAJ+mv+uAFYx57ordKpsEm/f32BowIvs/8uECgeKsHkIsTkfw0Gw==
+"@eeacms/volto-resize-helper@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.1.tgz#ede52342f246a90035732191a879bb3c48e4ce11"
+  integrity sha512-ZkXPZL4jWpAoRjOilJV3rv4VQj/7ONrO2GwUEholuVrXjfjT/qXrLpCe2wayxaJLrsDV8kRggvN6/3WWil/3gQ==
 
 "@eeacms/volto-sentry-rancher-config@2.1.2":
   version "2.1.2"
@@ -1442,31 +1442,23 @@
     "@eeacms/volto-slate-footnote" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-widget-geolocation@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.3.0.tgz#1919069d1e92f675723a579f8bac1cd562deb9bf"
-  integrity sha512-Vt6d8BkpOwVaZOZEG3DmgML9ikF5HJaVKnUabebaEhLX45z8vp3K9mXEM2INMOv32P8ze7WmgKB93pMmEvBRXA==
+"@eeacms/volto-taxonomy@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-1.0.0.tgz#431477475ef56b0cc00ca7d257d0149fdb600dd2"
+  integrity sha512-LPs3D7ChvTLKYm7AR+pWYioYk40OC/TF5aVEmUZj29v6u4pIqL8aB80/+ffA6bFQS7ybwXc5QbrW2b3Ll2k+/Q==
+
+"@eeacms/volto-widget-geolocation@3.0.0", "@eeacms/volto-widget-geolocation@>=3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.0.tgz#20a8c0cd490cec5000cfdb998ae12b07df5fa4ea"
+  integrity sha512-VLNW6IAHZw60Qf9V0zDtJXB+dlhLvksIjUCs4aJ0PC+elknfmDWVLdsg7BynV5qz1dNiC6gt726GXOD5ybC8og==
   dependencies:
     "@eeacms/volto-corsproxy" "^2.0.0"
     i18n-iso-countries "6.2.1"
 
-"@eeacms/volto-widget-geolocation@^2.0.0":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-2.2.1.tgz#b8f0d9d1332f6254d8edc04feae17167b8d333e1"
-  integrity sha512-GrrpqbzBFUeaAgYPWpCqzPtzBJPdt3sul5E+p9u0hC5eIpu2oO0iq9N7eHPuhG9k0jTv+aerX5LiU/DpCCbIeA==
-  dependencies:
-    "@eeacms/volto-corsproxy" "^2.0.0"
-    i18n-iso-countries "6.2.1"
-
-"@eeacms/volto-widget-temporal-coverage@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-2.2.0.tgz#4c5d672fb590d69efc799050c1a661f449a06af4"
-  integrity sha512-LHn7iaPsmjqxzn3rotzFXetLGDwBmHp6va4q7vzAL0+kFzivLWTlDV98pvmO0h9V428TZonkB+g9upMnVVy6Aw==
-
-"@eeacms/volto-widget-temporal-coverage@^2.0.0":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-2.1.2.tgz#c0c48b0d64c355aa94e4ed1beb231a8a95821707"
-  integrity sha512-sX/AETZWN0dWkTzEJWtrkK6Euur/E5nbVwDSploeNx0u5Zzhn+mUex3kICYZV+4wFBFl4hfcetf4MrwI322bNw==
+"@eeacms/volto-widget-temporal-coverage@3.0.0", "@eeacms/volto-widget-temporal-coverage@>=3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-3.0.0.tgz#23d683f69557667ce4bc4da608fe959cc75bd7f7"
+  integrity sha512-4oyz70wWBu12UJsgh3RfAWa/SlcOTsL0oN8oRyrg32WfJwRRmrWCfNLXFrhG8hshtWxWPazur8AGx5ywihWAoA==
 
 "@eeacms/volto-widget-toggle@2.2.2":
   version "2.2.2"
@@ -16682,7 +16674,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@2.6.2:
+volto-slate@2.6.2, volto-slate@>=2.0.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.6.2.tgz#61da0b0d30b5d4f0461edb78cfab32326fcb56f9"
   integrity sha512-zdiSIOQfIz3F3b29s9ZbvHIheto0rvtOpOqJoQFZnASssIpdMHcgpGrbknR1+g/hdSN817UuXcB0AusHenYwCQ==
