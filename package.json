@@ -143,7 +143,7 @@
     "@eeacms/volto-resize-helper": "0.2.1",
     "@eeacms/volto-sentry-rancher-config": "2.1.2",
     "@eeacms/volto-slate-footnote": "2.2.2",
-    "@eeacms/volto-slate-metadata-mentions": "2.2.2",
+    "@eeacms/volto-slate-metadata-mentions": "2.2.3",
     "@eeacms/volto-slate-zotero": "2.1.2",
     "@eeacms/volto-taxonomy": "2.0.1",
     "@eeacms/volto-widget-geolocation": "3.0.0",
