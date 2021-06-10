@@ -1366,6 +1366,11 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.0.0.tgz#0ad9ec7cb4017a60d51278597312a5c4aa14de5f"
   integrity sha512-qzcBVwSrkIXSxf6J/uWXg0U7gDlVSB8gI7od0mdeGdBuysUGPo1lc0X4Ij7LOAXxkN2w8E/tBr3897ecRz2zjg==
 
+"@eeacms/volto-editing-progress@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.0.tgz#d162ac2ac0f7c4cbc172866dd8a634da6f666617"
+  integrity sha512-hbylVuath91dSMis1WMaEF4HuNNWv9dH097K5Nz7PnQptWxDfohDDHM0viWQ8jiZVnCiUZd4C1E+rGjGeIETmg==
+
 "@eeacms/volto-group-block@4.2.3":
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.2.3.tgz#bc8d47559d5c6f74c00dd1436bddc666b23ff62d"
