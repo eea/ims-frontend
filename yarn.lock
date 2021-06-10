@@ -1447,10 +1447,10 @@
     "@eeacms/volto-slate-footnote" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-taxonomy@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.0.tgz#ff792b9e7798faf1797e511a04976f40221e0d5e"
-  integrity sha512-2/flPGQSA7AqgtK689BRquUrh77PwqQuZ8D/7FNQZSiJhjM9VSH2NwIsoZHao5131kszTs1PCs3JnjKTCsvzqg==
+"@eeacms/volto-taxonomy@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.1.tgz#1854f046eebb8a9168894d4547126c3317af70ab"
+  integrity sha512-F/+VPcIEAzAnkXjcjDH3tSe/OTakzIjsdBs6Y/mIOWPWa36kXuOXa94TsBnstOoPbgaad3QtviUlsX19/jyN+g==
 
 "@eeacms/volto-widget-geolocation@3.0.0", "@eeacms/volto-widget-geolocation@>=3.0.0":
   version "3.0.0"
