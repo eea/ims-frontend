@@ -67,6 +67,9 @@
             "@eeacms/volto-workflow-progress": [
                 "addons/volto-workflow-progress/src"
             ],
+            "@eeacms/volto-editing-progress": [
+                "addons/volto-editing-progress/src"
+            ],
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/src"
             ],
@@ -75,9 +78,6 @@
             ],
             "@eeacms/volto-ims-policy": [
                 "addons/volto-ims-policy/src"
-            ],
-            "@eeacms/volto-editing-progress": [
-                "addons/volto-editing-progress/src"
             ]
         },
         "baseUrl": "src"
