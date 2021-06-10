@@ -26,6 +26,7 @@
     "@eeacms/volto-block-toc",
     "@eeacms/volto-block-divider",
     "@eeacms/volto-block-data-figure",
+    "@eeacms/volto-listing-block",
     "@eeacms/volto-metadata-block",
     "@eeacms/volto-group-block",
     "@eeacms/volto-columns-block",

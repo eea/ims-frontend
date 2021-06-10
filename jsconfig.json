@@ -10,6 +10,9 @@
             "@eeacms/volto-widgets-view": [
                 "addons/volto-widgets-view/src"
             ],
+            "@eeacms/volto-listing-block": [
+                "addons/volto-listing-block/src"
+            ],
             "@eeacms/volto-metadata-block": [
                 "addons/volto-metadata-block/src"
             ],

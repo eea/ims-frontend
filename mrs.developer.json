@@ -20,6 +20,13 @@
          "branch": "develop",
          "path": "src"
      },
+     "volto-listing-block": {
+        "url": "git@github.com:eea/volto-listing-block.git",
+        "https": "https://github.com/eea/volto-listing-block.git",
+        "package": "@eeacms/volto-listing-block",
+        "branch": "develop",
+        "path": "src"
+    },
      "volto-metadata-block": {
         "url": "git@github.com:eea/volto-metadata-block.git",
         "https": "https://github.com/eea/volto-metadata-block.git",
