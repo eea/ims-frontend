@@ -75,6 +75,9 @@
             ],
             "@eeacms/volto-ims-policy": [
                 "addons/volto-ims-policy/src"
+            ],
+            "@eeacms/volto-editing-progress": [
+                "addons/volto-editing-progress/src"
             ]
         },
         "baseUrl": "src"

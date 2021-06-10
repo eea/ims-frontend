@@ -30,6 +30,7 @@
     "@eeacms/volto-metadata-block",
     "@eeacms/volto-group-block",
     "@eeacms/volto-columns-block",
+    "@eeacms/volto-editing-progress",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-resize-helper",
     "@eeacms/volto-taxonomy",
