@@ -1313,10 +1313,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.2.3.tgz#d91461c6c03fea836e3b5f043663233e0897c563"
   integrity sha512-cwm4KY8LB86q/9k4JY9iWoLVA4oaT3MlbUjs76SoDkO51npRWur/N7Lmekh6rJc4qO3OaPXplzJuQkE89IbCQQ==
 
-"@eeacms/volto-block-data-figure@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-4.1.0.tgz#ca676916a47fffa896457474dcca719ee45ce170"
-  integrity sha512-Ki/I2el+Mu6pxRoV43K2BxfFzeoNiuiWAW9Up51wTSrpL/WYb0Z/Zgw9hBz8tp3T5NHfkGXZCwlYySqMsIJUag==
+"@eeacms/volto-block-data-figure@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-4.1.1.tgz#7267204000f1903594ef57b2725baefc043c1800"
+  integrity sha512-xHRe4A3x8PbTiNT/TPlFxeJeJClBRCFuxhE8pmRxtEfWw/lGx66JKF+VlFwvRS8gCyO7mmZnAEqjZy5JEQL60w==
   dependencies:
     "@eeacms/volto-corsproxy" ">=2.0.0"
     "@eeacms/volto-widget-geolocation" ">=3.0.0"
@@ -1381,10 +1381,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-policy/-/volto-ims-policy-1.0.1.tgz#f6cde8e4c4dd7a924be168f73147393343817359"
   integrity sha512-BXnuigKYzT2bYyLSJMWBorar+G27oeibXdHtOWJfRFZMrB4wl1xwLahRdUtaq1XNwKwb7ht3Qg+x36jQzhBk2A==
 
-"@eeacms/volto-ims-theme@2.7.2":
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-2.7.2.tgz#07011d88b1a0642cd0b00819a17341f38c362f1d"
-  integrity sha512-b/V0NsDxCOCqYltigbDHbaQwiC9nve+4q5s1hQCrnFQWX5/F6ivtqYCD//lQcTmkXRmirOIZ3KAvau/IoId7CQ==
+"@eeacms/volto-ims-theme@2.7.3":
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-2.7.3.tgz#7f31f7661064f49fc3d95536d6027a84f36e5e10"
+  integrity sha512-hYsWRVRCwjNQGdo87JVLgo+dCa/FmydiookUgabCNkKGJnXwVGKEclshrtCanBcBMzVtQ+ptQ5bsz7xErHhSGw==
   dependencies:
     "@eeacms/volto-corsproxy" "^2.0.0"
 
@@ -16684,7 +16684,25 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@2.6.4, volto-slate@>=2.6.4:
+volto-slate@2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.7.0.tgz#8e5fb3f67021d8d94c3ddc4caab0bf5f72b925b5"
+  integrity sha512-YTOUA3KzL1wDUTsibHGTyTRAVjF3N6ABQd6ykP8wEnLatRdKvs6CbOCU+bQduirr715LFBoarrIbihwZjp7s7A==
+  dependencies:
+    "@eeacms/volto-object-widget" "^2.0.0"
+    classnames "2.2.6"
+    image-extensions "1.1.0"
+    is-url "1.2.4"
+    jsdom "16.2.2"
+    react-intersection-observer "^8.32.0"
+    react-visibility-sensor "5.1.1"
+    slate "^0.62.0"
+    slate-history "^0.62.0"
+    slate-hyperscript "^0.62.0"
+    slate-react "^0.62.0"
+    weak-key "^1.0.2"
+
+volto-slate@>=2.6.4:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.6.4.tgz#0419b26dde2765b6ad9795be9473e3d1437e3524"
   integrity sha512-oNrPG2Y9Yw4Wb3lEofjaIDh6BE1veuOGnlfC8OKinRHYCXpEsve/EOci7e34wfdJ8t09HtUdYI8v9Sxovs28DA==
