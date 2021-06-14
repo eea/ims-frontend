@@ -2600,10 +2600,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@13.2.0":
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.2.0.tgz#62b4f6c3e956a380a9df4426f4ca517c0fc8aef1"
-  integrity sha512-Py5pwML7u1R9fE05myv37qBuo0LMkXGYyoA55oVUnu4XPrL8dv9pFtd6B+QFNxizF6KtHOHCqLhyobtltEQDKw==
+"@plone/volto@13.2.1":
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.2.1.tgz#be7d496ce60cd7684240affad89c79cbcf3e9470"
+  integrity sha512-8h6dqJ1SlSqYrbbVjpbg9w5cyrBb2CU5o+/l0UohKcqUfmvZUsbzgmBXHSgOM2lzlsKj0QPeSBwdBpl2Zwming==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
