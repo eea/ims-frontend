@@ -1412,10 +1412,10 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^2.0.0"
 
-"@eeacms/volto-resize-helper@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.1.tgz#ede52342f246a90035732191a879bb3c48e4ce11"
-  integrity sha512-ZkXPZL4jWpAoRjOilJV3rv4VQj/7ONrO2GwUEholuVrXjfjT/qXrLpCe2wayxaJLrsDV8kRggvN6/3WWil/3gQ==
+"@eeacms/volto-resize-helper@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.2.tgz#5fa899acc4116f2a31cc753bb3737b1ceb30238a"
+  integrity sha512-MevcfCFta+A79esQbGq0dVwZHHp5zbkguQ3j8nORGtZEmnYOUCE+HTUoWVAGmQLDFbrfy7lttwmiwFXxC0COxw==
 
 "@eeacms/volto-sentry-rancher-config@2.1.2":
   version "2.1.2"
@@ -1452,10 +1452,10 @@
     "@eeacms/volto-slate-footnote" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-taxonomy@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.1.tgz#1854f046eebb8a9168894d4547126c3317af70ab"
-  integrity sha512-F/+VPcIEAzAnkXjcjDH3tSe/OTakzIjsdBs6Y/mIOWPWa36kXuOXa94TsBnstOoPbgaad3QtviUlsX19/jyN+g==
+"@eeacms/volto-taxonomy@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.2.tgz#4cda9b921c92cd94595fd279c944ec1f9bcafc26"
+  integrity sha512-KOrIh411JtHGFtbA7neM51h6IvY5U0s1T9WFjArqP+QBY7HOZ3mu4Eqoh2iJuE/N8IKZc0vYkYKASKDLfLz03Q==
 
 "@eeacms/volto-widget-geolocation@3.0.0", "@eeacms/volto-widget-geolocation@>=3.0.0":
   version "3.0.0"
@@ -2024,10 +2024,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@13.2.0":
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.2.0.tgz#62b4f6c3e956a380a9df4426f4ca517c0fc8aef1"
-  integrity sha512-Py5pwML7u1R9fE05myv37qBuo0LMkXGYyoA55oVUnu4XPrL8dv9pFtd6B+QFNxizF6KtHOHCqLhyobtltEQDKw==
+"@plone/volto@13.2.1":
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.2.1.tgz#be7d496ce60cd7684240affad89c79cbcf3e9470"
+  integrity sha512-8h6dqJ1SlSqYrbbVjpbg9w5cyrBb2CU5o+/l0UohKcqUfmvZUsbzgmBXHSgOM2lzlsKj0QPeSBwdBpl2Zwming==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
