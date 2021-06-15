@@ -1,5 +1,6 @@
 pipeline {
   environment {
+    GIT_NAME = "ims-frontend"
     registry = "eeacms/ims-frontend"
     template = "templates/volto-ims"
     dockerImage = ''
