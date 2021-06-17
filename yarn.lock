@@ -1393,10 +1393,10 @@
   dependencies:
     "@eeacms/volto-corsproxy" "^2.0.0"
 
-"@eeacms/volto-listing-block@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.1.1.tgz#99e4998513966e3755b64620ec594a59a1d900cb"
-  integrity sha512-m8uQ4q4GqjizfiuKJdhLYklrDd7L8HKxHjkW7XSlJrdzAnPKS/8jw8QCOYpXf4pnr0s9IoYoteelnA+HQBarBw==
+"@eeacms/volto-listing-block@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.1.2.tgz#4ba22f5a3b424f56801af22bd96e8e5a6d35d1ec"
+  integrity sha512-0NuqOpfd6ptzFakIFo2U0m+LNVPZ0lUnxG9RdjdJTF5lZ4Zy830OqO166ftAKfYoMyjgG+fseSMriHSJlBLE7Q==
 
 "@eeacms/volto-metadata-block@3.0.1":
   version "3.0.1"

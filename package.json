@@ -139,7 +139,7 @@
     "@eeacms/volto-group-block": "4.2.3",
     "@eeacms/volto-ims-policy": "1.0.1",
     "@eeacms/volto-ims-theme": "2.7.4",
-    "@eeacms/volto-listing-block": "0.1.1",
+    "@eeacms/volto-listing-block": "0.1.2",
     "@eeacms/volto-metadata-block": "3.0.1",
     "@eeacms/volto-object-widget": "2.2.3",
     "@eeacms/volto-resize-helper": "0.2.2",
