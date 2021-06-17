@@ -6,6 +6,13 @@
          "branch": "develop",
          "path": "src"
     },
+    "volto-depiction": {
+        "url": "git@github.com:eea/volto-depiction.git",
+        "https": "https://github.com/eea/volto-depiction.git",
+        "package": "@eeacms/volto-depiction",
+        "branch": "develop",
+        "path": "src"
+    },
      "volto-slate-metadata-mentions": {
          "url": "git@github.com:eea/volto-slate-metadata-mentions.git",
          "https": "https://github.com/eea/volto-slate-metadata-mentions.git",

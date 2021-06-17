@@ -13,6 +13,7 @@
   "addons": [
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-corsproxy",
+    "@eeacms/volto-depiction",
     "@eeacms/volto-object-widget",
     "@eeacms/volto-widgets-view",
     "@eeacms/volto-widget-toggle",

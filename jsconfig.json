@@ -4,6 +4,9 @@
             "volto-slate": [
                 "addons/volto-slate/src"
             ],
+            "@eeacms/volto-depiction": [
+                "addons/volto-depiction/src"
+            ],
             "@eeacms/volto-slate-metadata-mentions": [
                 "addons/volto-slate-metadata-mentions/src"
             ],
