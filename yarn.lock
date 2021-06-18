@@ -2031,24 +2031,15 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-blocks-form@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blocks-form/-/volto-blocks-form-2.0.0.tgz#120529b05706c7eda45580810526730b2c33b605"
-  integrity sha512-h240mIV5v492oh9PLcupzUu5yNdSwBgYg2oaepiv+6anQYtsZBeVD2BXD3hreoNwMbmQzlnFQ8UkQ97oxI8zNg==
-  dependencies:
-    react-beautiful-dnd "13.0.0"
+"@eeacms/volto-corsproxy@>=2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
+  integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
 
-"@eeacms/volto-corsproxy@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.0.0.tgz#0ad9ec7cb4017a60d51278597312a5c4aa14de5f"
-  integrity sha512-qzcBVwSrkIXSxf6J/uWXg0U7gDlVSB8gI7od0mdeGdBuysUGPo1lc0X4Ij7LOAXxkN2w8E/tBr3897ecRz2zjg==
-
-"@eeacms/volto-object-widget@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.0.0.tgz#b246ca305a508e30931a634d3b22de8ddb299340"
-  integrity sha512-d4lfbe6JgOPYBez93gQbWlaf31Jzd4ceUZXO7AjQPeMRWQ1hhi9BkgRiFBoqQgyqg3xk3hhMYurE6WklWfKl+g==
-  dependencies:
-    "@eeacms/volto-blocks-form" "^2.0.0"
+"@eeacms/volto-object-widget@>=2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.2.3.tgz#38f3bff8d71486d97fa99f0ca5912ad4141a2033"
+  integrity sha512-u4xLyASXvSrsG2b0QTRitOjuIfNoXjMRuaAo0oNyJLETuLj73qyLR3TsSDG//2VmBIklB/ca/7Xl7ncHaaJF1A==
 
 "@emotion/babel-plugin@^11.0.0":
   version "11.1.2"
