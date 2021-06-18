@@ -1313,15 +1313,15 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.2.3.tgz#d91461c6c03fea836e3b5f043663233e0897c563"
   integrity sha512-cwm4KY8LB86q/9k4JY9iWoLVA4oaT3MlbUjs76SoDkO51npRWur/N7Lmekh6rJc4qO3OaPXplzJuQkE89IbCQQ==
 
-"@eeacms/volto-block-data-figure@4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-4.2.1.tgz#84c8a7a4c2050a69ba953ca457831d90d5bcf20c"
-  integrity sha512-ZtpD2Xs+Tr51Zvwz9CKjdEjvK0lEduWcm+GL4y1i8aWJHazEE8WcwpA5VEruLjABPT8EpDSbwT6HGvVO3PylGA==
+"@eeacms/volto-block-data-figure@4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-4.2.2.tgz#348b5fbacf98481982cc61da2fb46f8083e4de2a"
+  integrity sha512-bFGvHPbeZdSFX1OcaBZjKdPjlBSzk1I2nmC0juSwzVKETH1LCVw9C6MBIL3Nz46SNzQ52Bh3P/3QkhcgQmgT+Q==
   dependencies:
-    "@eeacms/volto-corsproxy" ">=2.0.0"
+    "@eeacms/volto-corsproxy" ">=2.1.2"
     "@eeacms/volto-widget-geolocation" ">=3.0.0"
     "@eeacms/volto-widget-temporal-coverage" ">=3.0.0"
-    volto-slate ">=2.6.4"
+    volto-slate ">=2.7.1"
 
 "@eeacms/volto-block-divider@2.1.3":
   version "2.1.3"
@@ -1357,7 +1357,7 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@>=2.0.0", "@eeacms/volto-corsproxy@>=2.1.2":
+"@eeacms/volto-corsproxy@2.1.2", "@eeacms/volto-corsproxy@>=2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
