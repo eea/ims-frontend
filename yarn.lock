@@ -1427,19 +1427,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.2.tgz#3833b597568a824e916c09d1927e651a0fba2fda"
   integrity sha512-eT+SlMCXFK4H1N8yqJOWq5cNDF73gvVUGS/cw3qbZmYhhkqCIDrU43aa1/6aGHzmeTStIIS7KtwEVlbDeHYAMQ==
 
-"@eeacms/volto-slate-footnote@2.3.0":
+"@eeacms/volto-slate-footnote@2.3.0", "@eeacms/volto-slate-footnote@>=2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-2.3.0.tgz#f4b572c5f56a8c22b434c0684162566500d87d5a"
   integrity sha512-4CtWoQZrGnCttk3H3Yb9YJUvZJIXPTtY+WLz5byl0HG3TSZmHKdz/T89j7IfFsErtNcDVgeenTcMLvvHQcGAug==
   dependencies:
     volto-slate ">=2.6.4"
-
-"@eeacms/volto-slate-footnote@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-2.0.0.tgz#af0f34f62978ca903771c7fec2911d397bb3ccf5"
-  integrity sha512-IWvXhUX2ZKW+g9lCu4SjqFU2Ig+Ah3vHiZgvB/OpWs3rjxC6ERwdWCLNR0NcKUmPr6SQII+aI+6+mA1+pWP3qA==
-  dependencies:
-    volto-slate "^2.0.0"
 
 "@eeacms/volto-slate-metadata-mentions@2.2.3":
   version "2.2.3"
@@ -1449,13 +1442,13 @@
     "@eeacms/volto-widgets-view" "^2.0.0"
     volto-slate "^2.0.0"
 
-"@eeacms/volto-slate-zotero@2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-2.1.3.tgz#4d73c33c97f1972ca2d245ecbcd903d1cc240122"
-  integrity sha512-TigLaqgD68XeLAwmfI5MdHs10L5B16q8glFg92v4XP6I20LF/a9Zg5vAjeWNBaKXZVgNATrpKTErvQf7bZnVXw==
+"@eeacms/volto-slate-zotero@2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-zotero/-/volto-slate-zotero-2.1.4.tgz#ef5eb8be405be2242be0881471ceecf255411e47"
+  integrity sha512-icr/ow7vU0twkBOdggKmNMn4xBy/1fUR7b83MjCpPiq3T4J8dVd04pRJbtbrGihLjqKx+icon29ef5OfUEjmgw==
   dependencies:
-    "@eeacms/volto-slate-footnote" "^2.0.0"
-    volto-slate "^2.0.0"
+    "@eeacms/volto-slate-footnote" ">=2.3.0"
+    volto-slate ">=2.7.1"
 
 "@eeacms/volto-taxonomy@2.0.2":
   version "2.0.2"
@@ -16689,7 +16682,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@2.7.1:
+volto-slate@2.7.1, volto-slate@>=2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-2.7.1.tgz#d82766cd0d33cc3954227741bd4979d4e0a26da7"
   integrity sha512-Pwx2dpRbVT6keyTb3Lf0LEclR1MGSpc3CxfZ6QbAW15tUl3IJrUKNp+qR1ZQae5eeJzQcIKg0ZuoJxYU5+2xZg==
