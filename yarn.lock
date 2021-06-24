@@ -1372,10 +1372,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.5.tgz#09d1a42e61b2b7f987ab47ca501c68b3955d8582"
   integrity sha512-ZXxiFu7hVM8TPxSv62lethPI3i/K3Oc48Z6dFjLp6WX9wAjoPIeB7Mo8R8/JKgX/9TPz5PxMZbjwE01tgoIJYA==
 
-"@eeacms/volto-group-block@4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.2.3.tgz#bc8d47559d5c6f74c00dd1436bddc666b23ff62d"
-  integrity sha512-IEVFXdfI2pTjHgOJqjTKrZFZiYfBWYKU4hfxokCuBWDF8GkK/umKtlnsrDP2bZoIOUyed0kGqQFhGijQ+Ycz5g==
+"@eeacms/volto-group-block@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.0.tgz#68db1d847e3731be491c7cad5b3019afe0cad2f5"
+  integrity sha512-KlJHknBAKcvmGHUNphCe+tUAS1qqDuanb05JCIAmRXun7TT4qF4BG+9puOmQLQMOakmMbjR7v9q+v6JDA+WRQA==
 
 "@eeacms/volto-ims-policy@1.0.1":
   version "1.0.1"
