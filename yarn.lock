@@ -1492,10 +1492,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-2.1.2.tgz#4e5ea7006ac980b3684566d02c497c47bd06ba65"
   integrity sha512-nIvDHJjSQM8opmopSTy0+UXVsOiAhr5ZgPQRC+srPkjSj7PZjdYliYQjd+4dt5ddrQutPIQnrV7BUV7yUJDRiA==
 
-"@eeacms/volto-workflow-progress@2.3.4":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-2.3.4.tgz#cc7f44be08dbaf898a8fcd9ec7105e1c89c5987d"
-  integrity sha512-NfFvTSQ6SbMt+030TLlLdIyTl1RfHy8RKMmgqQ8IduAZ7OVq461sdGyuVke3F/160vQyYUOyNOphgtSqrgYV7Q==
+"@eeacms/volto-workflow-progress@2.3.5":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-2.3.5.tgz#32176b3b72ece5b1cc1e213b9a008a0ca3025ec4"
+  integrity sha512-zCdc8ewfLClUn0vg1DbwKKRzOxDUiZrMfFLUHgFONTtcDt0lHMl0uHw8tcEs+z2z2Zn9SN+iG7g/PMLxzbQeCQ==
 
 "@emotion/babel-plugin@^11.0.0":
   version "11.1.2"
