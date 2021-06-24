@@ -2031,7 +2031,7 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eeacms/volto-corsproxy@>=2.1.2":
+"@eeacms/volto-corsproxy@*", "@eeacms/volto-corsproxy@>=2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
   integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
