@@ -1418,7 +1418,12 @@
   dependencies:
     "@eeacms/volto-blocks-form" "^2.0.0"
 
-"@eeacms/volto-resize-helper@0.2.2", "@eeacms/volto-resize-helper@>=0.2.2":
+"@eeacms/volto-resize-helper@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.3.tgz#7ba1463f32bf3a9b284d4efcf66c7a70e95c6fb0"
+  integrity sha512-p9QHN6T7WlzIXcBNLbKEVTZsGw75BZ1ZPD6+BsS5J3votevkg/9rpXdgNzsz1E1cdqyPfDB5On1V9nGduZBWFg==
+
+"@eeacms/volto-resize-helper@>=0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.2.tgz#5fa899acc4116f2a31cc753bb3737b1ceb30238a"
   integrity sha512-MevcfCFta+A79esQbGq0dVwZHHp5zbkguQ3j8nORGtZEmnYOUCE+HTUoWVAGmQLDFbrfy7lttwmiwFXxC0COxw==
