@@ -135,7 +135,7 @@
     "@eeacms/volto-columns-block": "4.4.3",
     "@eeacms/volto-corsproxy": "2.1.2",
     "@eeacms/volto-depiction": "0.1.2",
-    "@eeacms/volto-editing-progress": "0.1.4",
+    "@eeacms/volto-editing-progress": "0.1.5",
     "@eeacms/volto-group-block": "4.2.3",
     "@eeacms/volto-ims-policy": "1.0.1",
     "@eeacms/volto-ims-theme": "2.7.5",
