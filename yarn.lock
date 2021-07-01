@@ -2591,10 +2591,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@plone/volto@13.4.0":
-  version "13.4.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.4.0.tgz#79865b5da629892ba49026d5661be6f3816431a9"
-  integrity sha512-PUPReWCtd6hx5JLVPErcaFupKW1Bw7I4E97WuIQA04RQnoYgYtugufgh0DYXibG8qpyiQQxEHK7jgNi8S3PViw==
+"@plone/volto@13.5.0":
+  version "13.5.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.5.0.tgz#01036d75a591bece6d81ad2a29fc78c6b89afd04"
+  integrity sha512-AxWmQx5T1edADJw3M7/esCZFZaDpFKED8Q3P/j5+kxvSxCEjvd4T2Mx7duRG8ec7wPX9G6tqxqtyO4WR4dH1mQ==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
