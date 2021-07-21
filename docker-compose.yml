@@ -13,16 +13,15 @@ services:
       INTERNAL_API_PATH: "http://backend:${BACKEND:-8080}/Plone"
       RAZZLE_API_PATH: "http://localhost:${BACKEND:-8080}/Plone"
       RAZZLE_INTERNAL_API_PATH: "http://backend:${BACKEND:-8080}/Plone"
-      REBUILD: "True"
-    volumes:
-    - ./src/addons:/opt/frontend/src/addons
 
   backend:
-    image: eeacms/ims-backend:develop
+    image: plone
     ports:
     - "${BACKEND:-8080}:8080"
     environment:
       CORS_ALLOW_ORIGIN: "http://localhost:3000,http://localhost:${FRONTEND:-4000}"
+      PROFILES: "kitconcept.volto:default-homepage eea.geolocation:default eea.progress.workflow:default eea.zotero:default eea.api.layout:default eea.dexterity.indicators:default"
+      ADDONS: "kitconcept.volto eea.geolocation eea.progress.workflow eea.zotero eea.api.layout eea.dexterity.indicators"
       SITE: "Plone"
     volumes:
     - data:/data
