@@ -1370,10 +1370,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.0.tgz#68db1d847e3731be491c7cad5b3019afe0cad2f5"
   integrity sha512-KlJHknBAKcvmGHUNphCe+tUAS1qqDuanb05JCIAmRXun7TT4qF4BG+9puOmQLQMOakmMbjR7v9q+v6JDA+WRQA==
 
-"@eeacms/volto-ims-policy@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-policy/-/volto-ims-policy-1.0.3.tgz#6bb3cd39ce4248e0fa9786e353ab44ffbba023a7"
-  integrity sha512-ECjPQMmky+tTr5/YIvboLiO5GyNxyzZ+QBrRHCQMPYARlLv+c5F+IgHdSntTbmTSqVGK5qgWjho/pbeJ1qGBfQ==
+"@eeacms/volto-ims-policy@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-policy/-/volto-ims-policy-1.0.4.tgz#44045c950ab4858013736c84751c150ac0f4c04c"
+  integrity sha512-AQ/7C6Qtg1T+J0Yn77N4PzqwjJOOZEY3MPS2VusLT25IidssaLy7h1n13Bcxf5hhrmLjC6j6P2dK7oudpSgXyQ==
 
 "@eeacms/volto-ims-theme@2.8.2":
   version "2.8.2"
