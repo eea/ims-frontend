@@ -1343,10 +1343,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-columns-block@4.4.3":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.3.tgz#426190aa50026f31fa4c74e3b97ba5e7bcdb0a3d"
-  integrity sha512-yf0TXGI2SMhi1lvtO5+sduKs2M5/CWFBwkk/QfH8qAo7zCgXjC6X4yF7mjb4qnmPIAqh8QDo03bmaSYEt0o0gA==
+"@eeacms/volto-columns-block@4.4.4":
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.4.tgz#136cbb1c490c13b697469c4e9087360dff2ac55b"
+  integrity sha512-JbSjcwWDFHrjuJVaIdkt7/1AaOw1Ex7OiNWFCsINg5DwD+LcJWq8fiKTy6tppGuUgI8W80xyx/YGwITkYlrjYA==
   dependencies:
     react-color "~2.18.1"
 
