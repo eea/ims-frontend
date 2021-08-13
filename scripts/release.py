@@ -10,7 +10,7 @@ import urllib.request
 URL = "https://raw.githubusercontent.com/eea/ims-frontend/master/package.json"
 VOLTO = "https://raw.githubusercontent.com/plone/volto/master/package.json"
 
-def main(verbose=True):
+def main(verbose, skip):
     versions = {}
     to_be_release = []
     prod_volto = 'PROD'
@@ -61,7 +61,19 @@ def main(verbose=True):
                 ["git", "log", "--pretty=oneline", "--abbrev-commit", "%s..HEAD" % release],
                 cwd=os.path.join(os.getcwd(), "src", path), stdout=subprocess.PIPE) as proc:
                 res = proc.stdout.read()
-                if res:
+                # commits = res
+                commits = []
+                if skip:
+                    for commit in res.split(b'\n'):
+                        if not commit.strip():
+                            continue
+                        for s in skip:
+                            if s in str(commit.lower()):
+                                continue
+                            commits.append(commit)
+                else:
+                    commits = res
+                if commits:
                     if(verbose):
                         print("==================== %s " % path)
                         print(res.decode('utf-8'))
@@ -72,6 +84,7 @@ def main(verbose=True):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-v', '--verbose', help='Verbose', action='store_true')
+    parser.add_argument('-s', '--skip', help='Skip commits: e.g.: -s sonarqube', action='append', default=[])
     args = parser.parse_args()
-    res = main(args.verbose)
+    res = main(args.verbose, args.skip)
     print("==================== Add-ons to be released: \n%s\n====================" % "\n".join(res))
