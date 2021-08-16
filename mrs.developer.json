@@ -62,6 +62,13 @@
         "branch": "develop",
         "path": "src"
     },
+    "volto-matomo": {
+        "url": "git@github.com:eea/volto-matomo.git",
+        "https": "https://github.com/eea/volto-matomo.git",
+        "package": "@eeacms/volto-matomo",
+        "branch": "develop",
+        "path": "src"
+    },
     "volto-widget-toggle": {
       "url": "git@github.com:eea/volto-widget-toggle.git",
       "https": "https://github.com/eea/volto-widget-toggle.git",

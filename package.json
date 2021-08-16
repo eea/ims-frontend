@@ -6,6 +6,7 @@
   "private": true,
   "workspaces": [
     "src/addons/volto-slate",
+    "src/addons/volto-matomo",
     "src/addons/volto-columns-block",
     "src/addons/volto-widget-geolocation",
     "src/addons/volto-ims-theme"
@@ -23,6 +24,7 @@
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-slate-zotero",
+    "@eeacms/volto-matomo",
     "@eeacms/volto-accordion-block",
     "@eeacms/volto-block-toc",
     "@eeacms/volto-block-divider",

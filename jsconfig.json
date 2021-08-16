@@ -28,6 +28,9 @@
             "@eeacms/volto-slate-zotero": [
                 "addons/volto-slate-zotero/src"
             ],
+            "@eeacms/volto-matomo": [
+                "addons/volto-matomo/src"
+            ],
             "@eeacms/volto-widget-toggle": [
                 "addons/volto-widget-toggle/src"
             ],
