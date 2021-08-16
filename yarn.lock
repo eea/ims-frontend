@@ -1387,10 +1387,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-policy/-/volto-ims-policy-1.0.4.tgz#44045c950ab4858013736c84751c150ac0f4c04c"
   integrity sha512-AQ/7C6Qtg1T+J0Yn77N4PzqwjJOOZEY3MPS2VusLT25IidssaLy7h1n13Bcxf5hhrmLjC6j6P2dK7oudpSgXyQ==
 
-"@eeacms/volto-ims-theme@2.8.5":
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-2.8.5.tgz#cb66f790c5b69a61fe23ac5dd91730c5cd7dedf9"
-  integrity sha512-sINP0YCp+9gzcf00kioSe35UHJWViBBM1Y9GqgsT9SM7e4ZVzcP1MNK2wmJoQG3gQenKD85Hf0ZAAEMJ1qqXkg==
+"@eeacms/volto-ims-theme@2.8.6":
+  version "2.8.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-2.8.6.tgz#c4789b170b0a1ba5a4f71b4977b2941e6e0c73d2"
+  integrity sha512-Dznp1+rDpFADM5Bv5l5mOJ7aqd7HI3uhoXbRoFs6vzLx3rBLyp+e3Fkh23aZg+1ZmV+BxPFVrfTC4XwfacMcDg==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
 
