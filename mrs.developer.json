@@ -194,5 +194,26 @@
         "package": "@eeacms/volto-ims-policy",
         "branch": "develop",
         "path": "src"
+      },
+      "volto-eea-kitkat": {
+        "url": "git@github.com:eea/volto-eea-kitkat.git",
+        "https": "https://github.com/eea/volto-eea-kitkat.git",
+        "package": "@eeacms/volto-eea-kitkat",
+        "branch": "develop",
+        "path": "src"
+      },
+      "volto-tabs-block": {
+        "url": "git@github.com:eea/volto-tabs-block.git",
+        "https": "https://github.com/eea/volto-tabs-block.git",
+        "package": "@eeacms/volto-tabs-block",
+        "branch": "develop",
+        "path": "src"
+      },
+      "volto-block-image-cards": {
+        "url": "git@github.com:eea/volto-block-image-cards.git",
+        "https": "https://github.com/eea/volto-block-image-cards.git",
+        "package": "@eeacms/volto-block-image-cards",
+        "branch": "develop",
+        "path": "src"
       }
  }

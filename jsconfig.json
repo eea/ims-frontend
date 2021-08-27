@@ -84,6 +84,15 @@
             ],
             "@eeacms/volto-ims-policy": [
                 "addons/volto-ims-policy/src"
+            ],
+            "@eeacms/volto-eea-kitkat": [
+                "addons/volto-eea-kitkat/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
+            ],
+            "@eeacms/volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
             ]
         },
         "baseUrl": "src"

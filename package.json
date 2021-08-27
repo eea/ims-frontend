@@ -38,6 +38,9 @@
     "@eeacms/volto-resize-helper",
     "@eeacms/volto-taxonomy",
     "@eeacms/volto-block-style",
+    "@eeacms/volto-tabs-block",
+    "@eeacms/volto-block-image-cards",
+    "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-ims-theme",
     "@eeacms/volto-ims-policy"
   ],
