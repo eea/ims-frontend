@@ -9,7 +9,9 @@
     "src/addons/volto-matomo",
     "src/addons/volto-columns-block",
     "src/addons/volto-widget-geolocation",
-    "src/addons/volto-ims-theme"
+    "src/addons/volto-tabs-block",
+    "src/addons/volto-ims-theme",
+    "src/addons/volto-block-image-cards"
   ],
   "addons": [
     "@eeacms/volto-sentry-rancher-config",
