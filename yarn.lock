@@ -2690,10 +2690,10 @@
   dependencies:
     "@octokit/openapi-types" "^9.5.0"
 
-"@plone/volto@13.12.0":
-  version "13.12.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.12.0.tgz#d29367ae07c7ca83d7c452927aaf22caf746efcc"
-  integrity sha512-UXCKwO7BP09T3iDhvBN3IwbV051yXBwuNbRJRycnp2yTo8HQInHl+WzADyHJU1z0lF8CyEs9B2j1qgaIfXx53g==
+"@plone/volto@13.14.0":
+  version "13.14.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-13.14.0.tgz#281a8958c5de1e5ef8d1f46f508d77b532b32061"
+  integrity sha512-BbR05bEdUzXViFzls4LVEFtnmMzyHOjrpcbsjNXsF/hIWxrymj0Qm1HCaWeogZzc15oQiGBHy+7XAZl0cgNZoA==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
