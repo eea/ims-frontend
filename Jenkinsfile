@@ -5,7 +5,7 @@ pipeline {
     template = "templates/volto-ims"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = ""
+    SONARQUBE_TAG = "www.eea.europa.eu-ims"
   }
 
   agent any
