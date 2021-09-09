@@ -215,5 +215,12 @@
         "package": "@eeacms/volto-block-image-cards",
         "branch": "develop",
         "path": "src"
+      },
+      "volto-staging-banner": {
+        "url": "git@github.com:eea/volto-staging-banner.git",
+        "https": "https://github.com/eea/volto-staging-banner.git",
+        "package": "@eeacms/volto-staging-banner",
+        "branch": "develop",
+        "path": "src"
       }
  }
