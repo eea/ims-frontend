@@ -16608,10 +16608,10 @@ volto-slate@*:
     slate-react "^0.62.0"
     weak-key "^1.0.2"
 
-volto-slate@3.0.0-alpha.0:
-  version "3.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-3.0.0-alpha.0.tgz#8fecde2228178344b3fd7c2548e817b7c4e804f8"
-  integrity sha512-PjGGhvCd9vTSgn2lxoPIXFdoppt4W+RpnpCsnlEwnQA5GBzD0q3yjKrite8lsO/OoB73c5UNq5Evpqnv4j8izQ==
+volto-slate@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-3.0.0.tgz#0bb11ecfc5cdde3b58c2affb1aa96920e348bee2"
+  integrity sha512-/h92LxVcDHrMPnLzoFGK9IZTxm6AMRZTc2tD3N+OqrZHGlru16vQSIEhStHhnZuqegMIwX6KzatKwnz0Ehbl6g==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
