@@ -1299,10 +1299,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.0.tgz#578566b6868fc326c8e47d6fdf2bcb3dbb14cebc"
   integrity sha512-Svs8U6g5sRLeLXlPcgzhiMTFt831t5op65CUlJ6iktusaNVSJLHooNDAdBrqQO8bFe4tzy58WRw9aLcbuf4n5g==
 
-"@eeacms/volto-block-data-figure@4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-4.4.1.tgz#cf720acca49ac06299626d9353913989c2e06cd8"
-  integrity sha512-l4PybXe4hGMg8ipv3JKWFk4dML+89/7ZxkwBQ7tuG0rHWBiXdWw/rNjApMHkfVMVPU0K3JFK7ddGh7SQ2dp18Q==
+"@eeacms/volto-block-data-figure@4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-data-figure/-/volto-block-data-figure-4.4.2.tgz#637146cdabce89c954c4ed9fbba5ce2dcc812d89"
+  integrity sha512-3maGXzJ9F255qH+d1f77QeyDkUrMYN3FLc3ASKIeEegnYFt9Xee28hDASliWQHKO5jPudMoqgYmF1urzb+t1Jg==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-widget-geolocation" "*"
