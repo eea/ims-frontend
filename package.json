@@ -46,8 +46,8 @@
     "@eeacms/volto-staging-banner",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-ims-theme",
-    "@eeacms/volto-middleware-vh",
-    "@eeacms/volto-ims-policy"
+    "@eeacms/volto-ims-policy",
+    "@eeacms/volto-middleware-vh"
   ],
   "scripts": {
     "start": "razzle start",
