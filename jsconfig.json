@@ -96,6 +96,9 @@
             ],
             "@eeacms/volto-staging-banner": [
                 "addons/volto-staging-banner/src"
+            ],
+            "@eeacms/volto-middleware-vh": [
+                "addons/volto-middleware-vh/src"
             ]
         },
         "baseUrl": "src"

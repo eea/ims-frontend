@@ -46,6 +46,7 @@
     "@eeacms/volto-staging-banner",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-ims-theme",
+    "@eeacms/volto-middleware-vh",
     "@eeacms/volto-ims-policy"
   ],
   "scripts": {

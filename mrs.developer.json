@@ -222,5 +222,12 @@
         "package": "@eeacms/volto-staging-banner",
         "branch": "develop",
         "path": "src"
-      }
+      },
+       "volto-middleware-vh": {
+         "url": "git@github.com:eea/volto-middleware-vh.git",
+         "https": "https://github.com/eea/volto-middleware-vh.git",
+         "package": "@eeacms/volto-middleware-vh",
+         "branch": "develop",
+         "path": "src"
+       }
  }
