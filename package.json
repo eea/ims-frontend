@@ -31,6 +31,7 @@
     "@eeacms/volto-editing-progress",
     "@eeacms/volto-resize-helper",
     "@eeacms/volto-block-style",
+    "@eeacms/volto-staging-banner",
     "@eeacms/volto-ims-theme",
     "@eeacms/volto-ims-policy"
   ],
@@ -151,6 +152,7 @@
     "@eeacms/volto-slate-footnote": "3.2.0",
     "@eeacms/volto-slate-metadata-mentions": "3.0.2",
     "@eeacms/volto-slate-zotero": "3.0.0",
+    "@eeacms/volto-staging-banner": "0.1.6",
     "@eeacms/volto-taxonomy": "2.0.2",
     "@eeacms/volto-widget-geolocation": "3.0.3",
     "@eeacms/volto-widget-temporal-coverage": "3.0.2",
