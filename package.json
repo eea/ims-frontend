@@ -5,7 +5,6 @@
   "version": "3.3.0",
   "addons": [
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-middleware-vh",
     "@eeacms/volto-corsproxy",
     "@eeacms/volto-depiction",
     "@eeacms/volto-taxonomy",
@@ -33,7 +32,8 @@
     "@eeacms/volto-block-style",
     "@eeacms/volto-staging-banner",
     "@eeacms/volto-ims-theme",
-    "@eeacms/volto-ims-policy"
+    "@eeacms/volto-ims-policy",
+    "@eeacms/volto-middleware-vh"
   ],
   "scripts": {
     "start": "razzle start",
