@@ -13,7 +13,7 @@
     "@eeacms/volto-widget-toggle",
     "@eeacms/volto-widget-temporal-coverage",
     "@eeacms/volto-widget-geolocation",
-    "volto-slate:asDefault",
+    "volto-slate:asDefault,tableButton",
     "@eeacms/volto-slate-metadata-mentions",
     "@eeacms/volto-slate-footnote",
     "@eeacms/volto-slate-zotero",
