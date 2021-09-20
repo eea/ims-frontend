@@ -63,7 +63,11 @@
     "issues": "./scripts/pull-requests.py WARN",
     "issues:all": "./scripts/pull-requests-volto.py WARN",
     "status": "./scripts/status.sh",
-    "pull": "./scripts/pull.sh"
+    "pull": "./scripts/pull.sh",
+    "cypress:start-backend": "docker-compose up backend",
+    "cypress:start-frontend": "yarn start",
+    "cypress:open": "NODE_ENV=development cypress open",
+    "cypress:run": "NODE_ENV=development cypress run"
   },
   "jest": {
     "modulePathIgnorePatterns": [
@@ -149,7 +153,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@plone/volto": "14.0.0-alpha.2"
+    "@plone/volto": "14.0.0-alpha.5"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
