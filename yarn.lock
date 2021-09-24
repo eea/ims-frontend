@@ -1039,10 +1039,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-style@3.4.5":
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.4.5.tgz#8f4dda1b42aea18fde745d2c85fcbf8cfc7cfebc"
-  integrity sha512-dnvMfNt1HnTA3CAAare1ftme6ozPbaA+JBGugvxH8BoXRtjHsJnEp7g5B6rXW7dmH2hlVg8TJ/IzS1ltvVfQtQ==
+"@eeacms/volto-block-style@3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.0.tgz#10faf0c62dc066ed4d7e3895a470423e75981bd5"
+  integrity sha512-Sl2+x/kbvlkBOluBC9S6zvT/Vc/Pki7hYKHaMCf/8F3jZ+j7h8cbfYTXQeb/6g8HwvtDuG9qe/MCtwIeNNHw/A==
   dependencies:
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
