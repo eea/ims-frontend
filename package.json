@@ -153,7 +153,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@plone/volto": "14.0.0-alpha.7"
+    "@plone/volto": "14.0.0-alpha.9"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
