@@ -5,7 +5,7 @@ COPY . /opt/frontend/
 WORKDIR /opt/frontend/
 
 # Update apt packages
-RUN runDeps="openssl ca-certificates patch git" \
+RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
  && apt-get update \
  && apt-get install -y --no-install-recommends $runDeps \
  && apt-get clean \
@@ -21,6 +21,7 @@ RUN cd /opt/frontend \
  && RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
  && RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
  && rm -rf /home/node/.cache
+USER root
 
 EXPOSE 3000 3001 4000 4001
 
