@@ -12,6 +12,7 @@
     "src/addons/volto-tabs-block",
     "src/addons/volto-ims-theme",
     "src/addons/volto-block-image-cards",
+    "src/addons/volto-eea-relations",
     "src/addons/volto-staging-banner"
   ],
   "addons": [
@@ -45,6 +46,7 @@
     "@eeacms/volto-block-image-cards",
     "@eeacms/volto-staging-banner",
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-eea-relations",
     "@eeacms/volto-ims-theme",
     "@eeacms/volto-ims-policy",
     "@eeacms/volto-middleware-vh"

@@ -229,5 +229,12 @@
          "package": "@eeacms/volto-middleware-vh",
          "branch": "develop",
          "path": "src"
+       },
+       "volto-eea-relations": {
+         "url": "git@github.com:eea/volto-eea-relations.git",
+         "https": "https://github.com/eea/volto-eea-relations.git",
+         "package": "@eeacms/volto-eea-relations",
+         "branch": "develop",
+         "path": "src"
        }
  }
