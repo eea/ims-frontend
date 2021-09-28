@@ -1,5 +1,5 @@
 # Based on https://github.com/plone/volto/blob/master/entrypoint.sh
-FROM node:14-bullseye-slim
+FROM node:12-bullseye-slim
 
 COPY . /opt/frontend/
 WORKDIR /opt/frontend/
