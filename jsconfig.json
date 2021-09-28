@@ -94,11 +94,14 @@
             "@eeacms/volto-block-image-cards": [
                 "addons/volto-block-image-cards/src"
             ],
+            "@eeacms/volto-middleware-vh": [
+                "addons/volto-middleware-vh/src"
+            ],
             "@eeacms/volto-staging-banner": [
                 "addons/volto-staging-banner/src"
             ],
-            "@eeacms/volto-middleware-vh": [
-                "addons/volto-middleware-vh/src"
+            "@eeacms/volto-eea-relations": [
+                "addons/volto-eea-relations/src"
             ]
         },
         "baseUrl": "src"
