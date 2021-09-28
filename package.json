@@ -39,12 +39,22 @@
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
     "omelette": "ln -sf node_modules/@plone/volto/ omelette",
-    "patches": "./patches/patchit.sh",
+    "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
     "build": "razzle build",
-    "test": "./node_modules/jest/bin/jest.js --env=jsdom --passWithNoTests src/addons --verbose",
+    "test": "razzle test --env=jest-environment-jsdom-sixteen --passWithNoTests",
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
-    "update": "./scripts/update.sh"
+    "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
+    "update": "./scripts/update.sh",
+    "release": "./scripts/release.py",
+    "issues": "./scripts/pull-requests.py WARN",
+    "issues:all": "./scripts/pull-requests-volto.py WARN",
+    "status": "./scripts/status.sh",
+    "pull": "./scripts/pull.sh",
+    "cypress:start-backend": "docker-compose up backend",
+    "cypress:start-frontend": "yarn start",
+    "cypress:open": "NODE_ENV=development cypress open",
+    "cypress:run": "NODE_ENV=development cypress run"
   },
   "jest": {
     "modulePathIgnorePatterns": [
