@@ -1,6 +1,105 @@
 {
     "compilerOptions": {
         "paths": {
+            "volto-slate": [
+                "addons/volto-slate/src"
+            ],
+            "@eeacms/volto-depiction": [
+                "addons/volto-depiction/src"
+            ],
+            "@eeacms/volto-slate-metadata-mentions": [
+                "addons/volto-slate-metadata-mentions/src"
+            ],
+            "@eeacms/volto-widgets-view": [
+                "addons/volto-widgets-view/src"
+            ],
+            "@eeacms/volto-listing-block": [
+                "addons/volto-listing-block/src"
+            ],
+            "@eeacms/volto-metadata-block": [
+                "addons/volto-metadata-block/src"
+            ],
+            "@eeacms/volto-block-data-figure": [
+                "addons/volto-block-data-figure/src"
+            ],
+            "@eeacms/volto-slate-footnote": [
+                "addons/volto-slate-footnote/src"
+            ],
+            "@eeacms/volto-slate-zotero": [
+                "addons/volto-slate-zotero/src"
+            ],
+            "@eeacms/volto-matomo": [
+                "addons/volto-matomo/src"
+            ],
+            "@eeacms/volto-widget-toggle": [
+                "addons/volto-widget-toggle/src"
+            ],
+            "@eeacms/volto-widget-geolocation": [
+                "addons/volto-widget-geolocation/src"
+            ],
+            "@eeacms/volto-widget-temporal-coverage": [
+                "addons/volto-widget-temporal-coverage/src"
+            ],
+            "@eeacms/volto-object-widget": [
+                "addons/volto-object-widget/src"
+            ],
+            "@eeacms/volto-group-block": [
+                "addons/volto-group-block/src"
+            ],
+            "@eeacms/volto-corsproxy": [
+                "addons/volto-corsproxy/src"
+            ],
+            "@eeacms/volto-columns-block": [
+                "addons/volto-columns-block/src"
+            ],
+            "@eeacms/volto-sentry-rancher-config": [
+                "addons/volto-sentry-rancher-config/src"
+            ],
+            "@eeacms/volto-resize-helper": [
+                "addons/volto-resize-helper/src"
+            ],
+            "@eeacms/volto-block-style": [
+                "addons/volto-block-style/src"
+            ],
+            "@eeacms/volto-block-toc": [
+                "addons/volto-block-toc/src"
+            ],
+            "@eeacms/volto-block-divider": [
+                "addons/volto-block-divider/src"
+            ],
+            "@eeacms/volto-accordion-block": [
+                "addons/volto-accordion-block/src"
+            ],
+            "@eeacms/volto-workflow-progress": [
+                "addons/volto-workflow-progress/src"
+            ],
+            "@eeacms/volto-editing-progress": [
+                "addons/volto-editing-progress/src"
+            ],
+            "@eeacms/volto-taxonomy": [
+                "addons/volto-taxonomy/src"
+            ],
+            "@eeacms/volto-ims-theme": [
+                "addons/volto-ims-theme/src"
+            ],
+            "@eeacms/volto-ims-policy": [
+                "addons/volto-ims-policy/src"
+            ],
+            "@eeacms/volto-eea-kitkat": [
+                "addons/volto-eea-kitkat/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
+            ],
+            "@eeacms/volto-block-image-cards": [
+                "addons/volto-block-image-cards/src"
+            ],
+            "@eeacms/volto-staging-banner": [
+                "addons/volto-staging-banner/src"
+            ],
+            "@eeacms/volto-middleware-vh": [
+                "addons/volto-middleware-vh/src"
+            ]
         },
         "baseUrl": "src"
     }
