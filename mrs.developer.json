@@ -216,10 +216,10 @@
     "branch": "develop",
     "path": "src"
   },
-  "volto-staging-banner": {
-    "url": "git@github.com:eea/volto-staging-banner.git",
-    "https": "https://github.com/eea/volto-staging-banner.git",
-    "package": "@eeacms/volto-staging-banner",
+  "volto-banner": {
+    "url": "git@github.com:eea/volto-banner.git",
+    "https": "https://github.com/eea/volto-banner.git",
+    "package": "@eeacms/volto-banner",
     "branch": "develop",
     "path": "src"
   },
