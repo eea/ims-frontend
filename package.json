@@ -123,7 +123,7 @@
   "dependencies": {
     "@eeacms/volto-block-data-figure": "4.5.0",
     "@eeacms/volto-editing-progress": "0.1.5",
-    "@eeacms/volto-eea-kitkat": "3.0.2",
+    "@eeacms/volto-eea-kitkat": "4.0.0",
     "@eeacms/volto-ims-policy": "1.0.5",
     "@eeacms/volto-ims-theme": "3.0.2",
     "@eeacms/volto-middleware-vh": "1.0.3",
