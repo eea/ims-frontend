@@ -13,6 +13,7 @@ KITKAT = "https://raw.githubusercontent.com/eea/volto-eea-kitkat/develop/package
 
 def main(verbose, skip):
     versions = {}
+    kitkat = []
     to_be_release = []
     prod_volto = 'PROD'
     dev_volto = 'DEV'
@@ -37,6 +38,7 @@ def main(verbose, skip):
         for package, version in config['dependencies'].items():
             tag = version.split("#")[-1]
             versions[package] = tag
+            kitkat.append(package)
 
     # Get LATEST
     print("====================")
@@ -83,7 +85,8 @@ def main(verbose, skip):
                     if(verbose):
                         print("==================== %s " % path)
                         print(res.decode('utf-8'))
-                    to_be_release.append("%s: %s ->" % (addon, release))
+                    prefix = "KITKAT" if addon in kitkat else "FRONT"
+                    to_be_release.append("%s:\t %s: %s ->" % (prefix, addon, release))
 
     return to_be_release
 
