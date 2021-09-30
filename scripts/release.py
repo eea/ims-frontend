@@ -9,7 +9,7 @@ import urllib.request
 
 # URL = "https://raw.githubusercontent.com/eea/ims-frontend/master/package.json"
 VOLTO = "https://raw.githubusercontent.com/plone/volto/master/package.json"
-KITKAT = "https://raw.githubusercontent.com/eea/volto-eea-kitkat/master/package.json"
+KITKAT = "https://raw.githubusercontent.com/eea/volto-eea-kitkat/develop/package.json"
 
 def main(verbose, skip):
     versions = {}
