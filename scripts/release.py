@@ -7,19 +7,22 @@ import subprocess
 import argparse
 import urllib.request
 
-URL = "https://raw.githubusercontent.com/eea/ims-frontend/master/package.json"
+# URL = "https://raw.githubusercontent.com/eea/ims-frontend/master/package.json"
 VOLTO = "https://raw.githubusercontent.com/plone/volto/master/package.json"
+KITKAT = "https://raw.githubusercontent.com/eea/volto-eea-kitkat/develop/package.json"
 
 def main(verbose, skip):
     versions = {}
+    kitkat = []
     to_be_release = []
     prod_volto = 'PROD'
     dev_volto = 'DEV'
     latest_volto = 'LATEST'
 
     # Get PROD
-    with urllib.request.urlopen(URL) as ofile:
+    with open("package.json", "r") as ofile:
         config = json.load(ofile)
+        dev_volto = config['dependencies']['@plone/volto']
 
         for package, version in config['dependencies'].items():
             if package == "@plone/volto":
@@ -29,10 +32,13 @@ def main(verbose, skip):
             tag = version.split("#")[-1]
             versions[package] = tag
 
-    # Get DEV
-    with open("package.json", "r") as ofile:
-        dev = json.load(ofile)
-        dev_volto = dev['dependencies']['@plone/volto']
+    with urllib.request.urlopen(KITKAT) as ofile:
+        config = json.load(ofile)
+
+        for package, version in config['dependencies'].items():
+            tag = version.split("#")[-1]
+            versions[package] = tag
+            kitkat.append(package)
 
     # Get LATEST
     print("====================")
@@ -63,21 +69,24 @@ def main(verbose, skip):
                 res = proc.stdout.read()
                 # commits = res
                 commits = []
-                if skip:
-                    for commit in res.split(b'\n'):
-                        if not commit.strip():
-                            continue
+                for commit in res.split(b'\n'):
+                    if not commit.strip():
+                        continue
+                    skip_me = False
+                    if skip:
                         for s in skip:
                             if s in str(commit.lower()):
-                                continue
-                            commits.append(commit)
-                else:
-                    commits = res
+                                skip_me = True
+                                break
+                    if skip_me:
+                        continue
+                    commits.append(commit)
                 if commits:
                     if(verbose):
                         print("==================== %s " % path)
                         print(res.decode('utf-8'))
-                    to_be_release.append("%s: %s ->" % (addon, release))
+                    prefix = "KITKAT" if addon in kitkat else "FRONT"
+                    to_be_release.append("%s:\t %s: %s ->" % (prefix, addon, release))
 
     return to_be_release
 

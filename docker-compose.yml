@@ -2,7 +2,7 @@ version: '3'
 
 services:
   frontend:
-    image: eeacms/ims-frontend:develop
+    image: eeacms/ims-frontend
     ports:
     - "${FRONTEND:-4000}:4000"
     depends_on:

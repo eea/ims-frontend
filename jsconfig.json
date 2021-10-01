@@ -94,8 +94,8 @@
             "@eeacms/volto-block-image-cards": [
                 "addons/volto-block-image-cards/src"
             ],
-            "@eeacms/volto-staging-banner": [
-                "addons/volto-staging-banner/src"
+            "@eeacms/volto-banner": [
+                "addons/volto-banner/src"
             ],
             "@eeacms/volto-middleware-vh": [
                 "addons/volto-middleware-vh/src"

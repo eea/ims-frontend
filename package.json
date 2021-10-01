@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "5.0.0",
+  "version": "5.3.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -122,14 +122,14 @@
     "node": "^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-eea-kitkat": "3.0.2",
-    "@eeacms/volto-block-data-figure": "4.5.0",
+    "@eeacms/volto-block-data-figure": "4.5.1",
     "@eeacms/volto-editing-progress": "0.1.5",
+    "@eeacms/volto-eea-kitkat": "4.0.1",
     "@eeacms/volto-ims-policy": "1.0.5",
-    "@eeacms/volto-ims-theme": "3.0.1",
+    "@eeacms/volto-ims-theme": "3.0.2",
     "@eeacms/volto-middleware-vh": "1.0.3",
     "@eeacms/volto-workflow-progress": "2.3.7",
-    "@plone/volto": "14.0.0-alpha.13"
+    "@plone/volto": "14.0.0-alpha.14"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
