@@ -99,6 +99,9 @@
             ],
             "@eeacms/volto-middleware-vh": [
                 "addons/volto-middleware-vh/src"
+            ],
+            "@eeacms/volto-eea-relations": [
+                "addons/volto-eea-relations/src"
             ]
         },
         "baseUrl": "src"

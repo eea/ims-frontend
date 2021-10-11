@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "5.3.0",
+  "version": "5.4.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -12,6 +12,7 @@
     "@eeacms/volto-block-data-figure",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-editing-progress",
+    "@eeacms/volto-eea-relations",
     "@eeacms/volto-ims-theme",
     "@eeacms/volto-ims-policy",
     "@eeacms/volto-middleware-vh"
@@ -24,7 +25,7 @@
     "build": "razzle build",
     "test": "razzle test --env=jest-environment-jsdom-sixteen --passWithNoTests",
     "start:prod": "NODE_ENV=production node build/server.js",
-    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
     "update": "./scripts/update.sh",
     "release": "./scripts/release.py",
@@ -123,12 +124,13 @@
   "dependencies": {
     "@eeacms/volto-block-data-figure": "4.5.1",
     "@eeacms/volto-editing-progress": "0.1.5",
-    "@eeacms/volto-eea-kitkat": "4.0.1",
+    "@eeacms/volto-eea-kitkat": "4.0.2",
+    "@eeacms/volto-eea-relations": "1.0.3",
     "@eeacms/volto-ims-policy": "1.0.5",
-    "@eeacms/volto-ims-theme": "3.0.2",
+    "@eeacms/volto-ims-theme": "3.0.4",
     "@eeacms/volto-middleware-vh": "1.0.3",
     "@eeacms/volto-workflow-progress": "2.3.7",
-    "@plone/volto": "14.0.0-alpha.14"
+    "@plone/volto": "14.0.0-alpha.18"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
