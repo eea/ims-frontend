@@ -3,7 +3,7 @@
     "url": "git@github.com:eea/volto-slate.git",
     "https": "https://github.com/eea/volto-slate.git",
     "package": "volto-slate",
-    "branch": "develop",
+    "branch": "stable",
     "path": "src"
   },
   "volto-depiction": {
