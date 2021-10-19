@@ -127,7 +127,7 @@
     "@eeacms/volto-eea-kitkat": "4.1.1",
     "@eeacms/volto-eea-relations": "1.0.4",
     "@eeacms/volto-ims-policy": "2.0.0",
-    "@eeacms/volto-ims-theme": "3.0.4",
+    "@eeacms/volto-ims-theme": "4.0.0",
     "@eeacms/volto-middleware-vh": "1.0.3",
     "@eeacms/volto-workflow-progress": "2.3.7",
     "@plone/volto": "14.0.0-alpha.21"
