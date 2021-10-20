@@ -102,6 +102,9 @@
             ],
             "@eeacms/volto-eea-relations": [
                 "addons/volto-eea-relations/src"
+            ],
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
             ]
         },
         "baseUrl": "src"
