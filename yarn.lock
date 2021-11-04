@@ -1264,10 +1264,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.1.tgz#eeb6fc1c564eaa77cbe52fdc69071d2870712169"
   integrity sha512-7eIOC9dLjiRy7TBPphO/GUwLX0g14BZTPp9jZj0b3oTriLqtYaV1nKV6S9e/0N5y/VFvM2KIBnvhmTUKRCgsBw==
 
-"@eeacms/volto-ims-policy@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-policy/-/volto-ims-policy-2.0.1.tgz#79cf47ae7d7e882f092cfbea7435d3292ea8f6b5"
-  integrity sha512-66aOfthtc3TK9Hq9QhedmBJIqAjYm8UJ5ND9bOVlSPALUfiTHwEd9kv3sQ0jNAloWFgDkPamRf7GKgaIMrQVBQ==
+"@eeacms/volto-ims-policy@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-policy/-/volto-ims-policy-2.0.2.tgz#468db2d31a060d5630cee073cbf4aceb7e79eda4"
+  integrity sha512-RH/pFHBwxJ8zVDIpycECWRFhsdb228xgkykcwkczyoXjpsrA2k/YWuC6Yvg+lv3gZSVIrluuWC9+S30KfQuh3g==
   dependencies:
     volto-slate "*"
 
