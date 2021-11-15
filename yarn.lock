@@ -1271,10 +1271,10 @@
   dependencies:
     volto-slate "*"
 
-"@eeacms/volto-ims-theme@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-4.0.0.tgz#56e918755736f789915327b02e692ef8f6abeade"
-  integrity sha512-era7Xi3iPxU2FtHR5w8Oe6P+xqCvx3nE5dq3IHXCXn8+xcTPy1ydZ37UxjC6yduih6OEb/zB6jFqsm/B/gS+3A==
+"@eeacms/volto-ims-theme@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-4.0.1.tgz#7f2afa2e086c6dbb7ae98621ef85b46bdd99371a"
+  integrity sha512-Df4bcSpVDy5by3ySPn/QalAbW09Ku9fmrlMWNFrmX1mCtttCkZZv876IrBBz18HKULMMSS8AnZvcux8vVxpHaw==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
 
