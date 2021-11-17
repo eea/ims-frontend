@@ -1352,6 +1352,11 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.5.tgz#09d1a42e61b2b7f987ab47ca501c68b3955d8582"
   integrity sha512-ZXxiFu7hVM8TPxSv62lethPI3i/K3Oc48Z6dFjLp6WX9wAjoPIeB7Mo8R8/JKgX/9TPz5PxMZbjwE01tgoIJYA==
 
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0.tgz#e2218bb8468ddd2b61b7a2c2cf687c7f627f2595"
+  integrity sha512-oHN6tRSXpxSNvIavsnCaLKG90phq8Ww4p7HwN8TUSBfPpuM8cxRBNkAkViNmk2zuuZvHl2zevI/2uR/keGgWwA==
+
 "@eeacms/volto-eea-kitkat@4.1.3":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.3.tgz#e27e4debbc50dadd33cfd9733254ca936548385c"
@@ -1403,12 +1408,13 @@
   dependencies:
     volto-slate "*"
 
-"@eeacms/volto-ims-theme@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-4.0.1.tgz#7f2afa2e086c6dbb7ae98621ef85b46bdd99371a"
-  integrity sha512-Df4bcSpVDy5by3ySPn/QalAbW09Ku9fmrlMWNFrmX1mCtttCkZZv876IrBBz18HKULMMSS8AnZvcux8vVxpHaw==
+"@eeacms/volto-ims-theme@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-5.0.0.tgz#359e512415c740ee9552ddf4239ec00c6c83c685"
+  integrity sha512-Pna5K0Hs/7CWPeHWsrhZjJZLMGqGw+NSORRnBsKQa+obelzadP9fmhfqrd5VRmffZP9SMRwpAMsa3ZB+Wc7Jkg==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
+    "@eeacms/volto-eea-design-system" "*"
 
 "@eeacms/volto-listing-block@0.1.2":
   version "0.1.2"
@@ -1514,13 +1520,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-2.3.7.tgz#4f5e24a0e63b0a61b0d53df707cc52777aca8a9a"
   integrity sha512-9PM018REv5sPnwVXvjjaVWXu2b23j5VEPRYopEvTb1CTyBWa1PKqq12M6z2odrAe6gZfRK1udxFEo8fGJdRW/A==
 
-"@emotion/cache@^11.4.0", "@emotion/cache@^11.5.0":
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-11.5.0.tgz#a5eb78cbef8163939ee345e3ddf0af217b845e62"
-  integrity sha512-mAZ5QRpLriBtaj/k2qyrXwck6yeoz1V5lMt/jfj6igWU35yYlNKs2LziXVgvH81gnJZ+9QQNGelSsnuoAy6uIw==
+"@emotion/cache@^11.4.0", "@emotion/cache@^11.6.0":
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-11.6.0.tgz#65fbdbbe4382f1991d8b20853c38e63ecccec9a1"
+  integrity sha512-ElbsWY1KMwEowkv42vGo0UPuLgtPYfIs9BxxVrmvsaJVvktknsHYYlx5NQ5g6zLDcOTyamlDc7FkRg2TAcQDKQ==
   dependencies:
     "@emotion/memoize" "^0.7.4"
-    "@emotion/sheet" "^1.0.3"
+    "@emotion/sheet" "^1.1.0"
     "@emotion/utils" "^1.0.0"
     "@emotion/weak-memoize" "^0.2.5"
     stylis "^4.0.10"
@@ -1536,14 +1542,14 @@
   integrity sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==
 
 "@emotion/react@^11.1.1":
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.5.0.tgz#19b5771bbfbda5e8517e948a2d9064810f0022bd"
-  integrity sha512-MYq/bzp3rYbee4EMBORCn4duPQfgpiEB5XzrZEBnUZAL80Qdfr7CEv/T80jwaTl/dnZmt9SnTa8NkTrwFNpLlw==
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.6.0.tgz#61fcb95c1e01255734c2c721cb9beabcf521eb0f"
+  integrity sha512-23MnRZFBN9+D1lHXC5pD6z4X9yhPxxtHr6f+iTGz6Fv6Rda0GdefPrsHL7otsEf+//7uqCdT5QtHeRxHCERzuw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@emotion/cache" "^11.5.0"
+    "@emotion/cache" "^11.6.0"
     "@emotion/serialize" "^1.0.2"
-    "@emotion/sheet" "^1.0.3"
+    "@emotion/sheet" "^1.1.0"
     "@emotion/utils" "^1.0.0"
     "@emotion/weak-memoize" "^0.2.5"
     hoist-non-react-statics "^3.3.1"
@@ -1559,10 +1565,10 @@
     "@emotion/utils" "^1.0.0"
     csstype "^3.0.2"
 
-"@emotion/sheet@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.0.3.tgz#00c326cd7985c5ccb8fe2c1b592886579dcfab8f"
-  integrity sha512-YoX5GyQ4db7LpbmXHMuc8kebtBGP6nZfRC5Z13OKJMixBEwdZrJ914D6yJv/P+ZH/YY3F5s89NYX2hlZAf3SRQ==
+"@emotion/sheet@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.1.0.tgz#56d99c41f0a1cda2726a05aa6a20afd4c63e58d2"
+  integrity sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==
 
 "@emotion/unitless@^0.7.5":
   version "0.7.5"
@@ -2600,9 +2606,9 @@
     "@types/node" "*"
 
 "@types/lodash@^4.14.149":
-  version "4.14.176"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.176.tgz#641150fc1cda36fbfa329de603bbb175d7ee20c0"
-  integrity sha512-xZmuPTa3rlZoIbtDUyJKZQimJV3bxCmzMIO2c9Pz9afyDro6kr7R79GwcB6mRhuoPmV2p1Vb66WOJH7F886WKQ==
+  version "4.14.177"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.177.tgz#f70c0d19c30fab101cad46b52be60363c43c4578"
+  integrity sha512-0fDwydE2clKe9MNfvXHBHF9WEahRuj+msTuQqOmAApNORFvhMYZKNGGJdCzuhheVjMps/ti0Ak/iJPACMaevvw==
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -2663,9 +2669,9 @@
     csstype "^2.2.0"
 
 "@types/react@^17.0.0":
-  version "17.0.34"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.34.tgz#797b66d359b692e3f19991b6b07e4b0c706c0102"
-  integrity sha512-46FEGrMjc2+8XhHXILr+3+/sTe3OfzSPU9YGKILLrUYbQ1CLQC9Daqo1KzENGXAWwrFwiY0l4ZbF20gRvgpWTg==
+  version "17.0.35"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.35.tgz#217164cf830267d56cd1aec09dcf25a541eedd4c"
+  integrity sha512-r3C8/TJuri/SLZiiwwxQoLAoavaczARfT9up9b4Jr65+ErAUX3MIkU0oMOQnrpfgHme8zIqZLX7O5nnjm5Wayw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -4763,9 +4769,9 @@ commander@~2.13.0:
   integrity sha512-MVuS359B+YzaWqjCL/c+22gfryv+mCBPHAv3zyVI2GN8EY6IRP8VwtasXn8jyyhvvq84R4ImN1OKRtcbIasjYA==
 
 common-tags@^1.8.0:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.1.tgz#ebf4973edf7d476a9c19646f5f04a45f95796029"
-  integrity sha512-uOZd85rJqrdEIE/JjhW5YAeatX8iqjjvVzIyfx7JL7G5r9Tep6YpYT9gEJWhWpVyDQEyzukWd6p2qULpJ8tmBw==
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.2.tgz#94ebb3c076d26032745fd54face7f688ef5ac9c6"
+  integrity sha512-gk/Z852D2Wtb//0I+kRFNKKE9dIIVirjoqPoA1wJU+XePVXZfGeBpk45+A1rKO4Q43prqWBNY/MiIeRLbPWUaA==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -5384,9 +5390,9 @@ csstype@^2.2.0, csstype@^2.6.7:
   integrity sha512-D34BqZU4cIlMCY93rZHbrq9pjTAQJ3U8S8rfBqjwHxkGPThWFjzZDQpgMJY0QViLxth6ZKYiwFBo14RdN44U/w==
 
 csstype@^3.0.2:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.9.tgz#6410af31b26bd0520933d02cbc64fce9ce3fbf0b"
-  integrity sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
+  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
 
 cyclist@^1.0.1:
   version "1.0.1"
