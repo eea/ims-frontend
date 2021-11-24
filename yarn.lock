@@ -1095,10 +1095,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0.tgz#e2218bb8468ddd2b61b7a2c2cf687c7f627f2595"
   integrity sha512-oHN6tRSXpxSNvIavsnCaLKG90phq8Ww4p7HwN8TUSBfPpuM8cxRBNkAkViNmk2zuuZvHl2zevI/2uR/keGgWwA==
 
-"@eeacms/volto-eea-kitkat@4.1.6":
-  version "4.1.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.6.tgz#69d71df360d0226fcde198f8d3070f21003c5021"
-  integrity sha512-mUIg9qebDtye92v6N+uaBXxd9CRy/9yrGhd8YVQMnaiza+7VfwzPGUc4TV7Gc8WbPpgP2JMx1dfmeN4OmR1q8g==
+"@eeacms/volto-eea-kitkat@4.1.7":
+  version "4.1.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-4.1.7.tgz#57842c0a1c633f6c7a06333d7373fd408cc93161"
+  integrity sha512-GQDxUt7XOpZjRQmNxDr99n5is2Isbl4Pz/FsJH7fKAiOMK5hFnNJe+tybP5PXUSi5gv2P41KmXaJ5j35TxA8Bg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.8"
     "@eeacms/volto-banner" "1.0.1"
