@@ -22,11 +22,7 @@ services:
       CORS_ALLOW_ORIGIN: "http://localhost:3000,http://localhost:${FRONTEND:-4000}"
       PROFILES: "plone.volto:default-homepage eea.geolocation:default eea.progress.workflow:default eea.zotero:default eea.api.layout:default eea.dexterity.indicators:default"
       ADDONS: "plone.volto eea.geolocation eea.progress.workflow eea.zotero eea.api.layout eea.dexterity.indicators"
-      VERSIONS: "eea.dexterity.indicators=3.0 plone.volto=3.1.0a2"
+      VERSIONS: "eea.dexterity.indicators=3.0 plone.volto=3.1.0a2 plone.schema=1.3.0"
       SITE: "Plone"
     volumes:
-    - data:/data
-
-volumes:
-  data:
-    driver: local
+      - ./data:/data
