@@ -1090,10 +1090,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.5.tgz#09d1a42e61b2b7f987ab47ca501c68b3955d8582"
   integrity sha512-ZXxiFu7hVM8TPxSv62lethPI3i/K3Oc48Z6dFjLp6WX9wAjoPIeB7Mo8R8/JKgX/9TPz5PxMZbjwE01tgoIJYA==
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0.tgz#e2218bb8468ddd2b61b7a2c2cf687c7f627f2595"
-  integrity sha512-oHN6tRSXpxSNvIavsnCaLKG90phq8Ww4p7HwN8TUSBfPpuM8cxRBNkAkViNmk2zuuZvHl2zevI/2uR/keGgWwA==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.1.0.tgz#77989fbb634ba9b2ca9f6a471d8d985a8777a073"
+  integrity sha512-6L5DcElIMlH/SAfBTm5Qw9hZwlR5XJEWaUhLIe8SDDJPVegP/uzEza0qEnfE0BOIenOKPPpzdP4luvd5oL2Y8Q==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
 
 "@eeacms/volto-eea-kitkat@4.1.7":
   version "4.1.7"
