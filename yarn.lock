@@ -1255,10 +1255,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-3.0.1.tgz#dc37135a1ce305bd1908d8d772e44c4323dc1899"
   integrity sha512-e0IGFzji1Zl92+DCrEKz+8koj/QzMj5utv5mSnl22fNM5sneYn+aAgudoE5a+wxZSaCyYtWeEC9wLgdy9vm2CA==
 
-"@eeacms/volto-workflow-progress@2.3.7":
-  version "2.3.7"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-2.3.7.tgz#4f5e24a0e63b0a61b0d53df707cc52777aca8a9a"
-  integrity sha512-9PM018REv5sPnwVXvjjaVWXu2b23j5VEPRYopEvTb1CTyBWa1PKqq12M6z2odrAe6gZfRK1udxFEo8fGJdRW/A==
+"@eeacms/volto-workflow-progress@2.3.8":
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-2.3.8.tgz#7f8eead0cafe065c1b07fc839cfab84c0022dbba"
+  integrity sha512-HzKmY3OPzv3uEGdgdMjV+gNMsvF6xGQCBMFVBPIvALS/mhDZSTl6rEw5xghxilj16ImeV0OaDxlcTj0O3Bp9tA==
 
 "@emotion/cache@^11.4.0", "@emotion/cache@^11.6.0":
   version "11.6.0"
