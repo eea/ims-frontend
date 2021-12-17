@@ -75,7 +75,7 @@ A training on how to create your own website using Volto is available as part of
 5. Start backend and check logs for application ready message
 
         docker-compose up -d
-        docker-compose logs -f backend
+        docker-compose logs -f
 
 6. Build resources if you run frontend in production mode
 
@@ -103,13 +103,13 @@ A training on how to create your own website using Volto is available as part of
         cd ims-frontend
 
         docker-compose pull
-        docker-compose up -d
+        docker-compose -f demo.yml up
 
     optionally change `PORTS` via `.env`:
 
-        FRONTEND=9000 BACKEND=9100 docker-compose up -d
+        FRONTEND=9000 BACKEND=9100 docker-compose -f demo.yml up -d
 
-1. See application at http://localhost:4000
+1. See application at http://localhost:3000
 
 ## Production
 
