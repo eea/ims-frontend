@@ -34,7 +34,7 @@
     "issues:all": "./scripts/pull-requests-volto.py WARN",
     "status": "./scripts/status.sh",
     "pull": "./scripts/pull.sh",
-    "cypress:start-backend": "docker-compose up backend",
+    "cypress:start-backend": "docker-compose pull; docker-compose up backend",
     "cypress:start-frontend": "yarn start",
     "cypress:open": "NODE_ENV=development cypress open",
     "cypress:run": "NODE_ENV=development cypress run"

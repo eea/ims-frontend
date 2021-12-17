@@ -5,7 +5,6 @@ services:
     ports:
     - "${BACKEND:-8080}:8080"
     environment:
-      PROFILES: "eea.kitkat:default eea.progress.workflow:default eea.dexterity.indicators:default eea.dexterity.themes:default"
       SITE: "Plone"
     volumes:
       - data:/data
