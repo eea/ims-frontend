@@ -1148,12 +1148,11 @@
   dependencies:
     volto-slate "*"
 
-"@eeacms/volto-ims-theme@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-5.0.1.tgz#be16ce14398015faa2a685415fa8630f9a57bcb2"
-  integrity sha512-i9kq6IoAdBrOh3M76VoMiPEcBkA7VGhKL4GXZU5TPD71TjopTdwTrN7NrOvoDmX10cPL2a0ycQD9jYMb1HNwew==
+"@eeacms/volto-ims-theme@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-5.0.2.tgz#d51632e8bbe7f5a543b08c1baafab07ba80ba2db"
+  integrity sha512-Kc/8RCy+N7I4+LSpSmyl71WxyXWWNKD2CS+3uwHS51I1rFYWPMHLv0c+ik0wQC2B+7Lxh5DW5cT6Ufwg8+53Cg==
   dependencies:
-    "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-eea-design-system" "*"
 
 "@eeacms/volto-listing-block@0.1.2":
