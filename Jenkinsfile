@@ -25,7 +25,7 @@ pipeline {
               script {
                 try {
                   sh '''docker pull eeacms/ims-backend:develop; docker run -d --name="$BUILD_TAG-plone-eeacms" -e SITE="Plone" eeacms/ims-backend:develop'''
-                  sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress-eeacms" --link $BUILD_TAG-plone-eeacms:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress run -C cypress.eeacms.json'''
+                  sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress-eeacms" --link $BUILD_TAG-plone-eeacms:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci --config-file cypress.eeacms.json'''
                 } finally {
                   try {
                     sh '''rm -rf cypress-reports cypress-results'''
@@ -57,7 +57,7 @@ pipeline {
               script {
                 try {
                   sh '''docker pull eeacms/ims-backend:develop; docker run -d --name="$BUILD_TAG-plone-slate" -e SITE="Plone" eeacms/ims-backend:develop'''
-                  sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress-slate" --link $BUILD_TAG-plone-slate:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress run -C cypress.slate.json'''
+                  sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress-slate" --link $BUILD_TAG-plone-slate:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci --config-file cypress.slate.json'''
                 } finally {
                   try {
                     sh '''rm -rf cypress-reports cypress-results'''
