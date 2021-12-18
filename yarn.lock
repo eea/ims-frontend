@@ -1103,10 +1103,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.6.tgz#b539c8faef1a21de507f850c2219ee14e4b32aad"
   integrity sha512-bMi6ZptFHagRhpShhVCfr23ymx7exLVLbo9UWzHeMszufpZOb3aSPNxC5Y3Ioi45AhrqL70waKdmIpZS6FLEOA==
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.1.1.tgz#319d5e33b8cfc85fd7a70ba64896f1b97a3b1314"
-  integrity sha512-YSstbFA72iXSzxxgLoyBCi4AipZgXmdlZ7hXJlDa0rNNM79NQYraaMZFeqlrTD5v1uRGipp8QReRN1NnjwoIyQ==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.1.2.tgz#075d7f562712d82dd011d84ebcd28e63789c5194"
+  integrity sha512-aEutmhq+iMQLRxTDo1kGmlehUEo8Rue7b9bQBCqigRz6aYG+gPeh4R1Km6gegXKQD8ST3CY877GHqr6AyoMwUA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
 
@@ -7267,7 +7267,7 @@ glob-parent@^3.1.0:
     is-glob "^3.1.0"
     path-dirname "^1.0.0"
 
-glob-parent@^5.0.0, glob-parent@^5.1.0, glob-parent@^5.1.2, glob-parent@~5.1.0:
+glob-parent@^5.0.0, glob-parent@^5.1.2, glob-parent@~5.1.0:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
   integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
@@ -11647,7 +11647,7 @@ picocolors@^1.0.0:
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
-picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1, picomatch@^2.2.3:
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
