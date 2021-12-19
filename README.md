@@ -55,55 +55,61 @@ A training on how to create your own website using Volto is available as part of
         source ~/.bash_profile
         nvm version
 
-1. Install latest `NodeJS 12.x`:
+2. Install latest `Node.js LTS (16.x)`:
 
-        nvm install 12
-        nvm use 12
+        nvm install 16
+        nvm use 16
         node -v
-        v12.16.2
+        v16.13.1
 
-1. Install `yarn`
+3. Install `yarn`
 
         curl -o- -L https://yarnpkg.com/install.sh | bash
         yarn -v
 
-1. Clone:
+4. Clone:
 
         git clone https://github.com/eea/ims-frontend.git
         cd ims-frontend
 
-1. Install
+5. Start backend and check logs for application ready message
+
+        docker-compose up -d
+        docker-compose logs -f
+
+6. Build resources if you run frontend in production mode
 
         yarn build
 
-1. Start backend
-
-        docker-compose up -d
-        docker-compose logs -f backend
-
-1. Start frontend
+7. Start frontend in production mode
 
         yarn start:prod
+ 
+8. Start frontend in develop mode without the need to build the JS resources
+ 
+        yarn start
 
-1. See application at http://localhost:3000
+9. See application at http://localhost:3000
 
-## Try it
+10. Login with admin:admin
+
+## Try it using docker images
 
 1. Install [Docker](https://docs.docker.com/install/)
 1. Install [Docker Compose](https://docs.docker.com/compose/install/)
-1. Start:
+1. Start the Plone backend and the Volto frontend:
 
         git clone https://github.com/eea/ims-frontend.git
         cd ims-frontend
 
         docker-compose pull
-        docker-compose up -d
+        docker-compose -f demo.yml up
 
     optionally change `PORTS` via `.env`:
 
-        FRONTEND=9000 BACKEND=9100 docker-compose up -d
+        FRONTEND=9000 BACKEND=9100 docker-compose -f demo.yml up -d
 
-1. See application at http://localhost:4000
+1. See application at http://localhost:3000
 
 ## Production
 

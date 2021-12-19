@@ -34,7 +34,7 @@
     "issues:all": "./scripts/pull-requests-volto.py WARN",
     "status": "./scripts/status.sh",
     "pull": "./scripts/pull.sh",
-    "cypress:start-backend": "docker-compose up backend",
+    "cypress:start-backend": "docker-compose pull; docker-compose up backend",
     "cypress:start-frontend": "yarn start",
     "cypress:open": "NODE_ENV=development cypress open",
     "cypress:run": "NODE_ENV=development cypress run"
@@ -120,22 +120,19 @@
     "not dead"
   ],
   "engines": {
-    "node": "^12 || ^14"
+    "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-block-data-figure": "4.5.3",
-    "@eeacms/volto-editing-progress": "0.1.5",
-    "@eeacms/volto-eea-design-system": "1.0.0",
-    "@eeacms/volto-eea-kitkat": "4.1.4",
-    "@eeacms/volto-eea-relations": "1.0.4",
-    "@eeacms/volto-ims-policy": "2.0.2",
-    "@eeacms/volto-ims-theme": "5.0.1",
-    "@eeacms/volto-middleware-vh": "1.0.3",
-    "@eeacms/volto-workflow-progress": "2.3.7",
-    "@plone/volto": "14.0.0-alpha.32"
-  },
-  "resolutions": {
-    "volto-slate": "4.2.1"
+    "@eeacms/volto-block-data-figure": "4.5.5",
+    "@eeacms/volto-editing-progress": "0.1.6",
+    "@eeacms/volto-eea-design-system": "1.1.2",
+    "@eeacms/volto-eea-kitkat": "4.1.7",
+    "@eeacms/volto-eea-relations": "1.0.5",
+    "@eeacms/volto-ims-policy": "2.0.3",
+    "@eeacms/volto-ims-theme": "5.0.2",
+    "@eeacms/volto-middleware-vh": "1.0.4",
+    "@eeacms/volto-workflow-progress": "2.3.8",
+    "@plone/volto": "14.0.0-alpha.42"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
