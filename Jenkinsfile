@@ -17,9 +17,14 @@ pipeline {
     stage('Integration tests') {
       parallel {
         stage('Run Cypress: @eeacms/volto-*') {
-          when {
-            environment name: 'CHANGE_ID', value: ''
-          }
+         when {
+           allOf {
+             environment name: 'CHANGE_ID', value: ''
+             not { branch 'master' }
+             not { changelog '.*^Automated release [0-9\\.]+$' }
+             not { buildingTag() }
+           }
+         }
           steps {
             node(label: 'docker') {
               script {
@@ -32,7 +37,8 @@ pipeline {
                     sh '''mkdir -p cypress-reports cypress-results'''
                     sh '''docker cp $BUILD_TAG-cypress-eeacms:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
                     sh '''docker cp $BUILD_TAG-cypress-eeacms:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
-                    archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
+                    sh '''ls -ltr cypress-reports/*'''
+                    archiveArtifacts artifacts: 'cypress-reports/**/*.mp4', fingerprint: true, allowEmptyResults: true
                   }
                   finally {
                     catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
@@ -49,9 +55,14 @@ pipeline {
         }
 
         stage('Run Cypress: volto-slate') {
-          when {
-            environment name: 'CHANGE_ID', value: ''
-          }
+         when {
+           allOf {
+             environment name: 'CHANGE_ID', value: ''
+             not { branch 'master' }
+             not { changelog '.*^Automated release [0-9\\.]+$' }
+             not { buildingTag() }
+           }
+         }
           steps {
             node(label: 'docker') {
               script {
@@ -64,7 +75,8 @@ pipeline {
                     sh '''mkdir -p cypress-reports cypress-results'''
                     sh '''docker cp $BUILD_TAG-cypress-slate:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
                     sh '''docker cp $BUILD_TAG-cypress-slate:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
-                    archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
+                    sh '''ls -ltr cypress-reports/*'''
+                    archiveArtifacts artifacts: 'cypress-reports/**/*.mp4', fingerprint: true, allowEmptyResults: true
                   }
                   finally {
                     catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
@@ -81,15 +93,13 @@ pipeline {
         }
 
         stage("Docker test build") {
-             when {
-               not {
-                environment name: 'CHANGE_ID', value: ''
-               }
-               not {
-                 buildingTag()
-               }
-               environment name: 'CHANGE_TARGET', value: 'master'
-             }
+           when {
+              allOf {
+                not { changelog '.*^Automated release [0-9\\.]+$' }
+                not { environment name: 'CHANGE_ID', value: '' }
+                environment name: 'CHANGE_TARGET', value: 'master'
+              }
+            }
              environment {
               IMAGE_NAME = BUILD_TAG.toLowerCase()
              }
@@ -114,10 +124,11 @@ pipeline {
 
     stage('Pull Request') {
       when {
-        not {
-          environment name: 'CHANGE_ID', value: ''
+        allOf {
+            not { environment name: 'CHANGE_ID', value: '' }
+            environment name: 'CHANGE_TARGET', value: 'master'
+            not { changelog '.*^Automated release [0-9\\.]+$' }
         }
-        environment name: 'CHANGE_TARGET', value: 'master'
       }
       steps {
         node(label: 'docker') {
