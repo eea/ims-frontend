@@ -16,6 +16,7 @@
   },
   "integrationFolder": "src/addons",
   "testFiles": "**/cypress/integration/**/*.js",
+  "fixturesFolder": "./src/addons/volto-slate-zotero/cypress/fixtures",
   "videoUploadOnPasses": false,
   "screenshotOnRunFailure": false
 }
