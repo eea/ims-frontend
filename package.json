@@ -132,7 +132,7 @@
     "@eeacms/volto-ims-theme": "5.0.2",
     "@eeacms/volto-middleware-vh": "1.0.4",
     "@eeacms/volto-workflow-progress": "2.3.8",
-    "@plone/volto": "14.0.1"
+    "@plone/volto": "14.0.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
