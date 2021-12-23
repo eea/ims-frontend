@@ -1371,10 +1371,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.4.tgz#271cfbd23f799ddb2b7ac793f93b1ab826be4470"
   integrity sha512-dt6j5GVyAr1s/iYZHRvb6erhljNqfG/7gtEPcFd085FilXIXHSIUb6tnBxznwsEWFNopR71jyR7bYz2ULtzCRQ==
 
-"@eeacms/volto-editing-progress@0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.6.tgz#b539c8faef1a21de507f850c2219ee14e4b32aad"
-  integrity sha512-bMi6ZptFHagRhpShhVCfr23ymx7exLVLbo9UWzHeMszufpZOb3aSPNxC5Y3Ioi45AhrqL70waKdmIpZS6FLEOA==
+"@eeacms/volto-editing-progress@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.7.tgz#71edec5837082bfa9c7aad3316c0574164ac99cd"
+  integrity sha512-+a5V/lJnZhrAQ1WiuPDDqBAUPS8KbbYvTgr+xDuU5S6jBkWSfPHSUsXVHQGmQSnpWyoXAIEAcLFwo51aDeW/Sw==
 
 "@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.1.3":
   version "1.1.3"
