@@ -14,9 +14,8 @@
     "jenkinsMode": true,
     "toConsole": true
   },
-  "integrationFolder": "src/addons",
+  "integrationFolder": "./node_modules/volto-slate",
   "testFiles": "**/cypress/integration/**/*.js",
-  "fixturesFolder": "./src/addons/volto-slate-zotero/cypress/fixtures",
   "videoUploadOnPasses": false,
   "screenshotOnRunFailure": false
 }
