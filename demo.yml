@@ -1,0 +1,18 @@
+version: '2.4'
+services:
+  backend:
+    extends:
+      file: docker-compose.yml
+      service: backend
+  frontend:
+    image: eeacms/ims-frontend:6.0.0
+    ports:
+    - "${FRONTEND:-3000}:3000"
+    depends_on:
+    - backend
+    environment:
+      PORT: "${FRONTEND:-3000}"
+
+volumes:
+  data:
+    driver: local
