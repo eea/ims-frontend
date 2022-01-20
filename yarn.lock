@@ -1376,13 +1376,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-editing-progress/-/volto-editing-progress-0.1.8.tgz#a5f78f33eb79d80a9c75d7acf1799d3a151d62b1"
   integrity sha512-SFQoBNHa8C/q1IbYrfobv6IARO7nGl58Snqxyem909bRMHWaNeqxH1/ZGVBkriXLvX1MCh4k93kWBP8rJV3IwA==
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.1.4.tgz#279838bdfecbb99480b7dce4915cce611c6b8a98"
-  integrity sha512-1ArM/ZStTQgR58dp9BY1iFyw/JveWSgZ7GXiUvPUt5RLf4UEGAHJ+9YfD3wgsygDbdSy1spyX9tm/2EmUfIZKQ==
-  dependencies:
-    "@eeacms/volto-corsproxy" "*"
-
 "@eeacms/volto-eea-kitkat@5.1.4":
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.1.4.tgz#72c8d1a27633df706bb51bc59761550df578c1ce"
@@ -1438,8 +1431,6 @@
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-ims-theme/-/volto-ims-theme-5.0.3.tgz#23e61f1a04db85a94b40d5120bb43dbb67252db2"
   integrity sha512-io5SgSScpiOQFVQ4QZkS1YaP2UEOjkwIBXBoAAhbt3WSNYwOzfMngSyl7Idd132gQNwPIGtyLWbuE4BFBlC6ag==
-  dependencies:
-    "@eeacms/volto-eea-design-system" "*"
 
 "@eeacms/volto-listing-block@0.1.5":
   version "0.1.5"
