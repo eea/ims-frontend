@@ -48,7 +48,8 @@
     "cypress:open": "NODE_ENV=development cypress open",
     "cypress:run": "NODE_ENV=development cypress run",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "reinstall": "rm -rf node_modules omelette; yarn"
   },
   "jest": {
     "modulePathIgnorePatterns": [
