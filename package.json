@@ -156,7 +156,7 @@
     "@eeacms/volto-ims-policy": "4.1.1",
     "@eeacms/volto-ims-theme": "6.0.3",
     "@eeacms/volto-middleware-vh": "1.0.6",
-    "@eeacms/volto-workflow-progress": "2.3.11",
+    "@eeacms/volto-workflow-progress": "2.3.12",
     "@plone/volto": "15.4.1"
   },
   "devDependencies": {
