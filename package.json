@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "7.8.0",
+  "version": "7.9.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -149,7 +149,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-block-data-figure": "4.6.3",
+    "@eeacms/volto-block-data-figure": "4.6.4",
     "@eeacms/volto-editing-progress": "0.1.8",
     "@eeacms/volto-eea-kitkat": "5.4.1",
     "@eeacms/volto-eea-relations": "1.0.7",
