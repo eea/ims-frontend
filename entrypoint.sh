@@ -45,6 +45,11 @@ test -n "$API_PATH" && apply_path
 # Sentry
 gosu node ./create-sentry-release.sh
 
+# Serve static resources from prefixPath /imsres
+gosu node mkdir -p /opt/frontend/build/public/imsres
+gosu node rm -rf /opt/frontend/build/public/imsres/*
+gosu node ln -s /opt/frontend/build/public/static /opt/frontend/build/public/imsres/static
+
 echo "Starting Volto"
 
 if [[ "$1" == "yarn"* ]]; then
