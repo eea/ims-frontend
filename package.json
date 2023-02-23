@@ -2,7 +2,7 @@
   "name": "ims-frontend",
   "description": "IMS: Volto Frontend",
   "license": "MIT",
-  "version": "8.1.0",
+  "version": "8.2.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
