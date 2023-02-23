@@ -1439,10 +1439,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.3.2.tgz#115489e771ab7b80527cbfa5f63561cb502a5d50"
   integrity sha512-oHa33q3g1MV9dW9Ve2M0USAFxed/Nu+Y5iFSP+UpM5+LlIxk9xN6PRVpBI8s4BD/BrHAXB1OOOPFotW8t4qwgg==
 
-"@eeacms/volto-matomo@2.0.8", "@eeacms/volto-matomo@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-4.0.0.tgz#afdcdd51546307200c5ba34223f6b42262d84490"
-  integrity sha512-PufXkMmHSJzsSK41Ze7/ayIod4GmeGyEsZKgsTfAeGjZcLKewjL3nrjlVzREyYhFkk8DCIoIc8lwkVXr9X/9Bw==
+"@eeacms/volto-matomo@2.0.8", "@eeacms/volto-matomo@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-4.0.1.tgz#30f5036cc8008f1dcf8de8a3c9225b416138652f"
+  integrity sha512-YReVk9PdPMdqUXESQb91fwzt9dC9yFIYxpf7N8+3Dg1OLWIjyzkUaYxHJTvuB7WPmbgB4WYYG40AKlTkwB+lfQ==
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 
