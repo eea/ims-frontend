@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/ims-frontend?sort=semver)](https://github.com/eea/ims-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fims-frontend%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/ims-frontend/job/master/lastBuild/display/redirect)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fims-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/ims-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fims-frontend%2F8.3.0&build=last&subject=release%20v8.3.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/ims-frontend/job/8.3.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fims-frontend%2F8.4.0&build=last&subject=release%20v8.4.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/ims-frontend/job/8.4.0/lastBuild/display/redirect/)
 
 ## Documentation
 
