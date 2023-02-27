@@ -158,6 +158,7 @@
     "@eeacms/volto-matomo": "4.0.2",
     "@eeacms/volto-middleware-vh": "1.0.6",
     "@eeacms/volto-workflow-progress": "2.3.14",
+    "@eeacms/volto-widget-geolocation": "5.0.2",
     "@plone/volto": "15.4.1"
   },
   "resolutions": {
@@ -170,6 +171,7 @@
     "@eeacms/volto-ims-theme": "6.0.3",
     "@eeacms/volto-middleware-vh": "1.0.6",
     "@eeacms/volto-workflow-progress": "2.3.14",
+    "@eeacms/volto-widget-geolocation": "5.0.2",
     "@plone/volto": "15.4.1"
   },
   "devDependencies": {

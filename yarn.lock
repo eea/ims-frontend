@@ -1510,10 +1510,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.4.tgz#0ee8a9a10c45ee055bc3025c681f9f217447e58e"
   integrity sha512-gC4T7K+FpIGyRKKEmqhV498fcFgaFDgj4utxm4U5yaYtjw1YbXakKb8/qnWx5vpPnVZwyq7i7Cmckeu+owkR7g==
 
-"@eeacms/volto-widget-geolocation@*", "@eeacms/volto-widget-geolocation@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.3.tgz#29bfd2346498628aca6e2f73d42d7214983aa667"
-  integrity sha512-zNkwjOsjfI7kP5iaIqb78BT/ud462yuARpHEqOnkAbYYBaJkzjAp/KW+8utpyslbnLemYEEuG5e5mRJrwxcoiQ==
+"@eeacms/volto-widget-geolocation@*", "@eeacms/volto-widget-geolocation@4.0.3", "@eeacms/volto-widget-geolocation@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-5.0.2.tgz#0f9fcd391f5b33b1c4c0e2911645b89d33e1bbe9"
+  integrity sha512-OLTnx3aRL9hlNSMKS4RdcqJXdAsfkjBVeOQ9OHdwymdj9300aF2H71hUwS01CmLwbmyjcnzI/PhS9XeCzwZbQA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     i18n-iso-countries "6.2.1"
